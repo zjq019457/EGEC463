@@ -1,1 +1,9 @@
 /runs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pt
+brain-tumor.yaml
+datasets/
+.codex
