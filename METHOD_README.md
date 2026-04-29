@@ -61,26 +61,91 @@ predict positive if:
 
 ## Improvement
 
+### Detection Results
+
+The current completed detection experiments are:
+
+| Experiment | Model / setup | Best mAP50 epoch | Precision | Recall | Best mAP50 | Best mAP50-95 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| `runs/detect/train` | YOLO11n, 320px, original augmentation | 9 | 0.469 | 0.810 | 0.508 | 0.284 |
+| `runs/detect/train2` | repeated YOLO11n baseline run | 9 | 0.469 | 0.810 | 0.508 | 0.284 |
+| `runs/experiments/medical_focus_small_640` | YOLO11s, 640px, light medical augmentation, pilot run | 1 | 0.359 | 0.705 | 0.418 | 0.245 |
+| `runs/experiments/medical_nano_640` | YOLO11n, 640px, light medical augmentation | 41 | 0.492 | 0.740 | 0.540 | 0.373 |
+| `runs/experiments/medical_small_640` | YOLO11s, 640px, light medical augmentation | 24 | 0.468 | 0.826 | 0.526 | 0.363 |
+| `runs/experiments/medical_medium_640` | YOLO11m, 640px, light medical augmentation | 25 | 0.452 | 0.819 | 0.515 | 0.358 |
+
+Ultralytics also generated standard detection evaluation artifacts:
+
+- `PR_curve.png`
+- `confusion_matrix.png`
+- `confusion_matrix_normalized.png`
+- `results.csv`
+
+The best detector is `medical_nano_640`. Compared with the original YOLO11n 320px baseline, it improves:
+
+- mAP50 from `0.508` to `0.540`
+- mAP50-95 from `0.284` to `0.373`
+- detector-only false negatives at threshold `0.25` from `48` to `19`
+
+This confirms the main hypothesis from the FN analysis: increasing resolution and using lighter medical-image augmentation helps small-object recall.
+
+### Screening Improvement
+
 The classifier was trained for a short 5-epoch CPU experiment using `YOLO11n-cls`, `imgsz=224`, and `batch=16`.
 
 | Strategy | Thresholds | Precision | Recall | Specificity | F1 | False negatives |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
-| Detector only | detector=0.25 | 0.384 | 0.407 | 0.627 | 0.395 | 48 |
+| Baseline detector only | detector=0.25 | 0.384 | 0.407 | 0.627 | 0.395 | 48 |
+| Best detector only | medical_nano_640, detector=0.25 | 0.373 | 0.765 | 0.268 | 0.502 | 19 |
 | Classifier only | classifier=0.30 | 0.528 | 0.704 | 0.641 | 0.603 | 24 |
-| Classifier OR detector | classifier=0.30, detector=0.25 | 0.443 | 0.864 | 0.380 | 0.586 | 11 |
+| Classifier OR baseline detector | classifier=0.30, detector=0.25 | 0.443 | 0.864 | 0.380 | 0.586 | 11 |
+| Classifier OR best detector | classifier=0.30, medical_nano_640 detector=0.25 | 0.393 | 0.975 | 0.141 | 0.560 | 2 |
 
 Main improvement:
 
-- False negatives dropped from `48` to `11`.
-- Recall improved from `0.407` to `0.864`.
-- F1 improved from `0.395` to `0.586` for the combined screening strategy.
+- Detector-only false negatives dropped from `48` to `19` after retraining YOLO11n at 640px with lighter augmentation.
+- Combined false negatives dropped from `48` to `2` when using the classifier OR best detector screening strategy.
+- Combined recall improved from `0.407` to `0.975`.
 
 Tradeoff:
 
-- Specificity dropped from `0.627` to `0.380`.
-- The combined model catches more positive cases, but it also creates more false positives.
+- The best combined strategy is very sensitive but creates many false positives.
+- Specificity drops from `0.627` to `0.141` in the highest-recall combined setting.
 
 This is a common screening tradeoff: the system becomes more sensitive, but less selective.
+
+## Data and Error Analysis
+
+The data audit script checks image readability, missing labels, class balance, label validity, and bounding-box size.
+
+Current dataset summary:
+
+| Split | Images | Positive images | Negative images | Boxes | Small boxes <2% |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| train | 893 | 459 | 434 | 925 | 612 |
+| val | 223 | 81 | 142 | 241 | 179 |
+
+The high number of small boxes explains why the baseline detector misses many positive cases. This supports the next detector-improvement direction: higher input resolution and small-object-focused training.
+
+## Completed Implementation Checklist
+
+- Training configurations: baseline, `medical_focus`, `medical_nano_640`, `medical_small_640`, and `medical_medium_640` are available in `train.py`.
+- Data augmentation: original strong augmentation and lighter medical-image augmentation are both configured.
+- Evaluation workflow: mAP50, mAP50-95, precision, recall, PR curve, confusion matrix, threshold sweep, and F1 are collected.
+- Error analysis: false positive / false negative examples are saved, and missed positive boxes are measured.
+- Classification assist: a lightweight YOLO11 classification model is trained and evaluated with detector-only, classifier-only, and combined strategies.
+- Explainability: occlusion heatmaps are generated for the classifier.
+- Reproducibility: `environment.yml`, `requirements.txt`, `.gitignore`, `run.sh`, and `Makefile` are included.
+
+## Not Fully Completed Yet
+
+The following items are implemented as runnable workflows, but require additional compute time to produce stronger stability evidence:
+
+- Multi-run repeated experiments with different seeds.
+- Cross-validation.
+- Longer training beyond 50 epochs.
+
+The scripts and commands are already prepared, but these runs should ideally be done on GPU.
 
 ## How to Run
 
@@ -119,7 +184,28 @@ Open the report:
 xdg-open runs/screening_report_baseline/screening_report.html
 ```
 
-### 4. Run false negative analysis
+Run the best detector screening report:
+
+```bash
+python screening_report.py \
+  --weights runs/experiments/medical_nano_640/weights/best.pt \
+  --imgsz 640 \
+  --output-dir runs/screening_report_medical_nano_640
+```
+
+### 4. Run data audit
+
+```bash
+python data_audit.py --output-dir runs/data_audit
+```
+
+Important outputs:
+
+- `runs/data_audit/data_audit_summary.md`
+- `runs/data_audit/image_class_distribution.png`
+- `runs/data_audit/box_area_histogram.png`
+
+### 5. Run false negative analysis
 
 ```bash
 python false_negative_analysis.py \
@@ -134,7 +220,17 @@ Open the FN report:
 xdg-open runs/fn_analysis_baseline_t025/false_negative_report.html
 ```
 
-### 5. Train and evaluate the classifier-assisted model
+Run FN analysis for the best detector:
+
+```bash
+python false_negative_analysis.py \
+  --weights runs/experiments/medical_nano_640/weights/best.pt \
+  --imgsz 640 \
+  --threshold 0.25 \
+  --output-dir runs/fn_analysis_medical_nano_640_t025
+```
+
+### 6. Train and evaluate the classifier-assisted model
 
 ```bash
 python classification_assist.py \
@@ -150,7 +246,7 @@ Open the combined report:
 xdg-open runs/classification_assist_nano_5e/classification_assist_report.html
 ```
 
-### 6. Re-run evaluation using an existing classifier
+### 7. Re-run evaluation using an existing classifier
 
 ```bash
 python classification_assist.py \
@@ -159,17 +255,69 @@ python classification_assist.py \
   --output-dir runs/classification_assist_nano_5e
 ```
 
+Evaluate the classifier with the best detector:
+
+```bash
+python classification_assist.py \
+  --skip-train \
+  --classifier-weights runs/classification/brain_tumor_cls_nano/weights/best.pt \
+  --detector-weights runs/experiments/medical_nano_640/weights/best.pt \
+  --detector-imgsz 640 \
+  --detector-threshold 0.25 \
+  --output-dir runs/classification_assist_medical_nano_640
+```
+
+### 8. Generate classifier explainability heatmaps
+
+```bash
+python interpretability_heatmap.py \
+  --weights runs/classification/brain_tumor_cls_nano/weights/best.pt \
+  --output-dir runs/interpretability_heatmaps
+```
+
+### 9. Summarize all completed experiments
+
+```bash
+python experiment_summary.py --output-dir runs/experiment_summary
+```
+
+### 10. Use Makefile or run.sh
+
+```bash
+make audit
+make screening
+make fn
+make heatmap
+make summary
+```
+
+Or:
+
+```bash
+./run.sh all
+```
+
+Longer detector comparisons:
+
+```bash
+python train.py --experiment medical_nano_640
+python train.py --experiment medical_small_640
+python train.py --experiment medical_medium_640
+```
+
 ## Important Outputs
 
 ### Screening Report
 
 - `runs/screening_report_baseline/screening_report.html`
+- `runs/screening_report_medical_nano_640/screening_report.html`
 - `runs/screening_report_baseline/threshold_metrics.csv`
 - `runs/screening_report_baseline/image_scores.csv`
 
 ### False Negative Analysis
 
 - `runs/fn_analysis_baseline_t025/false_negative_report.html`
+- `runs/fn_analysis_medical_nano_640_t025/false_negative_report.html`
 - `runs/fn_analysis_baseline_t025/false_negative_boxes.csv`
 - `runs/fn_analysis_baseline_t025/fn_visuals/`
 
@@ -177,8 +325,15 @@ python classification_assist.py \
 
 - `runs/classification/brain_tumor_cls_nano/weights/best.pt`
 - `runs/classification_assist_nano_5e/classification_assist_report.html`
+- `runs/classification_assist_medical_nano_640/classification_assist_report.html`
 - `runs/classification_assist_nano_5e/strategy_metrics.csv`
 - `runs/classification_assist_nano_5e/classification_scores.csv`
+
+### Data Audit, Summary, and Explainability
+
+- `runs/data_audit/data_audit_summary.md`
+- `runs/experiment_summary/experiment_summary.md`
+- `runs/interpretability_heatmaps/`
 
 ## What to Improve Next
 

@@ -1,9 +1,22 @@
-/runs
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+
+# Local datasets, model weights, and experiment outputs
+datasets/
+runs/
 *.pt
 brain-tumor.yaml
-datasets/
-.codex
+yolo*.pt
+
+# Local editor/system files
+.DS_Store
+.idea/
+.vscode/
+.codex/

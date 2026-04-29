@@ -1,0 +1,9 @@
+click
+matplotlib
+numpy
+opencv-python
+pillow
+pyyaml
+torch
+torchvision
+ultralytics==8.3.107
