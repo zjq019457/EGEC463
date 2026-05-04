@@ -81,6 +81,18 @@ Ultralytics also generated standard detection evaluation artifacts:
 - `confusion_matrix_normalized.png`
 - `results.csv`
 
+#### Slide-ready detection comparison
+
+- Baseline YOLO11n 320px is the reference model. It has acceptable localization metrics, but misses a large number of small, low-contrast tumor regions in MRI.
+- `medical_nano_640` is the best detection model in this project: it increases mAP50 and mAP50-95, and cuts detector-only false negatives nearly in half.
+- `medical_small_640` and `medical_medium_640` prioritize higher recall; they are stronger at finding hard cases when the tumor footprint is very small.
+
+#### Visual case comparison
+
+- Representative cases are available in the false negative analysis outputs: `runs/fn_analysis_baseline_t025/fn_visuals` versus `runs/fn_analysis_medical_nano_640_t025/fn_visuals`.
+- In the same MRI image, the baseline detector often fails to draw a bounding box on a small tumor, while `medical_nano_640` recovers the lesion with a tighter box.
+- This contrast is ideal for PPT slides: show the baseline miss, the recovered detection, and the final screening decision.
+
 The best detector is `medical_nano_640`. Compared with the original YOLO11n 320px baseline, it improves:
 
 - mAP50 from `0.508` to `0.540`
@@ -101,6 +113,13 @@ The classifier was trained for a short 5-epoch CPU experiment using `YOLO11n-cls
 | Classifier OR baseline detector | classifier=0.30, detector=0.25 | 0.443 | 0.864 | 0.380 | 0.586 | 11 |
 | Classifier OR best detector | classifier=0.30, medical_nano_640 detector=0.25 | 0.393 | 0.975 | 0.141 | 0.560 | 2 |
 
+#### Screening strategy comparison
+
+- `Baseline detector only` is the conservative reference: moderate precision, low recall, and a large number of missed positive images.
+- `Best detector only` improves recall significantly, showing that detector retraining with higher resolution is the key detection-level improvement.
+- `Classifier only` demonstrates that image-level classification can catch positive images that localization misses, with fewer false positives than the detector-only option.
+- `Classifier OR detector` is the recommended screening strategy when recall is the priority: it combines the strengths of both models and recovers nearly all positive cases.
+
 Main improvement:
 
 - Detector-only false negatives dropped from `48` to `19` after retraining YOLO11n at 640px with lighter augmentation.
@@ -113,6 +132,34 @@ Tradeoff:
 - Specificity drops from `0.627` to `0.141` in the highest-recall combined setting.
 
 This is a common screening tradeoff: the system becomes more sensitive, but less selective.
+
+### PPT takeaways
+
+- Slide 1: problem statement — small tumor detection is hard and creates many false negatives.
+- Slide 2: detector comparison — baseline vs `medical_nano_640` vs `medical_small_640`.
+- Slide 3: screening strategy comparison — detector, classifier, combined.
+- Slide 4: visual examples from the false negative analysis reports.
+
+### Visual outputs for presentation
+
+Key visualization assets already present in this repository:
+
+- Baseline false negative examples: `runs/fn_analysis_baseline_t025/fn_visuals`
+- Improved detection cases: `runs/fn_analysis_medical_nano_640_t025/fn_visuals`
+- Screening report charts: `runs/screening_report_baseline/confusion_matrix.png`, `runs/screening_report_baseline/threshold_curves.png`
+- Best detector charts: `runs/screening_report_medical_nano_640/confusion_matrix.png`, `runs/screening_report_medical_nano_640/threshold_curves.png`
+
+Example comparison images for PPT:
+
+Baseline miss (small/low-contrast tumor):
+
+![Baseline missed small lesion](runs/fn_analysis_baseline_t025/fn_visuals/fn_val_1%20(100).jpg)
+
+Improved detection by `medical_nano_640`:
+
+![Improved detection by medical_nano_640](runs/fn_analysis_medical_nano_640_t025/fn_visuals/fn_val_1%20(100).jpg)
+
+These visual examples are ready to use in slides to show how the baseline detector misses small tumors and how the improved model recovers them.
 
 ## Data and Error Analysis
 

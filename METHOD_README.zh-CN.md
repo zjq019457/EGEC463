@@ -81,6 +81,18 @@ Ultralytics 已经生成了标准检测评估文件：
 - `confusion_matrix_normalized.png`
 - `results.csv`
 
+#### PPT 级别检测对比
+
+- 基线 YOLO11n 320px 是参考模型，定位能力可用，但在小目标、低对比度肿瘤上漏检严重。
+- `medical_nano_640` 是本项目目前最优检测器：在 mAP50 和 mAP50-95 上均有提升，并把单纯检测器的漏检数量几乎减半。
+- `medical_small_640` 和 `medical_medium_640` 更偏向召回优化，尤其适合小肿瘤、稀疏标记的病例。
+
+#### 可视化案例对比
+
+- `runs/fn_analysis_baseline_t025/fn_visuals` 与 `runs/fn_analysis_medical_nano_640_t025/fn_visuals` 提供同一张 MRI 的对比图。
+- 典型案例里，baseline 模型会漏掉肉眼可见但面积小、对比度弱的病灶；而 `medical_nano_640` 能恢复出准确的检测框。
+- 这些对比图非常适合放进 PPT：一张图对比“baseline miss / improved detect / screening decision”。
+
 目前最好的检测器是 `medical_nano_640`。相比原始 YOLO11n 320px baseline，它带来了这些提升：
 
 - mAP50 从 `0.508` 提升到 `0.540`
@@ -101,6 +113,13 @@ Ultralytics 已经生成了标准检测评估文件：
 | 分类器 OR baseline 检测器 | classifier=0.30, detector=0.25 | 0.443 | 0.864 | 0.380 | 0.586 | 11 |
 | 分类器 OR 最佳检测器 | classifier=0.30, medical_nano_640 detector=0.25 | 0.393 | 0.975 | 0.141 | 0.560 | 2 |
 
+#### 筛查策略对比
+
+- `Baseline 只用检测器` 是保守参考：精度适中，但漏检较多，无法满足严格筛查需求。
+- `最佳检测器单独使用` 说明提升输入分辨率和轻增强后，检测本身召回能力显著增强。
+- `只用分类器` 显示了图像级分类在定位失败时的补充能力，能够捕获难以标注的小病灶图像。
+- `分类器 OR 检测器` 是推荐的筛查策略：它结合了检测与分类的优势，几乎恢复了所有阳性病例。
+
 主要提升：
 
 - YOLO 检测器本体改进后，detector-only 漏检从 `48` 降到 `19`。
@@ -113,6 +132,34 @@ Ultralytics 已经生成了标准检测评估文件：
 - Specificity 从 `0.627` 降到 `0.141`。
 
 这是筛查任务里常见的取舍：模型更敏感，但选择性会下降。
+
+### PPT 重点归纳
+
+- 幻灯片 1：问题陈述——小肿瘤检测难，漏检率高。
+- 幻灯片 2：检测器对比——baseline vs `medical_nano_640` vs `medical_small_640`。
+- 幻灯片 3：筛查策略对比——检测器、分类器、组合策略。
+- 幻灯片 4：典型 MRI 对比图——baseline miss / improved detect / screening positive。
+
+### 可视化输出参考
+
+仓库中已存在可直接用于 PPT 的可视化输出：
+
+- Baseline 漏检示例：`runs/fn_analysis_baseline_t025/fn_visuals`
+- 改进后检测示例：`runs/fn_analysis_medical_nano_640_t025/fn_visuals`
+- 基线筛查报告图表：`runs/screening_report_baseline/confusion_matrix.png`，`runs/screening_report_baseline/threshold_curves.png`
+- 最佳检测器图表：`runs/screening_report_medical_nano_640/confusion_matrix.png`，`runs/screening_report_medical_nano_640/threshold_curves.png`
+
+示例对比图：
+
+Baseline 漏检小靶区：
+
+![Baseline 漏检小病灶](runs/fn_analysis_baseline_t025/fn_visuals/fn_val_1%20(100).jpg)
+
+`medical_nano_640` 恢复检测：
+
+![medical_nano_640 恢复检测](runs/fn_analysis_medical_nano_640_t025/fn_visuals/fn_val_1%20(100).jpg)
+
+这些图像示例可以直接用于幻灯片，展示 baseline 漏检与改进模型恢复检测的对比。
 
 ## 数据与错误分析
 
