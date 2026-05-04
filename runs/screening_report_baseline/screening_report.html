@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brain Tumor Screening Report</title>
+  <style>
+    body { font-family: sans-serif; margin: 32px; color: #172026; background: #f7f7f4; }
+    h1, h2 { margin-bottom: 8px; }
+    .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 20px 0; }
+    .metric { background: white; border: 1px solid #ddd; padding: 12px; border-radius: 6px; }
+    .metric strong { display: block; font-size: 24px; margin-top: 4px; }
+    table { border-collapse: collapse; width: 100%; background: white; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: right; }
+    th:first-child, td:first-child { text-align: left; }
+    img { max-width: 100%; border: 1px solid #ddd; background: white; }
+    .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin: 20px 0; }
+    .cases { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    figure { margin: 0; background: white; border: 1px solid #ddd; padding: 10px; border-radius: 6px; }
+    figcaption { font-size: 13px; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Brain Tumor Screening Report</h1>
+  <p>Image-level positive screening from YOLO detections. Positive means at least one class-1 detection passes the threshold.</p>
+  <section class="summary">
+    <div class="metric">Recommended threshold<strong>0.01</strong></div>
+    <div class="metric">Precision<strong>0.364</strong></div>
+    <div class="metric">Recall<strong>0.988</strong></div>
+    <div class="metric">F1<strong>0.532</strong></div>
+  </section>
+  <h2>Curves</h2>
+  <div class="charts">
+    <img src="threshold_curves.png" alt="Threshold curves">
+    <img src="confusion_matrix.png" alt="Confusion matrix">
+  </div>
+  <h2>Threshold Sweep</h2>
+  <table>
+    <thead>
+      <tr><th>Threshold</th><th>Precision</th><th>Recall</th><th>Specificity</th><th>F1</th><th>TP</th><th>FP</th><th>TN</th><th>FN</th></tr>
+    </thead>
+    <tbody><tr><td>0.01</td><td>0.364</td><td>0.988</td><td>0.014</td><td>0.532</td><td>80</td><td>140</td><td>2</td><td>1</td></tr>
+<tr><td>0.03</td><td>0.359</td><td>0.877</td><td>0.106</td><td>0.509</td><td>71</td><td>127</td><td>15</td><td>10</td></tr>
+<tr><td>0.05</td><td>0.363</td><td>0.802</td><td>0.197</td><td>0.500</td><td>65</td><td>114</td><td>28</td><td>16</td></tr>
+<tr><td>0.08</td><td>0.378</td><td>0.765</td><td>0.282</td><td>0.506</td><td>62</td><td>102</td><td>40</td><td>19</td></tr>
+<tr><td>0.10</td><td>0.376</td><td>0.691</td><td>0.345</td><td>0.487</td><td>56</td><td>93</td><td>49</td><td>25</td></tr>
+<tr><td>0.15</td><td>0.397</td><td>0.593</td><td>0.486</td><td>0.475</td><td>48</td><td>73</td><td>69</td><td>33</td></tr>
+<tr><td>0.20</td><td>0.417</td><td>0.556</td><td>0.556</td><td>0.476</td><td>45</td><td>63</td><td>79</td><td>36</td></tr>
+<tr><td>0.25</td><td>0.384</td><td>0.407</td><td>0.627</td><td>0.395</td><td>33</td><td>53</td><td>89</td><td>48</td></tr>
+<tr><td>0.30</td><td>0.368</td><td>0.309</td><td>0.697</td><td>0.336</td><td>25</td><td>43</td><td>99</td><td>56</td></tr>
+<tr><td>0.40</td><td>0.234</td><td>0.136</td><td>0.746</td><td>0.172</td><td>11</td><td>36</td><td>106</td><td>70</td></tr>
+<tr><td>0.50</td><td>0.214</td><td>0.074</td><td>0.845</td><td>0.110</td><td>6</td><td>22</td><td>120</td><td>75</td></tr></tbody>
+  </table>
+  <h2>Selected Cases</h2>
+  <div class="cases"><figure><img src='case_visuals/fp_val_1 (34).jpg' alt='fp'><figcaption>FP: val_1 (34).jpg (positive_conf=0.622)</figcaption></figure>
+<figure><img src='case_visuals/fp_val_1 (10).jpg' alt='fp'><figcaption>FP: val_1 (10).jpg (positive_conf=0.613)</figcaption></figure>
+<figure><img src='case_visuals/fp_val_1 (33).jpg' alt='fp'><figcaption>FP: val_1 (33).jpg (positive_conf=0.604)</figcaption></figure>
+<figure><img src='case_visuals/fn_val_1 (170).jpg' alt='fn'><figcaption>FN: val_1 (170).jpg (positive_conf=0.000)</figcaption></figure>
+<figure><img src='case_visuals/tp_val_1 (14).jpg' alt='tp'><figcaption>TP: val_1 (14).jpg (positive_conf=0.677)</figcaption></figure>
+<figure><img src='case_visuals/tp_val_1 (76).jpg' alt='tp'><figcaption>TP: val_1 (76).jpg (positive_conf=0.570)</figcaption></figure>
+<figure><img src='case_visuals/tp_val_1 (69).jpg' alt='tp'><figcaption>TP: val_1 (69).jpg (positive_conf=0.555)</figcaption></figure>
+<figure><img src='case_visuals/tn_val_1 (202).jpg' alt='tn'><figcaption>TN: val_1 (202).jpg (positive_conf=0.000)</figcaption></figure>
+<figure><img src='case_visuals/tn_val_1 (39).jpg' alt='tn'><figcaption>TN: val_1 (39).jpg (positive_conf=0.000)</figcaption></figure></div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Classification Assist Report</title>
+  <style>
+    body { font-family: sans-serif; margin: 32px; color: #172026; background: #f7f7f4; }
+    .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; margin: 20px 0; }
+    .metric { background: white; border: 1px solid #ddd; border-radius: 6px; padding: 12px; }
+    .metric span { display: block; font-size: 13px; text-transform: uppercase; color: #57636f; }
+    .metric strong { display: block; font-size: 24px; margin: 6px 0; }
+    .metric small { display: block; line-height: 1.5; }
+    table { border-collapse: collapse; width: 100%; background: white; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: right; }
+    th:first-child, td:first-child { text-align: left; }
+    img { max-width: 100%; border: 1px solid #ddd; background: white; }
+  </style>
+</head>
+<body>
+  <h1>Classification Assist Report</h1>
+  <p>Image-level classifier trained from detection labels, then combined with the detector by OR logic.</p>
+  <p>Classifier weights: runs/classification/brain_tumor_cls_nano/weights/best.pt<br>Detector weights: runs/detect/train/weights/best.pt</p>
+  <p>Dataset counts: train positive=459, train negative=434, val positive=81, val negative=142</p>
+  <section class="summary"><div class='metric'><span>detector_only</span><strong>F1 0.395</strong><small>P 0.384 | R 0.407 | S 0.627 | FN 48</small></div>
+<div class='metric'><span>classifier_only</span><strong>F1 0.603</strong><small>P 0.528 | R 0.704 | S 0.641 | FN 24</small></div>
+<div class='metric'><span>classifier_or_detector</span><strong>F1 0.586</strong><small>P 0.443 | R 0.864 | S 0.380 | FN 11</small></div></section>
+  <h2>Comparison</h2>
+  <img src="strategy_comparison.png" alt="Strategy comparison">
+  <h2>All Thresholds</h2>
+  <table>
+    <thead>
+      <tr><th>Strategy</th><th>Cls threshold</th><th>Det threshold</th><th>Precision</th><th>Recall</th><th>Specificity</th><th>F1</th><th>TP</th><th>FP</th><th>TN</th><th>FN</th></tr>
+    </thead>
+    <tbody><tr><td>detector_only</td><td></td><td>0.25</td><td>0.384</td><td>0.407</td><td>0.627</td><td>0.395</td><td>33</td><td>53</td><td>89</td><td>48</td></tr>
+<tr><td>classifier_only</td><td>0.05</td><td></td><td>0.388</td><td>0.988</td><td>0.113</td><td>0.557</td><td>80</td><td>126</td><td>16</td><td>1</td></tr>
+<tr><td>classifier_or_detector</td><td>0.05</td><td>0.25</td><td>0.372</td><td>1.000</td><td>0.035</td><td>0.542</td><td>81</td><td>137</td><td>5</td><td>0</td></tr>
+<tr><td>classifier_only</td><td>0.1</td><td></td><td>0.410</td><td>0.951</td><td>0.218</td><td>0.572</td><td>77</td><td>111</td><td>31</td><td>4</td></tr>
+<tr><td>classifier_or_detector</td><td>0.1</td><td>0.25</td><td>0.386</td><td>0.988</td><td>0.106</td><td>0.556</td><td>80</td><td>127</td><td>15</td><td>1</td></tr>
+<tr><td>classifier_only</td><td>0.2</td><td></td><td>0.454</td><td>0.852</td><td>0.415</td><td>0.592</td><td>69</td><td>83</td><td>59</td><td>12</td></tr>
+<tr><td>classifier_or_detector</td><td>0.2</td><td>0.25</td><td>0.412</td><td>0.926</td><td>0.246</td><td>0.570</td><td>75</td><td>107</td><td>35</td><td>6</td></tr>
+<tr><td>classifier_only</td><td>0.3</td><td></td><td>0.528</td><td>0.704</td><td>0.641</td><td>0.603</td><td>57</td><td>51</td><td>91</td><td>24</td></tr>
+<tr><td>classifier_or_detector</td><td>0.3</td><td>0.25</td><td>0.443</td><td>0.864</td><td>0.380</td><td>0.586</td><td>70</td><td>88</td><td>54</td><td>11</td></tr>
+<tr><td>classifier_only</td><td>0.4</td><td></td><td>0.580</td><td>0.580</td><td>0.761</td><td>0.580</td><td>47</td><td>34</td><td>108</td><td>34</td></tr>
+<tr><td>classifier_or_detector</td><td>0.4</td><td>0.25</td><td>0.448</td><td>0.802</td><td>0.437</td><td>0.575</td><td>65</td><td>80</td><td>62</td><td>16</td></tr>
+<tr><td>classifier_only</td><td>0.5</td><td></td><td>0.621</td><td>0.444</td><td>0.845</td><td>0.518</td><td>36</td><td>22</td><td>120</td><td>45</td></tr>
+<tr><td>classifier_or_detector</td><td>0.5</td><td>0.25</td><td>0.462</td><td>0.741</td><td>0.507</td><td>0.569</td><td>60</td><td>70</td><td>72</td><td>21</td></tr>
+<tr><td>classifier_only</td><td>0.6</td><td></td><td>0.697</td><td>0.284</td><td>0.930</td><td>0.404</td><td>23</td><td>10</td><td>132</td><td>58</td></tr>
+<tr><td>classifier_or_detector</td><td>0.6</td><td>0.25</td><td>0.455</td><td>0.630</td><td>0.570</td><td>0.528</td><td>51</td><td>61</td><td>81</td><td>30</td></tr>
+<tr><td>classifier_only</td><td>0.7</td><td></td><td>0.545</td><td>0.074</td><td>0.965</td><td>0.130</td><td>6</td><td>5</td><td>137</td><td>75</td></tr>
+<tr><td>classifier_or_detector</td><td>0.7</td><td>0.25</td><td>0.402</td><td>0.481</td><td>0.592</td><td>0.438</td><td>39</td><td>58</td><td>84</td><td>42</td></tr>
+<tr><td>classifier_only</td><td>0.8</td><td></td><td>0.571</td><td>0.049</td><td>0.979</td><td>0.091</td><td>4</td><td>3</td><td>139</td><td>77</td></tr>
+<tr><td>classifier_or_detector</td><td>0.8</td><td>0.25</td><td>0.398</td><td>0.457</td><td>0.606</td><td>0.425</td><td>37</td><td>56</td><td>86</td><td>44</td></tr>
+<tr><td>classifier_only</td><td>0.9</td><td></td><td>1.000</td><td>0.025</td><td>1.000</td><td>0.048</td><td>2</td><td>0</td><td>142</td><td>79</td></tr>
+<tr><td>classifier_or_detector</td><td>0.9</td><td>0.25</td><td>0.398</td><td>0.432</td><td>0.627</td><td>0.414</td><td>35</td><td>53</td><td>89</td><td>46</td></tr></tbody>
+  </table>
+</body>
+</html>

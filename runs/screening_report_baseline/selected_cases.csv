@@ -1,0 +1,10 @@
+case,image,visual,actual_positive,max_positive_conf,top_class,top_conf
+fp,datasets/brain-tumor/images/val/val_1 (34).jpg,runs/screening_report_baseline/case_visuals/fp_val_1 (34).jpg,False,0.6222026944160461,1,0.6222026944160461
+fp,datasets/brain-tumor/images/val/val_1 (10).jpg,runs/screening_report_baseline/case_visuals/fp_val_1 (10).jpg,False,0.6127985119819641,1,0.6127985119819641
+fp,datasets/brain-tumor/images/val/val_1 (33).jpg,runs/screening_report_baseline/case_visuals/fp_val_1 (33).jpg,False,0.603947103023529,1,0.603947103023529
+fn,datasets/brain-tumor/images/val/val_1 (170).jpg,runs/screening_report_baseline/case_visuals/fn_val_1 (170).jpg,True,0.0,0,0.3610735535621643
+tp,datasets/brain-tumor/images/val/val_1 (14).jpg,runs/screening_report_baseline/case_visuals/tp_val_1 (14).jpg,True,0.6768882870674133,1,0.6768882870674133
+tp,datasets/brain-tumor/images/val/val_1 (76).jpg,runs/screening_report_baseline/case_visuals/tp_val_1 (76).jpg,True,0.5703950524330139,1,0.5703950524330139
+tp,datasets/brain-tumor/images/val/val_1 (69).jpg,runs/screening_report_baseline/case_visuals/tp_val_1 (69).jpg,True,0.5552948117256165,1,0.5552948117256165
+tn,datasets/brain-tumor/images/val/val_1 (202).jpg,runs/screening_report_baseline/case_visuals/tn_val_1 (202).jpg,False,0.0,0,0.3524289131164551
+tn,datasets/brain-tumor/images/val/val_1 (39).jpg,runs/screening_report_baseline/case_visuals/tn_val_1 (39).jpg,False,0.0,0,0.014988002367317677

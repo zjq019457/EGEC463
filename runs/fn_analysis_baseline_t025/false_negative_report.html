@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>False Negative Analysis</title>
+  <style>
+    body { font-family: sans-serif; margin: 32px; color: #172026; background: #f7f7f4; }
+    .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 20px 0; }
+    .metric { background: white; border: 1px solid #ddd; border-radius: 6px; padding: 12px; }
+    .metric strong { display: block; font-size: 24px; margin-top: 4px; }
+    img { max-width: 100%; border: 1px solid #ddd; background: white; }
+    .cases { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    figure { margin: 0; background: white; border: 1px solid #ddd; border-radius: 6px; padding: 10px; }
+    figcaption { font-size: 13px; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h1>False Negative Analysis</h1>
+  <p>Missed positive images at threshold 0.25. Red boxes are ground-truth positive regions missed by the detector.</p>
+  <section class="summary">
+    <div class="metric">FN images<strong>48</strong></div>
+    <div class="metric">FN boxes<strong>53</strong></div>
+    <div class="metric">Median box area<strong>0.008</strong></div>
+    <div class="metric">Mean relative contrast<strong>1.079</strong></div>
+    <div class="metric">Small boxes &lt;2%<strong>48</strong></div>
+  </section>
+  <h2>Missed Box Area</h2>
+  <img src="fn_box_area_histogram.png" alt="FN area histogram">
+  <h2>FN Examples</h2>
+  <div class="cases"><figure><img src='fn_visuals/fn_val_1 (1).jpg' alt='FN case'><figcaption>val_1 (1).jpg | max positive conf=0.055</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (100).jpg' alt='FN case'><figcaption>val_1 (100).jpg | max positive conf=0.248</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (102).jpg' alt='FN case'><figcaption>val_1 (102).jpg | max positive conf=0.146</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (105).jpg' alt='FN case'><figcaption>val_1 (105).jpg | max positive conf=0.012</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (110).jpg' alt='FN case'><figcaption>val_1 (110).jpg | max positive conf=0.161</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (111).jpg' alt='FN case'><figcaption>val_1 (111).jpg | max positive conf=0.046</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (117).jpg' alt='FN case'><figcaption>val_1 (117).jpg | max positive conf=0.224</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (121).jpg' alt='FN case'><figcaption>val_1 (121).jpg | max positive conf=0.090</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (136).jpg' alt='FN case'><figcaption>val_1 (136).jpg | max positive conf=0.045</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (138).jpg' alt='FN case'><figcaption>val_1 (138).jpg | max positive conf=0.014</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (140).jpg' alt='FN case'><figcaption>val_1 (140).jpg | max positive conf=0.011</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (144).jpg' alt='FN case'><figcaption>val_1 (144).jpg | max positive conf=0.013</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (145).jpg' alt='FN case'><figcaption>val_1 (145).jpg | max positive conf=0.060</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (146).jpg' alt='FN case'><figcaption>val_1 (146).jpg | max positive conf=0.164</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (151).jpg' alt='FN case'><figcaption>val_1 (151).jpg | max positive conf=0.097</figcaption></figure>
+<figure><img src='fn_visuals/fn_val_1 (152).jpg' alt='FN case'><figcaption>val_1 (152).jpg | max positive conf=0.136</figcaption></figure></div>
+</body>
+</html>

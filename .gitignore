@@ -9,8 +9,8 @@ env/
 .conda/
 
 # Local datasets, model weights, and experiment outputs
-datasets/
-runs/
+# datasets/
+# runs/
 *.pt
 brain-tumor.yaml
 yolo*.pt

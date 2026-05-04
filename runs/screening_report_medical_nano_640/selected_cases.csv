@@ -1,0 +1,13 @@
+case,image,visual,actual_positive,max_positive_conf,top_class,top_conf
+fp,datasets/brain-tumor/images/val/val_1 (22).jpg,runs/screening_report_medical_nano_640/case_visuals/fp_val_1 (22).jpg,False,0.92705899477005,1,0.92705899477005
+fp,datasets/brain-tumor/images/val/val_1 (196).jpg,runs/screening_report_medical_nano_640/case_visuals/fp_val_1 (196).jpg,False,0.9210591316223145,1,0.9210591316223145
+fp,datasets/brain-tumor/images/val/val_1 (195).jpg,runs/screening_report_medical_nano_640/case_visuals/fp_val_1 (195).jpg,False,0.9175623059272766,1,0.9175623059272766
+fn,datasets/brain-tumor/images/val/val_1 (14).jpg,runs/screening_report_medical_nano_640/case_visuals/fn_val_1 (14).jpg,True,0.0,0,0.9461774826049805
+fn,datasets/brain-tumor/images/val/val_1 (146).jpg,runs/screening_report_medical_nano_640/case_visuals/fn_val_1 (146).jpg,True,0.0,0,0.7944473624229431
+fn,datasets/brain-tumor/images/val/val_1 (156).jpg,runs/screening_report_medical_nano_640/case_visuals/fn_val_1 (156).jpg,True,0.0,0,0.7986571192741394
+tp,datasets/brain-tumor/images/val/val_1 (26).jpg,runs/screening_report_medical_nano_640/case_visuals/tp_val_1 (26).jpg,True,0.9621381163597107,1,0.9621381163597107
+tp,datasets/brain-tumor/images/val/val_1 (69).jpg,runs/screening_report_medical_nano_640/case_visuals/tp_val_1 (69).jpg,True,0.9304426908493042,1,0.9304426908493042
+tp,datasets/brain-tumor/images/val/val_1 (62).jpg,runs/screening_report_medical_nano_640/case_visuals/tp_val_1 (62).jpg,True,0.9290674924850464,1,0.9290674924850464
+tn,datasets/brain-tumor/images/val/val_1 (11).jpg,runs/screening_report_medical_nano_640/case_visuals/tn_val_1 (11).jpg,False,0.0,0,0.9328858852386475
+tn,datasets/brain-tumor/images/val/val_1 (113).jpg,runs/screening_report_medical_nano_640/case_visuals/tn_val_1 (113).jpg,False,0.0,0,0.7817062139511108
+tn,datasets/brain-tumor/images/val/val_1 (119).jpg,runs/screening_report_medical_nano_640/case_visuals/tn_val_1 (119).jpg,False,0.0,0,0.9296244978904724

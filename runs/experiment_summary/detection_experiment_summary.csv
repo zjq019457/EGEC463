@@ -1,0 +1,7 @@
+experiment,epoch,precision,recall,map50,map50_95,artifact_dir
+runs/detect/train,9,0.46887,0.80962,0.50834,0.28357,runs/detect/train
+runs/detect/train2,9,0.46887,0.80962,0.50834,0.28357,runs/detect/train2
+runs/experiments/medical_focus_small_640,1,0.35925,0.7046,0.41779,0.24495,runs/experiments/medical_focus_small_640
+runs/experiments/medical_nano_640,41,0.49239,0.74022,0.54015,0.3726,runs/experiments/medical_nano_640
+runs/experiments/medical_small_640,24,0.46822,0.82639,0.52602,0.36297,runs/experiments/medical_small_640
+runs/experiments/medical_medium_640,25,0.45202,0.81915,0.51497,0.35802,runs/experiments/medical_medium_640

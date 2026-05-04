@@ -1,0 +1,1167 @@
+split,image,label,class_id,cx,cy,width,height,area
+train,datasets/brain-tumor/images/train/00054_145.jpg,datasets/brain-tumor/labels/train/00054_145.txt,1,0.344484,0.342723,0.221831,0.176056,0.039054678536
+train,datasets/brain-tumor/images/train/00054_164.jpg,datasets/brain-tumor/labels/train/00054_164.txt,1,0.347418,0.335681,0.192488,0.190141,0.036599860808
+train,datasets/brain-tumor/images/train/00056_110.jpg,datasets/brain-tumor/labels/train/00056_110.txt,1,0.579225,0.439554,0.111502,0.083333,0.009291796166
+train,datasets/brain-tumor/images/train/00056_110.jpg,datasets/brain-tumor/labels/train/00056_110.txt,1,0.464789,0.468897,0.117371,0.106808,0.012536161768000001
+train,datasets/brain-tumor/images/train/00056_129.jpg,datasets/brain-tumor/labels/train/00056_129.txt,1,0.52054,0.448944,0.233568,0.132629,0.030977890272
+train,datasets/brain-tumor/images/train/00056_147.jpg,datasets/brain-tumor/labels/train/00056_147.txt,1,0.518779,0.416667,0.150235,0.070423,0.010579999405
+train,datasets/brain-tumor/images/train/00056_239.jpg,datasets/brain-tumor/labels/train/00056_239.txt,1,0.638498,0.432512,0.068075,0.066901,0.004554285575
+train,datasets/brain-tumor/images/train/00056_92.jpg,datasets/brain-tumor/labels/train/00056_92.txt,1,0.483568,0.4777,0.14554,0.068075,0.0099076355
+train,datasets/brain-tumor/images/train/00058_102.jpg,datasets/brain-tumor/labels/train/00058_102.txt,1,0.694249,0.450117,0.088028,0.066901,0.0058891612279999995
+train,datasets/brain-tumor/images/train/00058_122.jpg,datasets/brain-tumor/labels/train/00058_122.txt,1,0.703052,0.441315,0.110329,0.105634,0.011654493586
+train,datasets/brain-tumor/images/train/00058_141.jpg,datasets/brain-tumor/labels/train/00058_141.txt,1,0.718897,0.429577,0.076291,0.056338,0.004298082357999999
+train,datasets/brain-tumor/images/train/00058_179.jpg,datasets/brain-tumor/labels/train/00058_179.txt,1,0.496479,0.244131,0.129108,0.147887,0.019093394795999998
+train,datasets/brain-tumor/images/train/00059_103.jpg,datasets/brain-tumor/labels/train/00059_103.txt,1,0.481808,0.419601,0.123239,0.149061,0.018370128579
+train,datasets/brain-tumor/images/train/00059_122.jpg,datasets/brain-tumor/labels/train/00059_122.txt,1,0.460681,0.404343,0.174883,0.111502,0.019499804266000002
+train,datasets/brain-tumor/images/train/00059_141.jpg,datasets/brain-tumor/labels/train/00059_141.txt,1,0.429577,0.420188,0.103286,0.077465,0.00800104999
+train,datasets/brain-tumor/images/train/00059_84.jpg,datasets/brain-tumor/labels/train/00059_84.txt,1,0.473005,0.393192,0.077465,0.075117,0.005818938405000001
+train,datasets/brain-tumor/images/train/00059_84.jpg,datasets/brain-tumor/labels/train/00059_84.txt,1,0.515258,0.466549,0.044601,0.038732,0.0017274859320000001
+train,datasets/brain-tumor/images/train/00060_69.jpg,datasets/brain-tumor/labels/train/00060_69.txt,1,0.653756,0.425469,0.049296,0.055164,0.0027193645439999997
+train,datasets/brain-tumor/images/train/00060_69.jpg,datasets/brain-tumor/labels/train/00060_69.txt,1,0.519366,0.460681,0.132629,0.099765,0.013231732185000001
+train,datasets/brain-tumor/images/train/00060_70.jpg,datasets/brain-tumor/labels/train/00060_70.txt,1,0.513498,0.455986,0.125587,0.118545,0.014887710915
+train,datasets/brain-tumor/images/train/00060_70.jpg,datasets/brain-tumor/labels/train/00060_70.txt,1,0.660798,0.431925,0.046948,0.056338,0.0026449564239999996
+train,datasets/brain-tumor/images/train/00060_71.jpg,datasets/brain-tumor/labels/train/00060_71.txt,1,0.524061,0.452465,0.172535,0.139671,0.024098135984999998
+train,datasets/brain-tumor/images/train/00060_72.jpg,datasets/brain-tumor/labels/train/00060_72.txt,1,0.523474,0.451878,0.166667,0.15493,0.025821718310000002
+train,datasets/brain-tumor/images/train/00061_108.jpg,datasets/brain-tumor/labels/train/00061_108.txt,0,0.568662,0.474765,0.064554,0.050469,0.003257975826
+train,datasets/brain-tumor/images/train/00061_127.jpg,datasets/brain-tumor/labels/train/00061_127.txt,0,0.569249,0.485329,0.091549,0.085681,0.007844009869
+train,datasets/brain-tumor/images/train/00061_127.jpg,datasets/brain-tumor/labels/train/00061_127.txt,0,0.480634,0.538732,0.048122,0.046948,0.0022592316559999995
+train,datasets/brain-tumor/images/train/00061_127.jpg,datasets/brain-tumor/labels/train/00061_127.txt,0,0.524061,0.461268,0.038732,0.037559,0.001454735188
+train,datasets/brain-tumor/images/train/00061_146.jpg,datasets/brain-tumor/labels/train/00061_146.txt,0,0.575704,0.484155,0.069249,0.055164,0.0038200518360000002
+train,datasets/brain-tumor/images/train/00061_184.jpg,datasets/brain-tumor/labels/train/00061_184.txt,0,0.376174,0.25,0.092723,0.091549,0.008488697927000001
+train,datasets/brain-tumor/images/train/00063_197.jpg,datasets/brain-tumor/labels/train/00063_197.txt,1,0.566315,0.237089,0.097418,0.100939,0.009833275502000001
+train,datasets/brain-tumor/images/train/00063_217.jpg,datasets/brain-tumor/labels/train/00063_217.txt,1,0.562207,0.248239,0.100939,0.120892,0.012202717588
+train,datasets/brain-tumor/images/train/00064_101.jpg,datasets/brain-tumor/labels/train/00064_101.txt,0,0.348005,0.400822,0.076291,0.076291,0.005820316680999999
+train,datasets/brain-tumor/images/train/00064_101.jpg,datasets/brain-tumor/labels/train/00064_101.txt,0,0.447183,0.381455,0.068075,0.077465,0.005273429875
+train,datasets/brain-tumor/images/train/00064_121.jpg,datasets/brain-tumor/labels/train/00064_121.txt,0,0.363263,0.379108,0.210094,0.157277,0.033042954038
+train,datasets/brain-tumor/images/train/00064_140.jpg,datasets/brain-tumor/labels/train/00064_140.txt,0,0.360329,0.370305,0.173709,0.174883,0.030378751047000004
+train,datasets/brain-tumor/images/train/00066_145.jpg,datasets/brain-tumor/labels/train/00066_145.txt,1,0.618545,0.262324,0.053991,0.052817,0.002851642647
+train,datasets/brain-tumor/images/train/00066_221.jpg,datasets/brain-tumor/labels/train/00066_221.txt,1,0.616197,0.255869,0.051643,0.049296,0.002545793328
+train,datasets/brain-tumor/images/train/00066_240.jpg,datasets/brain-tumor/labels/train/00066_240.txt,1,0.437207,0.235915,0.064554,0.068075,0.00439451355
+train,datasets/brain-tumor/images/train/00066_259.jpg,datasets/brain-tumor/labels/train/00066_259.txt,1,0.439554,0.241784,0.088028,0.093897,0.008265565115999999
+train,datasets/brain-tumor/images/train/00066_278.jpg,datasets/brain-tumor/labels/train/00066_278.txt,1,0.428991,0.241197,0.052817,0.057512,0.003037611304
+train,datasets/brain-tumor/images/train/00071_183.jpg,datasets/brain-tumor/labels/train/00071_183.txt,1,0.285211,0.260563,0.117371,0.093897,0.011020784787
+train,datasets/brain-tumor/images/train/00071_221.jpg,datasets/brain-tumor/labels/train/00071_221.txt,1,0.703638,0.403169,0.137324,0.106808,0.014667301792000001
+train,datasets/brain-tumor/images/train/00071_240.jpg,datasets/brain-tumor/labels/train/00071_240.txt,1,0.702465,0.40493,0.188967,0.169014,0.031938068538
+train,datasets/brain-tumor/images/train/00071_259.jpg,datasets/brain-tumor/labels/train/00071_259.txt,1,0.697183,0.397887,0.157277,0.192488,0.030273935175999998
+train,datasets/brain-tumor/images/train/00071_278.jpg,datasets/brain-tumor/labels/train/00071_278.txt,1,0.680751,0.38615,0.112676,0.107981,0.012166867155999999
+train,datasets/brain-tumor/images/train/00072_119.jpg,datasets/brain-tumor/labels/train/00072_119.txt,0,0.506455,0.396127,0.196009,0.142019,0.027837002171
+train,datasets/brain-tumor/images/train/00072_138.jpg,datasets/brain-tumor/labels/train/00072_138.txt,0,0.539906,0.384977,0.105634,0.124413,0.013142242842
+train,datasets/brain-tumor/images/train/00072_196.jpg,datasets/brain-tumor/labels/train/00072_196.txt,0,0.230047,0.336268,0.093897,0.085681,0.008045188856999999
+train,datasets/brain-tumor/images/train/00072_80.jpg,datasets/brain-tumor/labels/train/00072_80.txt,0,0.5,0.399648,0.178404,0.134977,0.024080436708000003
+train,datasets/brain-tumor/images/train/00072_99.jpg,datasets/brain-tumor/labels/train/00072_99.txt,0,0.502934,0.404343,0.200704,0.153756,0.030859444224
+train,datasets/brain-tumor/images/train/00074_209.jpg,datasets/brain-tumor/labels/train/00074_209.txt,1,0.289906,0.386737,0.185446,0.118545,0.02198369607
+train,datasets/brain-tumor/images/train/00074_229.jpg,datasets/brain-tumor/labels/train/00074_229.txt,1,0.286385,0.378521,0.194836,0.130282,0.025383623752
+train,datasets/brain-tumor/images/train/00074_249.jpg,datasets/brain-tumor/labels/train/00074_249.txt,1,0.275822,0.386737,0.190141,0.125587,0.023879237767000003
+train,datasets/brain-tumor/images/train/00074_269.jpg,datasets/brain-tumor/labels/train/00074_269.txt,1,0.306925,0.366784,0.083333,0.069249,0.005770726917000001
+train,datasets/brain-tumor/images/train/00074_289.jpg,datasets/brain-tumor/labels/train/00074_289.txt,1,0.669014,0.372066,0.053991,0.058685,0.0031684618349999997
+train,datasets/brain-tumor/images/train/00077_166.jpg,datasets/brain-tumor/labels/train/00077_166.txt,1,0.379108,0.367371,0.119718,0.110329,0.013208367222
+train,datasets/brain-tumor/images/train/00077_186.jpg,datasets/brain-tumor/labels/train/00077_186.txt,1,0.40493,0.369131,0.194836,0.139671,0.027212938956
+train,datasets/brain-tumor/images/train/00077_206.jpg,datasets/brain-tumor/labels/train/00077_206.txt,1,0.392019,0.35446,0.211268,0.171362,0.036203307016
+train,datasets/brain-tumor/images/train/00077_226.jpg,datasets/brain-tumor/labels/train/00077_226.txt,1,0.391432,0.343897,0.184272,0.147887,0.027251433263999997
+train,datasets/brain-tumor/images/train/00077_246.jpg,datasets/brain-tumor/labels/train/00077_246.txt,1,0.382042,0.341549,0.099765,0.08216,0.0081966924
+train,datasets/brain-tumor/images/train/00078_219.jpg,datasets/brain-tumor/labels/train/00078_219.txt,1,0.629108,0.118545,0.133803,0.129108,0.017275037724000002
+train,datasets/brain-tumor/images/train/00078_239.jpg,datasets/brain-tumor/labels/train/00078_239.txt,1,0.627347,0.115023,0.116197,0.150235,0.017456856295
+train,datasets/brain-tumor/images/train/00078_258.jpg,datasets/brain-tumor/labels/train/00078_258.txt,1,0.620305,0.120892,0.080986,0.115023,0.009315252678
+train,datasets/brain-tumor/images/train/00078_278.jpg,datasets/brain-tumor/labels/train/00078_278.txt,1,0.606221,0.122066,0.073944,0.053991,0.0039923105039999995
+train,datasets/brain-tumor/images/train/00085_156.jpg,datasets/brain-tumor/labels/train/00085_156.txt,1,0.617958,0.161972,0.055164,0.086854,0.004791214056
+train,datasets/brain-tumor/images/train/00087_130.jpg,datasets/brain-tumor/labels/train/00087_130.txt,1,0.536972,0.410798,0.109155,0.115023,0.012555335565
+train,datasets/brain-tumor/images/train/00087_149.jpg,datasets/brain-tumor/labels/train/00087_149.txt,1,0.518779,0.394953,0.07277,0.116197,0.00845565569
+train,datasets/brain-tumor/images/train/00087_185.jpg,datasets/brain-tumor/labels/train/00087_185.txt,1,0.325117,0.219484,0.056338,0.103286,0.005818926668
+train,datasets/brain-tumor/images/train/00090_112.jpg,datasets/brain-tumor/labels/train/00090_112.txt,0,0.550469,0.500587,0.086854,0.085681,0.007441737574
+train,datasets/brain-tumor/images/train/00090_130.jpg,datasets/brain-tumor/labels/train/00090_130.txt,0,0.561033,0.501174,0.075117,0.068075,0.005113589775
+train,datasets/brain-tumor/images/train/00090_204.jpg,datasets/brain-tumor/labels/train/00090_204.txt,0,0.474178,0.305751,0.093897,0.102113,0.009588104360999999
+train,datasets/brain-tumor/images/train/00095_161.jpg,datasets/brain-tumor/labels/train/00095_161.txt,0,0.378521,0.308685,0.083333,0.07277,0.006064142410000001
+train,datasets/brain-tumor/images/train/00095_170.jpg,datasets/brain-tumor/labels/train/00095_170.txt,0,0.428991,0.361502,0.144366,0.150235,0.02168882601
+train,datasets/brain-tumor/images/train/00095_176.jpg,datasets/brain-tumor/labels/train/00095_176.txt,0,0.443075,0.373826,0.142019,0.193662,0.027503683578000003
+train,datasets/brain-tumor/images/train/00095_181.jpg,datasets/brain-tumor/labels/train/00095_181.txt,0,0.342723,0.32277,0.20892,0.138498,0.02893500216
+train,datasets/brain-tumor/images/train/00095_188.jpg,datasets/brain-tumor/labels/train/00095_188.txt,0,0.424883,0.376761,0.215962,0.248826,0.05373696061199999
+train,datasets/brain-tumor/images/train/00095_200.jpg,datasets/brain-tumor/labels/train/00095_200.txt,0,0.426643,0.383216,0.25,0.25939,0.0648475
+train,datasets/brain-tumor/images/train/00095_201.jpg,datasets/brain-tumor/labels/train/00095_201.txt,0,0.336268,0.324531,0.25,0.158451,0.03961275
+train,datasets/brain-tumor/images/train/00095_212.jpg,datasets/brain-tumor/labels/train/00095_212.txt,0,0.437793,0.387324,0.237089,0.241784,0.057324326775999995
+train,datasets/brain-tumor/images/train/00095_222.jpg,datasets/brain-tumor/labels/train/00095_222.txt,0,0.33392,0.319249,0.257042,0.166667,0.042840419014
+train,datasets/brain-tumor/images/train/00095_224.jpg,datasets/brain-tumor/labels/train/00095_224.txt,0,0.433685,0.38615,0.200704,0.201878,0.040517722112
+train,datasets/brain-tumor/images/train/00095_226.jpg,datasets/brain-tumor/labels/train/00095_226.txt,0,0.433099,0.383216,0.192488,0.17723,0.034114648239999996
+train,datasets/brain-tumor/images/train/00095_236.jpg,datasets/brain-tumor/labels/train/00095_236.txt,0,0.390258,0.383803,0.080986,0.07277,0.005893351220000001
+train,datasets/brain-tumor/images/train/00095_243.jpg,datasets/brain-tumor/labels/train/00095_243.txt,0,0.330986,0.306338,0.213615,0.147887,0.031590881505
+train,datasets/brain-tumor/images/train/00095_263.jpg,datasets/brain-tumor/labels/train/00095_263.txt,0,0.316315,0.319249,0.16784,0.112676,0.018911539839999998
+train,datasets/brain-tumor/images/train/00096_240.jpg,datasets/brain-tumor/labels/train/00096_240.txt,1,0.611502,0.549883,0.084507,0.090376,0.007637404632
+train,datasets/brain-tumor/images/train/00096_260.jpg,datasets/brain-tumor/labels/train/00096_260.txt,1,0.603873,0.554577,0.118545,0.123239,0.014609367255
+train,datasets/brain-tumor/images/train/00096_280.jpg,datasets/brain-tumor/labels/train/00096_280.txt,1,0.607394,0.562207,0.116197,0.115023,0.013365327530999999
+train,datasets/brain-tumor/images/train/00097_106.jpg,datasets/brain-tumor/labels/train/00097_106.txt,0,0.64554,0.275822,0.140845,0.117371,0.016531118495
+train,datasets/brain-tumor/images/train/00097_124.jpg,datasets/brain-tumor/labels/train/00097_124.txt,0,0.639671,0.284624,0.068075,0.064554,0.00439451355
+train,datasets/brain-tumor/images/train/00097_162.jpg,datasets/brain-tumor/labels/train/00097_162.txt,0,0.390845,0.187207,0.093897,0.09507,0.00892678779
+train,datasets/brain-tumor/images/train/00097_254.jpg,datasets/brain-tumor/labels/train/00097_254.txt,0,0.433685,0.364437,0.076291,0.071596,0.005462130436
+train,datasets/brain-tumor/images/train/00097_65.jpg,datasets/brain-tumor/labels/train/00097_65.txt,0,0.695423,0.661972,0.071596,0.091549,0.006554542204000001
+train,datasets/brain-tumor/images/train/00097_68.jpg,datasets/brain-tumor/labels/train/00097_68.txt,0,0.691315,0.671948,0.117371,0.09507,0.01115846097
+train,datasets/brain-tumor/images/train/00097_70.jpg,datasets/brain-tumor/labels/train/00097_70.txt,0,0.684859,0.666667,0.120892,0.117371,0.014189214932
+train,datasets/brain-tumor/images/train/00097_72.jpg,datasets/brain-tumor/labels/train/00097_72.txt,0,0.684272,0.663732,0.129108,0.132629,0.017123464932
+train,datasets/brain-tumor/images/train/00097_74.jpg,datasets/brain-tumor/labels/train/00097_74.txt,0,0.683099,0.659624,0.133803,0.150235,0.020101893705000002
+train,datasets/brain-tumor/images/train/00097_76.jpg,datasets/brain-tumor/labels/train/00097_76.txt,0,0.683685,0.658451,0.127934,0.147887,0.018919775458
+train,datasets/brain-tumor/images/train/00097_77.jpg,datasets/brain-tumor/labels/train/00097_77.txt,0,0.686033,0.659624,0.127934,0.14554,0.01861951436
+train,datasets/brain-tumor/images/train/00097_79.jpg,datasets/brain-tumor/labels/train/00097_79.txt,0,0.683685,0.657277,0.11385,0.140845,0.01603520325
+train,datasets/brain-tumor/images/train/00097_80.jpg,datasets/brain-tumor/labels/train/00097_80.txt,0,0.68838,0.65669,0.123239,0.134977,0.016634430503
+train,datasets/brain-tumor/images/train/00097_81.jpg,datasets/brain-tumor/labels/train/00097_81.txt,0,0.68662,0.658451,0.098592,0.126761,0.012497620512
+train,datasets/brain-tumor/images/train/00097_83.jpg,datasets/brain-tumor/labels/train/00097_83.txt,0,0.688967,0.658451,0.098592,0.107981,0.010646062752
+train,datasets/brain-tumor/images/train/00097_87.jpg,datasets/brain-tumor/labels/train/00097_87.txt,0,0.646714,0.275235,0.131455,0.142019,0.018669107645
+train,datasets/brain-tumor/images/train/00098_247.jpg,datasets/brain-tumor/labels/train/00098_247.txt,1,0.439554,0.573944,0.219484,0.110329,0.024215450236
+train,datasets/brain-tumor/images/train/00098_266.jpg,datasets/brain-tumor/labels/train/00098_266.txt,1,0.400822,0.579812,0.125587,0.068075,0.008549335025
+train,datasets/brain-tumor/images/train/00099_129.jpg,datasets/brain-tumor/labels/train/00099_129.txt,0,0.378521,0.757042,0.102113,0.112676,0.011505684387999999
+train,datasets/brain-tumor/images/train/00099_130.jpg,datasets/brain-tumor/labels/train/00099_130.txt,0,0.381455,0.76115,0.091549,0.111502,0.010207896598000001
+train,datasets/brain-tumor/images/train/00099_137.jpg,datasets/brain-tumor/labels/train/00099_137.txt,0,0.382629,0.767019,0.117371,0.132629,0.015566798359
+train,datasets/brain-tumor/images/train/00099_139.jpg,datasets/brain-tumor/labels/train/00099_139.txt,0,0.382629,0.767019,0.122066,0.134977,0.016476102482000002
+train,datasets/brain-tumor/images/train/00099_145.jpg,datasets/brain-tumor/labels/train/00099_145.txt,0,0.380282,0.769366,0.112676,0.123239,0.013886077564
+train,datasets/brain-tumor/images/train/00099_149.jpg,datasets/brain-tumor/labels/train/00099_149.txt,0,0.380282,0.767606,0.089202,0.100939,0.009003960678
+train,datasets/brain-tumor/images/train/00099_154.jpg,datasets/brain-tumor/labels/train/00099_154.txt,0,0.38439,0.765258,0.066901,0.070423,0.004711369123
+train,datasets/brain-tumor/images/train/00100_102.jpg,datasets/brain-tumor/labels/train/00100_102.txt,1,0.480047,0.291667,0.079812,0.092723,0.0074004080759999995
+train,datasets/brain-tumor/images/train/00100_119.jpg,datasets/brain-tumor/labels/train/00100_119.txt,1,0.491197,0.281103,0.111502,0.111502,0.012432696004
+train,datasets/brain-tumor/images/train/00100_136.jpg,datasets/brain-tumor/labels/train/00100_136.txt,1,0.483568,0.285798,0.129108,0.134977,0.017426610516000002
+train,datasets/brain-tumor/images/train/00100_153.jpg,datasets/brain-tumor/labels/train/00100_153.txt,1,0.474178,0.271714,0.112676,0.127934,0.014415091383999998
+train,datasets/brain-tumor/images/train/00100_170.jpg,datasets/brain-tumor/labels/train/00100_170.txt,1,0.474765,0.277582,0.064554,0.071596,0.004621808184000001
+train,datasets/brain-tumor/images/train/00104_132.jpg,datasets/brain-tumor/labels/train/00104_132.txt,0,0.55223,0.321596,0.069249,0.06338,0.004389001620000001
+train,datasets/brain-tumor/images/train/00104_14.jpg,datasets/brain-tumor/labels/train/00104_14.txt,0,0.545775,0.344484,0.117371,0.144366,0.016944381786
+train,datasets/brain-tumor/images/train/00104_15.jpg,datasets/brain-tumor/labels/train/00104_15.txt,0,0.551643,0.364437,0.150235,0.18662,0.028036855700000002
+train,datasets/brain-tumor/images/train/00104_150.jpg,datasets/brain-tumor/labels/train/00104_150.txt,0,0.551643,0.308685,0.159624,0.140845,0.02248224228
+train,datasets/brain-tumor/images/train/00104_16.jpg,datasets/brain-tumor/labels/train/00104_16.txt,0,0.551056,0.376761,0.156103,0.197183,0.030780857848999997
+train,datasets/brain-tumor/images/train/00104_168.jpg,datasets/brain-tumor/labels/train/00104_168.txt,0,0.555751,0.304577,0.18662,0.118545,0.0221228679
+train,datasets/brain-tumor/images/train/00104_17.jpg,datasets/brain-tumor/labels/train/00104_17.txt,0,0.555164,0.373239,0.129108,0.194836,0.025154886288
+train,datasets/brain-tumor/images/train/00104_18.jpg,datasets/brain-tumor/labels/train/00104_18.txt,0,0.556338,0.387324,0.084507,0.138498,0.011704050486000001
+train,datasets/brain-tumor/images/train/00104_185.jpg,datasets/brain-tumor/labels/train/00104_185.txt,0,0.538146,0.318075,0.120892,0.112676,0.013621626991999999
+train,datasets/brain-tumor/images/train/00104_19.jpg,datasets/brain-tumor/labels/train/00104_19.txt,0,0.57277,0.375587,0.051643,0.051643,0.002666999449
+train,datasets/brain-tumor/images/train/00105_113.jpg,datasets/brain-tumor/labels/train/00105_113.txt,1,0.640845,0.403169,0.122066,0.196009,0.023926034593999997
+train,datasets/brain-tumor/images/train/00105_132.jpg,datasets/brain-tumor/labels/train/00105_132.txt,1,0.633216,0.332746,0.102113,0.11385,0.01162556505
+train,datasets/brain-tumor/images/train/00105_132.jpg,datasets/brain-tumor/labels/train/00105_132.txt,1,0.630282,0.43838,0.084507,0.102113,0.008629263291
+train,datasets/brain-tumor/images/train/00105_151.jpg,datasets/brain-tumor/labels/train/00105_151.txt,1,0.620305,0.336268,0.106808,0.127934,0.013664374671999999
+train,datasets/brain-tumor/images/train/00105_151.jpg,datasets/brain-tumor/labels/train/00105_151.txt,1,0.551643,0.411972,0.110329,0.107981,0.011913435749
+train,datasets/brain-tumor/images/train/00105_94.jpg,datasets/brain-tumor/labels/train/00105_94.txt,1,0.623826,0.379695,0.050469,0.106808,0.005390492952
+train,datasets/brain-tumor/images/train/00106_195.jpg,datasets/brain-tumor/labels/train/00106_195.txt,1,0.576878,0.418427,0.076291,0.09507,0.00725298537
+train,datasets/brain-tumor/images/train/00106_253.jpg,datasets/brain-tumor/labels/train/00106_253.txt,1,0.552817,0.364437,0.089202,0.10446,0.00931804092
+train,datasets/brain-tumor/images/train/00107_101.jpg,datasets/brain-tumor/labels/train/00107_101.txt,1,0.555164,0.393192,0.103286,0.117371,0.012122781106000001
+train,datasets/brain-tumor/images/train/00107_118.jpg,datasets/brain-tumor/labels/train/00107_118.txt,1,0.555164,0.376761,0.103286,0.096244,0.009940657784
+train,datasets/brain-tumor/images/train/00108_102.jpg,datasets/brain-tumor/labels/train/00108_102.txt,0,0.586854,0.548122,0.046948,0.053991,0.0025347694679999995
+train,datasets/brain-tumor/images/train/00109_104.jpg,datasets/brain-tumor/labels/train/00109_104.txt,1,0.498239,0.3527,0.170188,0.139671,0.023770328147999998
+train,datasets/brain-tumor/images/train/00109_85.jpg,datasets/brain-tumor/labels/train/00109_85.txt,1,0.493545,0.347418,0.158451,0.15493,0.024548813430000004
+train,datasets/brain-tumor/images/train/00110_131.jpg,datasets/brain-tumor/labels/train/00110_131.txt,0,0.507042,0.386737,0.077465,0.09507,0.007364597550000001
+train,datasets/brain-tumor/images/train/00110_147.jpg,datasets/brain-tumor/labels/train/00110_147.txt,0,0.497653,0.372066,0.107981,0.133803,0.014448181743
+train,datasets/brain-tumor/images/train/00110_162.jpg,datasets/brain-tumor/labels/train/00110_162.txt,0,0.504695,0.356221,0.115023,0.111502,0.012825294546
+train,datasets/brain-tumor/images/train/00110_178.jpg,datasets/brain-tumor/labels/train/00110_178.txt,0,0.504695,0.352113,0.07277,0.084507,0.00614957439
+train,datasets/brain-tumor/images/train/00111_110.jpg,datasets/brain-tumor/labels/train/00111_110.txt,0,0.671362,0.464202,0.077465,0.109155,0.008455692075
+train,datasets/brain-tumor/images/train/00111_98.jpg,datasets/brain-tumor/labels/train/00111_98.txt,0,0.669014,0.491784,0.112676,0.178404,0.020101849104
+train,datasets/brain-tumor/images/train/00112_10.jpg,datasets/brain-tumor/labels/train/00112_10.txt,0,0.752113,0.740023,0.090141,0.073944,0.006665386103999999
+train,datasets/brain-tumor/images/train/00112_10.jpg,datasets/brain-tumor/labels/train/00112_10.txt,0,0.71338,0.814554,0.108451,0.077465,0.008401156715000002
+train,datasets/brain-tumor/images/train/00112_11.jpg,datasets/brain-tumor/labels/train/00112_11.txt,0,0.706338,0.803404,0.108451,0.11385,0.012347146350000001
+train,datasets/brain-tumor/images/train/00112_12.jpg,datasets/brain-tumor/labels/train/00112_12.txt,0,0.707042,0.803991,0.101408,0.100939,0.010236022112
+train,datasets/brain-tumor/images/train/00116_11.jpg,datasets/brain-tumor/labels/train/00116_11.txt,0,0.282473,0.656103,0.140845,0.103286,0.014547316670000001
+train,datasets/brain-tumor/images/train/00116_12.jpg,datasets/brain-tumor/labels/train/00116_12.txt,0,0.280908,0.671948,0.153365,0.137324,0.02106069526
+train,datasets/brain-tumor/images/train/00116_13.jpg,datasets/brain-tumor/labels/train/00116_13.txt,0,0.316119,0.66608,0.1518,0.142019,0.0215584842
+train,datasets/brain-tumor/images/train/00116_14.jpg,datasets/brain-tumor/labels/train/00116_14.txt,0,0.316901,0.661972,0.156495,0.110329,0.017265936855
+train,datasets/brain-tumor/images/train/00116_15.jpg,datasets/brain-tumor/labels/train/00116_15.txt,0,0.325509,0.65493,0.13928,0.133803,0.01863608184
+train,datasets/brain-tumor/images/train/00116_16.jpg,datasets/brain-tumor/labels/train/00116_16.txt,0,0.335681,0.679577,0.153365,0.150235,0.023040790775
+train,datasets/brain-tumor/images/train/00116_231.jpg,datasets/brain-tumor/labels/train/00116_231.txt,0,0.658451,0.542254,0.15493,0.185446,0.028731148780000004
+train,datasets/brain-tumor/images/train/00116_8.jpg,datasets/brain-tumor/labels/train/00116_8.txt,0,0.302034,0.646127,0.117371,0.120892,0.014189214932
+train,datasets/brain-tumor/images/train/00116_9.jpg,datasets/brain-tumor/labels/train/00116_9.txt,0,0.280908,0.644366,0.162754,0.199531,0.032474468374
+train,datasets/brain-tumor/images/train/00117_200.jpg,datasets/brain-tumor/labels/train/00117_200.txt,1,0.730047,0.350939,0.100939,0.100939,0.010188681721
+train,datasets/brain-tumor/images/train/00120_215.jpg,datasets/brain-tumor/labels/train/00120_215.txt,1,0.654343,0.464202,0.111502,0.092723,0.010338799946
+train,datasets/brain-tumor/images/train/00120_230.jpg,datasets/brain-tumor/labels/train/00120_230.txt,1,0.657864,0.471244,0.17723,0.137324,0.02433793252
+train,datasets/brain-tumor/images/train/00120_245.jpg,datasets/brain-tumor/labels/train/00120_245.txt,1,0.66784,0.469484,0.199531,0.152582,0.030444839042
+train,datasets/brain-tumor/images/train/00120_260.jpg,datasets/brain-tumor/labels/train/00120_260.txt,1,0.659038,0.4777,0.198357,0.178404,0.035387682228000004
+train,datasets/brain-tumor/images/train/00121_139.jpg,datasets/brain-tumor/labels/train/00121_139.txt,0,0.870305,0.474765,0.078638,0.083333,0.006553140454000001
+train,datasets/brain-tumor/images/train/00121_157.jpg,datasets/brain-tumor/labels/train/00121_157.txt,0,0.871479,0.47007,0.106808,0.139671,0.014917980167999998
+train,datasets/brain-tumor/images/train/00121_175.jpg,datasets/brain-tumor/labels/train/00121_175.txt,0,0.88439,0.460681,0.102113,0.165493,0.016898986709
+train,datasets/brain-tumor/images/train/00122_10.jpg,datasets/brain-tumor/labels/train/00122_10.txt,0,0.638498,0.632042,0.129108,0.174883,0.022578794364000003
+train,datasets/brain-tumor/images/train/00122_108.jpg,datasets/brain-tumor/labels/train/00122_108.txt,0,0.760563,0.375,0.150235,0.156103,0.023452134205
+train,datasets/brain-tumor/images/train/00122_11.jpg,datasets/brain-tumor/labels/train/00122_11.txt,0,0.661972,0.603873,0.058685,0.050469,0.0029617732650000003
+train,datasets/brain-tumor/images/train/00122_8.jpg,datasets/brain-tumor/labels/train/00122_8.txt,0,0.653756,0.630282,0.133803,0.171362,0.022928749685999998
+train,datasets/brain-tumor/images/train/00122_9.jpg,datasets/brain-tumor/labels/train/00122_9.txt,0,0.650822,0.627934,0.134977,0.192488,0.025981452776000002
+train,datasets/brain-tumor/images/train/00122_90.jpg,datasets/brain-tumor/labels/train/00122_90.txt,0,0.759977,0.379108,0.097418,0.122066,0.011891425588
+train,datasets/brain-tumor/images/train/00123_10.jpg,datasets/brain-tumor/labels/train/00123_10.txt,0,0.210681,0.495892,0.118545,0.080986,0.00960048537
+train,datasets/brain-tumor/images/train/00123_11.jpg,datasets/brain-tumor/labels/train/00123_11.txt,0,0.241784,0.504695,0.166667,0.206573,0.034428902191000005
+train,datasets/brain-tumor/images/train/00123_12.jpg,datasets/brain-tumor/labels/train/00123_12.txt,0,0.276408,0.514085,0.233568,0.251174,0.058666208832
+train,datasets/brain-tumor/images/train/00123_13.jpg,datasets/brain-tumor/labels/train/00123_13.txt,0,0.284624,0.5223,0.245305,0.267606,0.06564508983
+train,datasets/brain-tumor/images/train/00123_14.jpg,datasets/brain-tumor/labels/train/00123_14.txt,0,0.279343,0.536972,0.223005,0.233568,0.05208683184
+train,datasets/brain-tumor/images/train/00123_15.jpg,datasets/brain-tumor/labels/train/00123_15.txt,0,0.271714,0.548709,0.212441,0.210094,0.044632579453999996
+train,datasets/brain-tumor/images/train/00123_16.jpg,datasets/brain-tumor/labels/train/00123_16.txt,0,0.271714,0.581573,0.170188,0.11385,0.0193759038
+train,datasets/brain-tumor/images/train/00123_223.jpg,datasets/brain-tumor/labels/train/00123_223.txt,0,0.648474,0.408451,0.085681,0.077465,0.006637278665
+train,datasets/brain-tumor/images/train/00123_241.jpg,datasets/brain-tumor/labels/train/00123_241.txt,0,0.649648,0.397887,0.127934,0.126761,0.016217041774
+train,datasets/brain-tumor/images/train/00123_259.jpg,datasets/brain-tumor/labels/train/00123_259.txt,0,0.644366,0.402582,0.176056,0.150235,0.02644977316
+train,datasets/brain-tumor/images/train/00123_277.jpg,datasets/brain-tumor/labels/train/00123_277.txt,0,0.633803,0.403169,0.20892,0.174883,0.03653655636
+train,datasets/brain-tumor/images/train/00124_10.jpg,datasets/brain-tumor/labels/train/00124_10.txt,0,0.663649,0.52993,0.260228,0.303991,0.07910696994800001
+train,datasets/brain-tumor/images/train/00124_11.jpg,datasets/brain-tumor/labels/train/00124_11.txt,0,0.66499,0.551056,0.2334,0.24061,0.056158374
+train,datasets/brain-tumor/images/train/00124_114.jpg,datasets/brain-tumor/labels/train/00124_114.txt,0,0.580986,0.551643,0.29108,0.206573,0.06012926884
+train,datasets/brain-tumor/images/train/00124_12.jpg,datasets/brain-tumor/labels/train/00124_12.txt,0,0.652918,0.559859,0.166331,0.187793,0.031235797483
+train,datasets/brain-tumor/images/train/00124_132.jpg,datasets/brain-tumor/labels/train/00124_132.txt,0,0.590376,0.538732,0.248826,0.194836,0.048480262536
+train,datasets/brain-tumor/images/train/00124_150.jpg,datasets/brain-tumor/labels/train/00124_150.txt,0,0.588615,0.524648,0.212441,0.171362,0.036404314641999995
+train,datasets/brain-tumor/images/train/00124_168.jpg,datasets/brain-tumor/labels/train/00124_168.txt,0,0.570423,0.528169,0.115023,0.093897,0.010800314630999999
+train,datasets/brain-tumor/images/train/00124_6.jpg,datasets/brain-tumor/labels/train/00124_6.txt,0,0.687123,0.487089,0.189135,0.230047,0.043509939345
+train,datasets/brain-tumor/images/train/00124_7.jpg,datasets/brain-tumor/labels/train/00124_7.txt,0,0.687123,0.5223,0.207914,0.2723,0.0566149822
+train,datasets/brain-tumor/images/train/00124_8.jpg,datasets/brain-tumor/labels/train/00124_8.txt,0,0.677062,0.514671,0.238766,0.327465,0.07818750819
+train,datasets/brain-tumor/images/train/00124_9.jpg,datasets/brain-tumor/labels/train/00124_9.txt,0,0.662978,0.524648,0.264252,0.323944,0.085602849888
+train,datasets/brain-tumor/images/train/00124_96.jpg,datasets/brain-tumor/labels/train/00124_96.txt,0,0.566315,0.549296,0.280516,0.220657,0.061897819012
+train,datasets/brain-tumor/images/train/00128_243.jpg,datasets/brain-tumor/labels/train/00128_243.txt,1,0.673122,0.474178,0.165493,0.126761,0.020978058173
+train,datasets/brain-tumor/images/train/00128_260.jpg,datasets/brain-tumor/labels/train/00128_260.txt,1,0.709507,0.474765,0.163146,0.142019,0.023169831774
+train,datasets/brain-tumor/images/train/00128_277.jpg,datasets/brain-tumor/labels/train/00128_277.txt,1,0.697183,0.4777,0.150235,0.150235,0.022570555225000004
+train,datasets/brain-tumor/images/train/00130_100.jpg,datasets/brain-tumor/labels/train/00130_100.txt,0,0.344484,0.665493,0.158451,0.185446,0.029384104146
+train,datasets/brain-tumor/images/train/00130_107.jpg,datasets/brain-tumor/labels/train/00130_107.txt,0,0.338028,0.678991,0.15493,0.16784,0.0260034512
+train,datasets/brain-tumor/images/train/00130_112.jpg,datasets/brain-tumor/labels/train/00130_112.txt,0,0.342723,0.687207,0.133803,0.160798,0.021515254794
+train,datasets/brain-tumor/images/train/00130_114.jpg,datasets/brain-tumor/labels/train/00130_114.txt,0,0.350352,0.678404,0.111502,0.147887,0.016489696273999998
+train,datasets/brain-tumor/images/train/00130_119.jpg,datasets/brain-tumor/labels/train/00130_119.txt,0,0.346244,0.682512,0.093897,0.066901,0.0062818031969999995
+train,datasets/brain-tumor/images/train/00130_239.jpg,datasets/brain-tumor/labels/train/00130_239.txt,0,0.778169,0.341549,0.161972,0.15493,0.025094321960000002
+train,datasets/brain-tumor/images/train/00130_256.jpg,datasets/brain-tumor/labels/train/00130_256.txt,0,0.766432,0.3527,0.199531,0.181925,0.036299677174999996
+train,datasets/brain-tumor/images/train/00130_273.jpg,datasets/brain-tumor/labels/train/00130_273.txt,0,0.767019,0.357981,0.203052,0.194836,0.039561839472
+train,datasets/brain-tumor/images/train/00130_78.jpg,datasets/brain-tumor/labels/train/00130_78.txt,0,0.312793,0.637911,0.127934,0.146714,0.018769708876
+train,datasets/brain-tumor/images/train/00130_81.jpg,datasets/brain-tumor/labels/train/00130_81.txt,0,0.337441,0.651995,0.109155,0.18662,0.0203705061
+train,datasets/brain-tumor/images/train/00130_88.jpg,datasets/brain-tumor/labels/train/00130_88.txt,0,0.327465,0.646127,0.161972,0.200704,0.032508428288
+train,datasets/brain-tumor/images/train/00130_94.jpg,datasets/brain-tumor/labels/train/00130_94.txt,0,0.337441,0.649061,0.158451,0.194836,0.030871959036000002
+train,datasets/brain-tumor/images/train/00132_112.jpg,datasets/brain-tumor/labels/train/00132_112.txt,0,0.499413,0.55223,0.18662,0.165493,0.03088430366
+train,datasets/brain-tumor/images/train/00132_130.jpg,datasets/brain-tumor/labels/train/00132_130.txt,0,0.508803,0.551056,0.174883,0.163146,0.028531461918000003
+train,datasets/brain-tumor/images/train/00132_147.jpg,datasets/brain-tumor/labels/train/00132_147.txt,0,0.52054,0.559859,0.156103,0.143192,0.022352700776
+train,datasets/brain-tumor/images/train/00132_164.jpg,datasets/brain-tumor/labels/train/00132_164.txt,0,0.491784,0.538732,0.150235,0.105634,0.015869923990000003
+train,datasets/brain-tumor/images/train/00132_95.jpg,datasets/brain-tumor/labels/train/00132_95.txt,0,0.504695,0.543427,0.124413,0.129108,0.016062713604
+train,datasets/brain-tumor/images/train/00133_228.jpg,datasets/brain-tumor/labels/train/00133_228.txt,0,0.545188,0.495305,0.127934,0.147887,0.018919775458
+train,datasets/brain-tumor/images/train/00133_247.jpg,datasets/brain-tumor/labels/train/00133_247.txt,0,0.540493,0.506455,0.163146,0.165493,0.026999520978000003
+train,datasets/brain-tumor/images/train/00133_266.jpg,datasets/brain-tumor/labels/train/00133_266.txt,0,0.536385,0.506455,0.124413,0.132629,0.016500771777
+train,datasets/brain-tumor/images/train/00136_103.jpg,datasets/brain-tumor/labels/train/00136_103.txt,1,0.701291,0.553991,0.132629,0.119718,0.015878078622
+train,datasets/brain-tumor/images/train/00136_121.jpg,datasets/brain-tumor/labels/train/00136_121.txt,1,0.690141,0.543427,0.178404,0.126761,0.022614669444000004
+train,datasets/brain-tumor/images/train/00136_138.jpg,datasets/brain-tumor/labels/train/00136_138.txt,1,0.67723,0.536972,0.143192,0.144366,0.020672056272
+train,datasets/brain-tumor/images/train/00137_249.jpg,datasets/brain-tumor/labels/train/00137_249.txt,0,0.463615,0.505282,0.13615,0.170188,0.0231710962
+train,datasets/brain-tumor/images/train/00137_264.jpg,datasets/brain-tumor/labels/train/00137_264.txt,0,0.455399,0.502934,0.115023,0.165493,0.019035501339
+train,datasets/brain-tumor/images/train/00138_217.jpg,datasets/brain-tumor/labels/train/00138_217.txt,1,0.902582,0.301643,0.06338,0.070423,0.00446340974
+train,datasets/brain-tumor/images/train/00138_235.jpg,datasets/brain-tumor/labels/train/00138_235.txt,1,0.896127,0.303991,0.062207,0.06338,0.00394267966
+train,datasets/brain-tumor/images/train/00138_271.jpg,datasets/brain-tumor/labels/train/00138_271.txt,1,0.81338,0.500587,0.119718,0.099765,0.011943666270000002
+train,datasets/brain-tumor/images/train/00138_289.jpg,datasets/brain-tumor/labels/train/00138_289.txt,1,0.797535,0.500587,0.123239,0.123239,0.015187851121
+train,datasets/brain-tumor/images/train/00142_107.jpg,datasets/brain-tumor/labels/train/00142_107.txt,0,0.355634,0.401995,0.089202,0.073944,0.006595952688
+train,datasets/brain-tumor/images/train/00142_107.jpg,datasets/brain-tumor/labels/train/00142_107.txt,0,0.523474,0.534624,0.197183,0.111502,0.021986298866
+train,datasets/brain-tumor/images/train/00142_126.jpg,datasets/brain-tumor/labels/train/00142_126.txt,0,0.353286,0.396127,0.105634,0.106808,0.011282556272
+train,datasets/brain-tumor/images/train/00142_126.jpg,datasets/brain-tumor/labels/train/00142_126.txt,0,0.559859,0.519953,0.265258,0.157277,0.041718982466
+train,datasets/brain-tumor/images/train/00142_144.jpg,datasets/brain-tumor/labels/train/00142_144.txt,0,0.35446,0.390258,0.098592,0.097418,0.009604635456
+train,datasets/brain-tumor/images/train/00142_144.jpg,datasets/brain-tumor/labels/train/00142_144.txt,0,0.59507,0.495305,0.215962,0.140845,0.03041716789
+train,datasets/brain-tumor/images/train/00142_163.jpg,datasets/brain-tumor/labels/train/00142_163.txt,0,0.626174,0.484742,0.111502,0.086854,0.009684394708
+train,datasets/brain-tumor/images/train/00142_89.jpg,datasets/brain-tumor/labels/train/00142_89.txt,0,0.499413,0.549883,0.057512,0.071596,0.0041176291520000005
+train,datasets/brain-tumor/images/train/00143_236.jpg,datasets/brain-tumor/labels/train/00143_236.txt,1,0.609155,0.418427,0.230047,0.134977,0.031051053919000003
+train,datasets/brain-tumor/images/train/00143_254.jpg,datasets/brain-tumor/labels/train/00143_254.txt,1,0.610329,0.450704,0.286385,0.178404,0.05109222954
+train,datasets/brain-tumor/images/train/00143_272.jpg,datasets/brain-tumor/labels/train/00143_272.txt,1,0.597418,0.454812,0.265258,0.181925,0.04825706165
+train,datasets/brain-tumor/images/train/00144_243.jpg,datasets/brain-tumor/labels/train/00144_243.txt,1,0.55223,0.390258,0.156103,0.09507,0.014840712209999999
+train,datasets/brain-tumor/images/train/00144_260.jpg,datasets/brain-tumor/labels/train/00144_260.txt,1,0.545188,0.409038,0.205399,0.153756,0.031581328644
+train,datasets/brain-tumor/images/train/00144_278.jpg,datasets/brain-tumor/labels/train/00144_278.txt,1,0.537559,0.411385,0.190141,0.165493,0.031467004513
+train,datasets/brain-tumor/images/train/00146_142.jpg,datasets/brain-tumor/labels/train/00146_142.txt,1,0.513498,0.139085,0.10446,0.109155,0.0114023313
+train,datasets/brain-tumor/images/train/00146_160.jpg,datasets/brain-tumor/labels/train/00146_160.txt,1,0.508216,0.13615,0.126761,0.138498,0.017556144978000003
+train,datasets/brain-tumor/images/train/00146_195.jpg,datasets/brain-tumor/labels/train/00146_195.txt,1,0.50939,0.150822,0.138498,0.134977,0.018694044546000002
+train,datasets/brain-tumor/images/train/00147_115.jpg,datasets/brain-tumor/labels/train/00147_115.txt,0,0.762911,0.473005,0.079812,0.079812,0.006369955343999999
+train,datasets/brain-tumor/images/train/00147_134.jpg,datasets/brain-tumor/labels/train/00147_134.txt,0,0.79284,0.443662,0.16784,0.147887,0.024821354079999997
+train,datasets/brain-tumor/images/train/00147_152.jpg,datasets/brain-tumor/labels/train/00147_152.txt,0,0.786972,0.443662,0.156103,0.159624,0.024917785271999997
+train,datasets/brain-tumor/images/train/00147_170.jpg,datasets/brain-tumor/labels/train/00147_170.txt,0,0.786972,0.436033,0.088028,0.102113,0.008988803164
+train,datasets/brain-tumor/images/train/00147_170.jpg,datasets/brain-tumor/labels/train/00147_170.txt,0,0.863263,0.429577,0.043427,0.051643,0.002242700561
+train,datasets/brain-tumor/images/train/00148_19.jpg,datasets/brain-tumor/labels/train/00148_19.txt,0,0.702465,0.518192,0.106808,0.130282,0.013915159856000002
+train,datasets/brain-tumor/images/train/00148_20.jpg,datasets/brain-tumor/labels/train/00148_20.txt,0,0.707746,0.513498,0.115023,0.130282,0.014985426486
+train,datasets/brain-tumor/images/train/00148_22.jpg,datasets/brain-tumor/labels/train/00148_22.txt,0,0.694249,0.521127,0.11385,0.119718,0.0136298943
+train,datasets/brain-tumor/images/train/00148_24.jpg,datasets/brain-tumor/labels/train/00148_24.txt,0,0.68838,0.518779,0.057512,0.053991,0.003105130392
+train,datasets/brain-tumor/images/train/00150_10.jpg,datasets/brain-tumor/labels/train/00150_10.txt,0,0.383568,0.460094,0.125196,0.199531,0.024980483076
+train,datasets/brain-tumor/images/train/00150_11.jpg,datasets/brain-tumor/labels/train/00150_11.txt,0,0.377934,0.413732,0.098905,0.123239,0.012188953295
+train,datasets/brain-tumor/images/train/00150_12.jpg,datasets/brain-tumor/labels/train/00150_12.txt,0,0.377308,0.40669,0.097653,0.097418,0.009513159954
+train,datasets/brain-tumor/images/train/00150_235.jpg,datasets/brain-tumor/labels/train/00150_235.txt,0,0.438967,0.373239,0.093897,0.091549,0.008596176453
+train,datasets/brain-tumor/images/train/00150_252.jpg,datasets/brain-tumor/labels/train/00150_252.txt,0,0.443662,0.370892,0.098592,0.079812,0.007868824703999999
+train,datasets/brain-tumor/images/train/00150_8.jpg,datasets/brain-tumor/labels/train/00150_8.txt,0,0.361659,0.495892,0.101408,0.151408,0.015353982463999999
+train,datasets/brain-tumor/images/train/00150_9.jpg,datasets/brain-tumor/labels/train/00150_9.txt,0,0.371049,0.508216,0.132707,0.147887,0.019625640108999996
+train,datasets/brain-tumor/images/train/00151_10.jpg,datasets/brain-tumor/labels/train/00151_10.txt,0,0.616784,0.321596,0.217136,0.234742,0.050970938912000004
+train,datasets/brain-tumor/images/train/00151_12.jpg,datasets/brain-tumor/labels/train/00151_12.txt,0,0.603873,0.301056,0.217136,0.273474,0.059381050463999996
+train,datasets/brain-tumor/images/train/00151_128.jpg,datasets/brain-tumor/labels/train/00151_128.txt,0,0.558099,0.419601,0.146714,0.139671,0.020491691094
+train,datasets/brain-tumor/images/train/00151_13.jpg,datasets/brain-tumor/labels/train/00151_13.txt,0,0.544601,0.315141,0.352113,0.320423,0.112825103799
+train,datasets/brain-tumor/images/train/00151_14.jpg,datasets/brain-tumor/labels/train/00151_14.txt,0,0.524648,0.323944,0.253521,0.295775,0.074985173775
+train,datasets/brain-tumor/images/train/00151_145.jpg,datasets/brain-tumor/labels/train/00151_145.txt,0,0.52993,0.382042,0.179577,0.142019,0.025503345963
+train,datasets/brain-tumor/images/train/00151_15.jpg,datasets/brain-tumor/labels/train/00151_15.txt,0,0.557512,0.355634,0.166667,0.248826,0.041471082942
+train,datasets/brain-tumor/images/train/00151_162.jpg,datasets/brain-tumor/labels/train/00151_162.txt,0,0.533451,0.357394,0.233568,0.18662,0.04358846016
+train,datasets/brain-tumor/images/train/00151_17.jpg,datasets/brain-tumor/labels/train/00151_17.txt,0,0.570423,0.337441,0.117371,0.09507,0.01115846097
+train,datasets/brain-tumor/images/train/00151_195.jpg,datasets/brain-tumor/labels/train/00151_195.txt,0,0.559859,0.348592,0.169014,0.131455,0.022217735369999998
+train,datasets/brain-tumor/images/train/00151_211.jpg,datasets/brain-tumor/labels/train/00151_211.txt,0,0.571009,0.364437,0.142019,0.130282,0.018502519358000003
+train,datasets/brain-tumor/images/train/00154_210.jpg,datasets/brain-tumor/labels/train/00154_210.txt,0,0.789906,0.684272,0.075117,0.091549,0.006876886233000001
+train,datasets/brain-tumor/images/train/00154_229.jpg,datasets/brain-tumor/labels/train/00154_229.txt,0,0.767019,0.671948,0.123239,0.137324,0.016923672436
+train,datasets/brain-tumor/images/train/00154_248.jpg,datasets/brain-tumor/labels/train/00154_248.txt,0,0.749413,0.65493,0.139671,0.112676,0.015737569596
+train,datasets/brain-tumor/images/train/00154_267.jpg,datasets/brain-tumor/labels/train/00154_267.txt,0,0.734742,0.66608,0.112676,0.120892,0.013621626991999999
+train,datasets/brain-tumor/images/train/00156_116.jpg,datasets/brain-tumor/labels/train/00156_116.txt,1,0.399061,0.518192,0.096244,0.09507,0.00914991708
+train,datasets/brain-tumor/images/train/00156_132.jpg,datasets/brain-tumor/labels/train/00156_132.txt,1,0.394953,0.512911,0.188967,0.157277,0.029720162859
+train,datasets/brain-tumor/images/train/00156_148.jpg,datasets/brain-tumor/labels/train/00156_148.txt,1,0.403169,0.514671,0.217136,0.193662,0.042050992032
+train,datasets/brain-tumor/images/train/00156_164.jpg,datasets/brain-tumor/labels/train/00156_164.txt,1,0.408451,0.514085,0.220657,0.187793,0.041437840000999995
+train,datasets/brain-tumor/images/train/00156_180.jpg,datasets/brain-tumor/labels/train/00156_180.txt,1,0.411972,0.521127,0.204225,0.15493,0.03164057925
+train,datasets/brain-tumor/images/train/00156_196.jpg,datasets/brain-tumor/labels/train/00156_196.txt,1,0.416667,0.52993,0.131455,0.085681,0.011263195854999998
+train,datasets/brain-tumor/images/train/00157_115.jpg,datasets/brain-tumor/labels/train/00157_115.txt,0,0.658451,0.527582,0.093897,0.083333,0.007824718701
+train,datasets/brain-tumor/images/train/00158_102.jpg,datasets/brain-tumor/labels/train/00158_102.txt,0,0.311424,0.658451,0.208138,0.171362,0.035666943955999994
+train,datasets/brain-tumor/images/train/00158_108.jpg,datasets/brain-tumor/labels/train/00158_108.txt,0,0.319249,0.678404,0.161189,0.152582,0.024594539998
+train,datasets/brain-tumor/images/train/00158_114.jpg,datasets/brain-tumor/labels/train/00158_114.txt,0,0.310642,0.641432,0.090767,0.083333,0.007563886411
+train,datasets/brain-tumor/images/train/00158_115.jpg,datasets/brain-tumor/labels/train/00158_115.txt,0,0.298122,0.650822,0.128326,0.10446,0.013404933959999999
+train,datasets/brain-tumor/images/train/00158_239.jpg,datasets/brain-tumor/labels/train/00158_239.txt,0,0.661385,0.449531,0.097418,0.079812,0.007775125416
+train,datasets/brain-tumor/images/train/00158_256.jpg,datasets/brain-tumor/labels/train/00158_256.txt,0,0.680751,0.439554,0.15493,0.151408,0.02345764144
+train,datasets/brain-tumor/images/train/00158_272.jpg,datasets/brain-tumor/labels/train/00158_272.txt,0,0.673122,0.444249,0.17723,0.172535,0.030578378049999997
+train,datasets/brain-tumor/images/train/00158_289.jpg,datasets/brain-tumor/labels/train/00158_289.txt,0,0.662559,0.448357,0.184272,0.169014,0.031144547808
+train,datasets/brain-tumor/images/train/00158_86.jpg,datasets/brain-tumor/labels/train/00158_86.txt,0,0.314554,0.646127,0.226917,0.200704,0.045543149568
+train,datasets/brain-tumor/images/train/00158_90.jpg,datasets/brain-tumor/labels/train/00158_90.txt,0,0.320031,0.6473,0.256651,0.196009,0.050305905859
+train,datasets/brain-tumor/images/train/00158_96.jpg,datasets/brain-tumor/labels/train/00158_96.txt,0,0.311424,0.650235,0.242567,0.190141,0.046121931947000004
+train,datasets/brain-tumor/images/train/00159_133.jpg,datasets/brain-tumor/labels/train/00159_133.txt,1,0.456573,0.412559,0.065728,0.066901,0.004397268928
+train,datasets/brain-tumor/images/train/00159_152.jpg,datasets/brain-tumor/labels/train/00159_152.txt,1,0.458333,0.420188,0.153756,0.152582,0.023460397992
+train,datasets/brain-tumor/images/train/00159_152.jpg,datasets/brain-tumor/labels/train/00159_152.txt,1,0.389671,0.485329,0.07277,0.062207,0.0045268033899999996
+train,datasets/brain-tumor/images/train/00159_171.jpg,datasets/brain-tumor/labels/train/00159_171.txt,1,0.44777,0.432512,0.165493,0.198357,0.032826695001
+train,datasets/brain-tumor/images/train/00159_189.jpg,datasets/brain-tumor/labels/train/00159_189.txt,1,0.458333,0.43662,0.144366,0.178404,0.025755471864
+train,datasets/brain-tumor/images/train/00159_207.jpg,datasets/brain-tumor/labels/train/00159_207.txt,1,0.451291,0.421362,0.099765,0.117371,0.011709517815
+train,datasets/brain-tumor/images/train/00160_270.jpg,datasets/brain-tumor/labels/train/00160_270.txt,1,0.603873,0.512911,0.062207,0.061033,0.0037966798309999996
+train,datasets/brain-tumor/images/train/00162_122.jpg,datasets/brain-tumor/labels/train/00162_122.txt,0,0.486502,0.296948,0.069249,0.086854,0.006014552646
+train,datasets/brain-tumor/images/train/00165_110.jpg,datasets/brain-tumor/labels/train/00165_110.txt,0,0.587637,0.527582,0.215962,0.125587,0.027122019694
+train,datasets/brain-tumor/images/train/00165_111.jpg,datasets/brain-tumor/labels/train/00165_111.txt,0,0.597809,0.52993,0.205008,0.127934,0.026227493472
+train,datasets/brain-tumor/images/train/00165_116.jpg,datasets/brain-tumor/labels/train/00165_116.txt,0,0.610329,0.535798,0.198748,0.137324,0.027292870352000002
+train,datasets/brain-tumor/images/train/00165_118.jpg,datasets/brain-tumor/labels/train/00165_118.txt,0,0.611894,0.534038,0.192488,0.131455,0.025303510039999998
+train,datasets/brain-tumor/images/train/00165_122.jpg,datasets/brain-tumor/labels/train/00165_122.txt,0,0.501761,0.311033,0.048122,0.046948,0.0022592316559999995
+train,datasets/brain-tumor/images/train/00165_123.jpg,datasets/brain-tumor/labels/train/00165_123.txt,0,0.618153,0.539906,0.161189,0.124413,0.020054007057
+train,datasets/brain-tumor/images/train/00165_125.jpg,datasets/brain-tumor/labels/train/00165_125.txt,0,0.618153,0.538146,0.14241,0.130282,0.018553459620000004
+train,datasets/brain-tumor/images/train/00165_129.jpg,datasets/brain-tumor/labels/train/00165_129.txt,0,0.620501,0.54108,0.106416,0.093897,0.009992143152
+train,datasets/brain-tumor/images/train/00165_135.jpg,datasets/brain-tumor/labels/train/00165_135.txt,0,0.617371,0.538732,0.068858,0.058685,0.00404093173
+train,datasets/brain-tumor/images/train/00165_140.jpg,datasets/brain-tumor/labels/train/00165_140.txt,0,0.506455,0.306925,0.118545,0.120892,0.01433114214
+train,datasets/brain-tumor/images/train/00165_158.jpg,datasets/brain-tumor/labels/train/00165_158.txt,0,0.516432,0.300469,0.122066,0.119718,0.014613497388
+train,datasets/brain-tumor/images/train/00165_176.jpg,datasets/brain-tumor/labels/train/00165_176.txt,0,0.505282,0.317488,0.097418,0.083333,0.008118134194000001
+train,datasets/brain-tumor/images/train/00165_193.jpg,datasets/brain-tumor/labels/train/00165_193.txt,0,0.5,0.340376,0.086854,0.065728,0.005708739712
+train,datasets/brain-tumor/images/train/00166_189.jpg,datasets/brain-tumor/labels/train/00166_189.txt,1,0.284624,0.280516,0.139671,0.161972,0.022622791212
+train,datasets/brain-tumor/images/train/00166_206.jpg,datasets/brain-tumor/labels/train/00166_206.txt,1,0.288146,0.335094,0.132629,0.071596,0.009495705884
+train,datasets/brain-tumor/images/train/00166_206.jpg,datasets/brain-tumor/labels/train/00166_206.txt,1,0.284038,0.254695,0.131455,0.100939,0.013268936245
+train,datasets/brain-tumor/images/train/00166_224.jpg,datasets/brain-tumor/labels/train/00166_224.txt,1,0.286972,0.305751,0.132629,0.092723,0.012297758766999999
+train,datasets/brain-tumor/images/train/00166_241.jpg,datasets/brain-tumor/labels/train/00166_241.txt,1,0.278169,0.281103,0.06338,0.050469,0.0031987252200000003
+train,datasets/brain-tumor/images/train/00166_259.jpg,datasets/brain-tumor/labels/train/00166_259.txt,1,0.315141,0.353286,0.069249,0.086854,0.006014552646
+train,datasets/brain-tumor/images/train/00167_125.jpg,datasets/brain-tumor/labels/train/00167_125.txt,0,0.426448,0.782277,0.115806,0.073944,0.008563158864
+train,datasets/brain-tumor/images/train/00167_127.jpg,datasets/brain-tumor/labels/train/00167_127.txt,0,0.419405,0.780516,0.107981,0.06338,0.00684383578
+train,datasets/brain-tumor/images/train/00167_213.jpg,datasets/brain-tumor/labels/train/00167_213.txt,0,0.757042,0.289906,0.07277,0.08216,0.0059787832
+train,datasets/brain-tumor/images/train/00169_112.jpg,datasets/brain-tumor/labels/train/00169_112.txt,0,0.360329,0.56162,0.133803,0.17723,0.023713905690000002
+train,datasets/brain-tumor/images/train/00169_119.jpg,datasets/brain-tumor/labels/train/00169_119.txt,0,0.397887,0.591549,0.14554,0.166667,0.024256715180000003
+train,datasets/brain-tumor/images/train/00169_127.jpg,datasets/brain-tumor/labels/train/00169_127.txt,0,0.394366,0.612089,0.180751,0.153756,0.027791550756
+train,datasets/brain-tumor/images/train/00169_134.jpg,datasets/brain-tumor/labels/train/00169_134.txt,0,0.400822,0.59507,0.144366,0.173709,0.025077673494
+train,datasets/brain-tumor/images/train/00169_141.jpg,datasets/brain-tumor/labels/train/00169_141.txt,0,0.409624,0.589789,0.13615,0.144366,0.0196554309
+train,datasets/brain-tumor/images/train/00169_142.jpg,datasets/brain-tumor/labels/train/00169_142.txt,0,0.409038,0.585094,0.137324,0.144366,0.019824916584
+train,datasets/brain-tumor/images/train/00169_149.jpg,datasets/brain-tumor/labels/train/00169_149.txt,0,0.416667,0.601526,0.098592,0.083333,0.008215967136
+train,datasets/brain-tumor/images/train/00169_208.jpg,datasets/brain-tumor/labels/train/00169_208.txt,0,0.532864,0.339789,0.126761,0.109155,0.013836596955000002
+train,datasets/brain-tumor/images/train/00169_225.jpg,datasets/brain-tumor/labels/train/00169_225.txt,0,0.536385,0.348592,0.159624,0.15493,0.02473054632
+train,datasets/brain-tumor/images/train/00169_243.jpg,datasets/brain-tumor/labels/train/00169_243.txt,0,0.542254,0.350352,0.150235,0.137324,0.02063087114
+train,datasets/brain-tumor/images/train/00169_260.jpg,datasets/brain-tumor/labels/train/00169_260.txt,0,0.562207,0.362676,0.131455,0.115023,0.015120348464999999
+train,datasets/brain-tumor/images/train/00171_109.jpg,datasets/brain-tumor/labels/train/00171_109.txt,1,0.386737,0.672535,0.085681,0.107981,0.009251920060999999
+train,datasets/brain-tumor/images/train/00171_126.jpg,datasets/brain-tumor/labels/train/00171_126.txt,1,0.393779,0.659624,0.127934,0.107981,0.013814441253999998
+train,datasets/brain-tumor/images/train/00172_102.jpg,datasets/brain-tumor/labels/train/00172_102.txt,0,0.78169,0.630869,0.162754,0.214789,0.034957768906000004
+train,datasets/brain-tumor/images/train/00172_108.jpg,datasets/brain-tumor/labels/train/00172_108.txt,0,0.785603,0.633216,0.14554,0.160798,0.02340254092
+train,datasets/brain-tumor/images/train/00172_110.jpg,datasets/brain-tumor/labels/train/00172_110.txt,0,0.603873,0.562793,0.127934,0.090376,0.011562163184
+train,datasets/brain-tumor/images/train/00172_114.jpg,datasets/brain-tumor/labels/train/00172_114.txt,0,0.803599,0.65493,0.093897,0.077465,0.007273731105
+train,datasets/brain-tumor/images/train/00172_91.jpg,datasets/brain-tumor/labels/train/00172_91.txt,0,0.602113,0.559859,0.192488,0.147887,0.028466472855999996
+train,datasets/brain-tumor/images/train/00172_92.jpg,datasets/brain-tumor/labels/train/00172_92.txt,0,0.77543,0.631455,0.194053,0.20892,0.04054155276
+train,datasets/brain-tumor/images/train/00172_96.jpg,datasets/brain-tumor/labels/train/00172_96.txt,0,0.77856,0.626174,0.178404,0.210094,0.037481609976
+train,datasets/brain-tumor/images/train/00176_104.jpg,datasets/brain-tumor/labels/train/00176_104.txt,0,0.696401,0.579812,0.186228,0.194836,0.036283918608
+train,datasets/brain-tumor/images/train/00176_109.jpg,datasets/brain-tumor/labels/train/00176_109.txt,0,0.565141,0.566315,0.212441,0.156103,0.033162677423
+train,datasets/brain-tumor/images/train/00176_127.jpg,datasets/brain-tumor/labels/train/00176_127.txt,0,0.585094,0.568075,0.203052,0.143192,0.029075421984000004
+train,datasets/brain-tumor/images/train/00176_145.jpg,datasets/brain-tumor/labels/train/00176_145.txt,0,0.586268,0.559859,0.158451,0.119718,0.018969436818
+train,datasets/brain-tumor/images/train/00176_89.jpg,datasets/brain-tumor/labels/train/00176_89.txt,0,0.726135,0.58216,0.236307,0.255869,0.060463635783
+train,datasets/brain-tumor/images/train/00176_92.jpg,datasets/brain-tumor/labels/train/00176_92.txt,0,0.715962,0.582746,0.231612,0.257042,0.059534011704
+train,datasets/brain-tumor/images/train/00176_98.jpg,datasets/brain-tumor/labels/train/00176_98.txt,0,0.694053,0.586854,0.203443,0.220657,0.044891122051
+train,datasets/brain-tumor/images/train/00177_125.jpg,datasets/brain-tumor/labels/train/00177_125.txt,1,0.640258,0.350352,0.062207,0.043427,0.002701463389
+train,datasets/brain-tumor/images/train/00177_145.jpg,datasets/brain-tumor/labels/train/00177_145.txt,1,0.611502,0.316901,0.068075,0.058685,0.003994981375
+train,datasets/brain-tumor/images/train/00177_221.jpg,datasets/brain-tumor/labels/train/00177_221.txt,1,0.559859,0.3527,0.075117,0.085681,0.006436099677
+train,datasets/brain-tumor/images/train/00177_241.jpg,datasets/brain-tumor/labels/train/00177_241.txt,1,0.543427,0.377934,0.150235,0.140845,0.021159848575
+train,datasets/brain-tumor/images/train/00177_260.jpg,datasets/brain-tumor/labels/train/00177_260.txt,1,0.52054,0.38439,0.219484,0.181925,0.039929626700000005
+train,datasets/brain-tumor/images/train/00177_280.jpg,datasets/brain-tumor/labels/train/00177_280.txt,1,0.502347,0.39554,0.258216,0.194836,0.050309772576
+train,datasets/brain-tumor/images/train/00178_104.jpg,datasets/brain-tumor/labels/train/00178_104.txt,1,0.623826,0.485915,0.142019,0.138498,0.019669347462
+train,datasets/brain-tumor/images/train/00178_122.jpg,datasets/brain-tumor/labels/train/00178_122.txt,1,0.623239,0.470657,0.147887,0.15493,0.02291213291
+train,datasets/brain-tumor/images/train/00178_140.jpg,datasets/brain-tumor/labels/train/00178_140.txt,1,0.625587,0.457746,0.126761,0.140845,0.017853653045
+train,datasets/brain-tumor/images/train/00178_158.jpg,datasets/brain-tumor/labels/train/00178_158.txt,1,0.597418,0.452465,0.124413,0.153756,0.019129245228
+train,datasets/brain-tumor/images/train/00178_175.jpg,datasets/brain-tumor/labels/train/00178_175.txt,1,0.590962,0.451291,0.102113,0.130282,0.013303485866
+train,datasets/brain-tumor/images/train/00183_109.jpg,datasets/brain-tumor/labels/train/00183_109.txt,0,0.489437,0.422535,0.086854,0.075117,0.006524211918
+train,datasets/brain-tumor/images/train/00183_126.jpg,datasets/brain-tumor/labels/train/00183_126.txt,0,0.487676,0.43838,0.170188,0.151408,0.025767824704
+train,datasets/brain-tumor/images/train/00183_144.jpg,datasets/brain-tumor/labels/train/00183_144.txt,0,0.484742,0.443075,0.20892,0.160798,0.03359391816
+train,datasets/brain-tumor/images/train/00183_161.jpg,datasets/brain-tumor/labels/train/00183_161.txt,0,0.497066,0.454225,0.151408,0.150235,0.022746780879999998
+train,datasets/brain-tumor/images/train/00183_178.jpg,datasets/brain-tumor/labels/train/00183_178.txt,0,0.51115,0.45892,0.111502,0.122066,0.013610603132
+train,datasets/brain-tumor/images/train/00183_195.jpg,datasets/brain-tumor/labels/train/00183_195.txt,0,0.525822,0.45716,0.058685,0.062207,0.003650617795
+train,datasets/brain-tumor/images/train/00183_80.jpg,datasets/brain-tumor/labels/train/00183_80.txt,0,0.565728,0.481221,0.134585,0.093897,0.012637127745
+train,datasets/brain-tumor/images/train/00183_86.jpg,datasets/brain-tumor/labels/train/00183_86.txt,0,0.57903,0.467723,0.223787,0.132629,0.029680646023000003
+train,datasets/brain-tumor/images/train/00184_127.jpg,datasets/brain-tumor/labels/train/00184_127.txt,0,0.594484,0.329225,0.097418,0.088028,0.008575511704
+train,datasets/brain-tumor/images/train/00184_145.jpg,datasets/brain-tumor/labels/train/00184_145.txt,0,0.586854,0.310446,0.115023,0.09507,0.01093523661
+train,datasets/brain-tumor/images/train/00184_164.jpg,datasets/brain-tumor/labels/train/00184_164.txt,0,0.576878,0.323357,0.083333,0.071596,0.005966309468000001
+train,datasets/brain-tumor/images/train/00185_252.jpg,datasets/brain-tumor/labels/train/00185_252.txt,1,0.678404,0.55223,0.068075,0.111502,0.00759049865
+train,datasets/brain-tumor/images/train/00185_271.jpg,datasets/brain-tumor/labels/train/00185_271.txt,1,0.685446,0.548709,0.100939,0.11385,0.01149190515
+train,datasets/brain-tumor/images/train/00185_289.jpg,datasets/brain-tumor/labels/train/00185_289.txt,1,0.687793,0.52993,0.061033,0.090376,0.005515918408
+train,datasets/brain-tumor/images/train/00186_207.jpg,datasets/brain-tumor/labels/train/00186_207.txt,1,0.579812,0.291667,0.171362,0.120892,0.020716294904
+train,datasets/brain-tumor/images/train/00187_100.jpg,datasets/brain-tumor/labels/train/00187_100.txt,1,0.296362,0.367958,0.085681,0.078638,0.006737782477999999
+train,datasets/brain-tumor/images/train/00187_118.jpg,datasets/brain-tumor/labels/train/00187_118.txt,1,0.304577,0.367958,0.127934,0.125587,0.016066847258
+train,datasets/brain-tumor/images/train/00187_135.jpg,datasets/brain-tumor/labels/train/00187_135.txt,1,0.309272,0.375,0.130282,0.127934,0.016667497388
+train,datasets/brain-tumor/images/train/00187_153.jpg,datasets/brain-tumor/labels/train/00187_153.txt,1,0.339202,0.364437,0.157277,0.146714,0.023074737778000003
+train,datasets/brain-tumor/images/train/00187_170.jpg,datasets/brain-tumor/labels/train/00187_170.txt,1,0.345657,0.360915,0.116197,0.116197,0.013501742809
+train,datasets/brain-tumor/images/train/00191_106.jpg,datasets/brain-tumor/labels/train/00191_106.txt,0,0.610915,0.552817,0.144366,0.138498,0.019994402268000002
+train,datasets/brain-tumor/images/train/00191_124.jpg,datasets/brain-tumor/labels/train/00191_124.txt,0,0.614437,0.542254,0.146714,0.107981,0.015842324434
+train,datasets/brain-tumor/images/train/00191_143.jpg,datasets/brain-tumor/labels/train/00191_143.txt,0,0.620892,0.540493,0.089202,0.069249,0.006177149298
+train,datasets/brain-tumor/images/train/00192_191.jpg,datasets/brain-tumor/labels/train/00192_191.txt,0,0.695423,0.21831,0.102113,0.098592,0.010067524896
+train,datasets/brain-tumor/images/train/00192_244.jpg,datasets/brain-tumor/labels/train/00192_244.txt,0,0.750587,0.457746,0.085681,0.070423,0.0060339130629999994
+train,datasets/brain-tumor/images/train/00192_262.jpg,datasets/brain-tumor/labels/train/00192_262.txt,0,0.715962,0.451878,0.166667,0.117371,0.019561872457
+train,datasets/brain-tumor/images/train/00192_280.jpg,datasets/brain-tumor/labels/train/00192_280.txt,0,0.708333,0.467723,0.123239,0.085681,0.010559240759
+train,datasets/brain-tumor/images/train/00193_172.jpg,datasets/brain-tumor/labels/train/00193_172.txt,0,0.578052,0.546362,0.132629,0.158451,0.021015197679
+train,datasets/brain-tumor/images/train/00193_190.jpg,datasets/brain-tumor/labels/train/00193_190.txt,0,0.570423,0.54108,0.13615,0.187793,0.025568016949999998
+train,datasets/brain-tumor/images/train/00193_208.jpg,datasets/brain-tumor/labels/train/00193_208.txt,0,0.551643,0.528756,0.08216,0.160798,0.013211163679999999
+train,datasets/brain-tumor/images/train/00194_209.jpg,datasets/brain-tumor/labels/train/00194_209.txt,0,0.592136,0.480047,0.102113,0.079812,0.008149842756
+train,datasets/brain-tumor/images/train/00194_226.jpg,datasets/brain-tumor/labels/train/00194_226.txt,0,0.603873,0.487676,0.160798,0.130282,0.020949085036
+train,datasets/brain-tumor/images/train/00194_243.jpg,datasets/brain-tumor/labels/train/00194_243.txt,0,0.63615,0.490023,0.255869,0.130282,0.033335125058
+train,datasets/brain-tumor/images/train/00194_259.jpg,datasets/brain-tumor/labels/train/00194_259.txt,0,0.6027,0.486502,0.132629,0.078638,0.010429679302
+train,datasets/brain-tumor/images/train/00195_208.jpg,datasets/brain-tumor/labels/train/00195_208.txt,0,0.524061,0.284624,0.066901,0.073944,0.004946927544
+train,datasets/brain-tumor/images/train/00195_225.jpg,datasets/brain-tumor/labels/train/00195_225.txt,0,0.514671,0.280516,0.064554,0.070423,0.004546086342
+train,datasets/brain-tumor/images/train/00201_102.jpg,datasets/brain-tumor/labels/train/00201_102.txt,0,0.690728,0.328052,0.16784,0.139671,0.023442380639999996
+train,datasets/brain-tumor/images/train/00201_121.jpg,datasets/brain-tumor/labels/train/00201_121.txt,0,0.69777,0.342723,0.224178,0.20892,0.04683526775999999
+train,datasets/brain-tumor/images/train/00201_141.jpg,datasets/brain-tumor/labels/train/00201_141.txt,0,0.691901,0.349178,0.219484,0.184272,0.040444755648
+train,datasets/brain-tumor/images/train/00240_134.jpg,datasets/brain-tumor/labels/train/00240_134.txt,1,0.497653,0.435446,0.111111,0.112676,0.012519543036
+train,datasets/brain-tumor/images/train/00240_138.jpg,datasets/brain-tumor/labels/train/00240_138.txt,1,0.5,0.435446,0.140845,0.133803,0.018845483535
+train,datasets/brain-tumor/images/train/00240_144.jpg,datasets/brain-tumor/labels/train/00240_144.txt,1,0.465571,0.43838,0.206573,0.17723,0.03661093279
+train,datasets/brain-tumor/images/train/00240_151.jpg,datasets/brain-tumor/labels/train/00240_151.txt,1,0.438185,0.444836,0.198748,0.176056,0.034990777888
+train,datasets/brain-tumor/images/train/00240_157.jpg,datasets/brain-tumor/labels/train/00240_157.txt,1,0.438185,0.446596,0.15493,0.17723,0.027458243900000002
+train,datasets/brain-tumor/images/train/00245_101.jpg,datasets/brain-tumor/labels/train/00245_101.txt,1,0.325509,0.546948,0.126761,0.122066,0.015473208226
+train,datasets/brain-tumor/images/train/00246_103.jpg,datasets/brain-tumor/labels/train/00246_103.txt,1,0.422535,0.623239,0.12989,0.105634,0.01372080026
+train,datasets/brain-tumor/images/train/00246_103.jpg,datasets/brain-tumor/labels/train/00246_103.txt,1,0.395149,0.701291,0.078247,0.048122,0.0037654021339999996
+train,datasets/brain-tumor/images/train/00246_96.jpg,datasets/brain-tumor/labels/train/00246_96.txt,1,0.423318,0.648474,0.169014,0.125587,0.021225961218
+train,datasets/brain-tumor/images/train/00246_96.jpg,datasets/brain-tumor/labels/train/00246_96.txt,1,0.544601,0.647887,0.079812,0.065728,0.005245883135999999
+train,datasets/brain-tumor/images/train/00250_104.jpg,datasets/brain-tumor/labels/train/00250_104.txt,1,0.282473,0.64554,0.084507,0.084507,0.007141433049
+train,datasets/brain-tumor/images/train/00250_110.jpg,datasets/brain-tumor/labels/train/00250_110.txt,1,0.346635,0.66784,0.237872,0.124413,0.029594369136
+train,datasets/brain-tumor/images/train/00250_115.jpg,datasets/brain-tumor/labels/train/00250_115.txt,1,0.338811,0.67723,0.209703,0.131455,0.027566507865
+train,datasets/brain-tumor/images/train/00250_120.jpg,datasets/brain-tumor/labels/train/00250_120.txt,1,0.312989,0.679577,0.208138,0.126761,0.026383781018000003
+train,datasets/brain-tumor/images/train/00250_121.jpg,datasets/brain-tumor/labels/train/00250_121.txt,1,0.291862,0.680164,0.172144,0.125587,0.021619048528
+train,datasets/brain-tumor/images/train/00253_79.jpg,datasets/brain-tumor/labels/train/00253_79.txt,1,0.230047,0.534038,0.061033,0.065728,0.004011577024
+train,datasets/brain-tumor/images/train/00253_85.jpg,datasets/brain-tumor/labels/train/00253_85.txt,1,0.22144,0.52054,0.087637,0.090376,0.007920281512000001
+train,datasets/brain-tumor/images/train/00253_92.jpg,datasets/brain-tumor/labels/train/00253_92.txt,1,0.22144,0.515845,0.084507,0.055164,0.004661744148
+train,datasets/brain-tumor/images/train/00254_79.jpg,datasets/brain-tumor/labels/train/00254_79.txt,1,0.320031,0.474765,0.162754,0.160798,0.026170517692
+train,datasets/brain-tumor/images/train/00254_83.jpg,datasets/brain-tumor/labels/train/00254_83.txt,1,0.327074,0.483568,0.14241,0.150235,0.021394966350000003
+train,datasets/brain-tumor/images/train/00254_89.jpg,datasets/brain-tumor/labels/train/00254_89.txt,1,0.339593,0.49061,0.101721,0.093897,0.009551296737
+train,datasets/brain-tumor/images/train/00260_113.jpg,datasets/brain-tumor/labels/train/00260_113.txt,1,0.49374,0.572183,0.093897,0.083333,0.007824718701
+train,datasets/brain-tumor/images/train/00260_115.jpg,datasets/brain-tumor/labels/train/00260_115.txt,1,0.495305,0.57277,0.106416,0.093897,0.009992143152
+train,datasets/brain-tumor/images/train/00260_119.jpg,datasets/brain-tumor/labels/train/00260_119.txt,1,0.50626,0.572183,0.150235,0.118545,0.017809608075
+train,datasets/brain-tumor/images/train/00260_121.jpg,datasets/brain-tumor/labels/train/00260_121.txt,1,0.507825,0.569836,0.156495,0.118545,0.018551699775
+train,datasets/brain-tumor/images/train/00260_125.jpg,datasets/brain-tumor/labels/train/00260_125.txt,1,0.510172,0.572183,0.164319,0.132629,0.021793464651
+train,datasets/brain-tumor/images/train/00260_130.jpg,datasets/brain-tumor/labels/train/00260_130.txt,1,0.498435,0.569836,0.143975,0.123239,0.017743335024999998
+train,datasets/brain-tumor/images/train/00260_136.jpg,datasets/brain-tumor/labels/train/00260_136.txt,1,0.50939,0.567488,0.125196,0.099765,0.01249017894
+train,datasets/brain-tumor/images/train/00260_142.jpg,datasets/brain-tumor/labels/train/00260_142.txt,1,0.510955,0.567488,0.100156,0.069249,0.006935702844
+train,datasets/brain-tumor/images/train/00263_109.jpg,datasets/brain-tumor/labels/train/00263_109.txt,1,0.364632,0.559272,0.117371,0.097418,0.011434048078000001
+train,datasets/brain-tumor/images/train/00263_116.jpg,datasets/brain-tumor/labels/train/00263_116.txt,1,0.42097,0.551643,0.223787,0.150235,0.033620639945
+train,datasets/brain-tumor/images/train/00263_117.jpg,datasets/brain-tumor/labels/train/00263_117.txt,1,0.418623,0.547535,0.222222,0.153756,0.034167965832
+train,datasets/brain-tumor/images/train/00263_123.jpg,datasets/brain-tumor/labels/train/00263_123.txt,1,0.402973,0.548122,0.231612,0.131455,0.03044655546
+train,datasets/brain-tumor/images/train/00263_125.jpg,datasets/brain-tumor/labels/train/00263_125.txt,1,0.392801,0.556338,0.205008,0.143192,0.029355505536000002
+train,datasets/brain-tumor/images/train/00263_130.jpg,datasets/brain-tumor/labels/train/00263_130.txt,1,0.383412,0.558685,0.164319,0.133803,0.021986375157
+train,datasets/brain-tumor/images/train/00263_133.jpg,datasets/brain-tumor/labels/train/00263_133.txt,1,0.379499,0.559272,0.137715,0.132629,0.018265002735
+train,datasets/brain-tumor/images/train/00263_137.jpg,datasets/brain-tumor/labels/train/00263_137.txt,1,0.378717,0.571596,0.114241,0.138498,0.015822150018
+train,datasets/brain-tumor/images/train/00270_11.jpg,datasets/brain-tumor/labels/train/00270_11.txt,1,0.300134,0.484742,0.099262,0.070423,0.006990327826
+train,datasets/brain-tumor/images/train/00270_12.jpg,datasets/brain-tumor/labels/train/00270_12.txt,1,0.299463,0.482394,0.103286,0.084507,0.008728390002
+train,datasets/brain-tumor/images/train/00270_13.jpg,datasets/brain-tumor/labels/train/00270_13.txt,1,0.307512,0.484742,0.092555,0.084507,0.007821545385
+train,datasets/brain-tumor/images/train/00271_106.jpg,datasets/brain-tumor/labels/train/00271_106.txt,1,0.400626,0.700117,0.114241,0.158451,0.018101600691
+train,datasets/brain-tumor/images/train/00271_111.jpg,datasets/brain-tumor/labels/train/00271_111.txt,1,0.388889,0.702465,0.147105,0.160798,0.023654189790000002
+train,datasets/brain-tumor/images/train/00271_116.jpg,datasets/brain-tumor/labels/train/00271_116.txt,1,0.390454,0.684859,0.165884,0.158451,0.026284485684000002
+train,datasets/brain-tumor/images/train/00271_117.jpg,datasets/brain-tumor/labels/train/00271_117.txt,1,0.394366,0.678404,0.1518,0.147887,0.022449246599999997
+train,datasets/brain-tumor/images/train/00271_122.jpg,datasets/brain-tumor/labels/train/00271_122.txt,1,0.395931,0.674296,0.167449,0.156103,0.026139291246999995
+train,datasets/brain-tumor/images/train/00271_124.jpg,datasets/brain-tumor/labels/train/00271_124.txt,1,0.402973,0.678991,0.172144,0.172535,0.029700865039999996
+train,datasets/brain-tumor/images/train/00271_128.jpg,datasets/brain-tumor/labels/train/00271_128.txt,1,0.390454,0.68662,0.150235,0.140845,0.021159848575
+train,datasets/brain-tumor/images/train/00271_130.jpg,datasets/brain-tumor/labels/train/00271_130.txt,1,0.389671,0.693075,0.13302,0.134977,0.01795464054
+train,datasets/brain-tumor/images/train/00271_134.jpg,datasets/brain-tumor/labels/train/00271_134.txt,1,0.397496,0.693075,0.12989,0.127934,0.01661734726
+train,datasets/brain-tumor/images/train/00271_145.jpg,datasets/brain-tumor/labels/train/00271_145.txt,1,0.397496,0.655516,0.101721,0.085681,0.008715557001
+train,datasets/brain-tumor/images/train/00273_103.jpg,datasets/brain-tumor/labels/train/00273_103.txt,1,0.726135,0.467136,0.167449,0.171362,0.028694395537999996
+train,datasets/brain-tumor/images/train/00273_109.jpg,datasets/brain-tumor/labels/train/00273_109.txt,1,0.730829,0.497066,0.120501,0.102113,0.012304718612999999
+train,datasets/brain-tumor/images/train/00273_86.jpg,datasets/brain-tumor/labels/train/00273_86.txt,1,0.710485,0.459507,0.198748,0.226526,0.045021589448000006
+train,datasets/brain-tumor/images/train/00273_90.jpg,datasets/brain-tumor/labels/train/00273_90.txt,1,0.714397,0.460094,0.181534,0.223005,0.040482989670000004
+train,datasets/brain-tumor/images/train/00273_96.jpg,datasets/brain-tumor/labels/train/00273_96.txt,1,0.719092,0.462441,0.187793,0.211268,0.039674651524
+train,datasets/brain-tumor/images/train/00281_104.jpg,datasets/brain-tumor/labels/train/00281_104.txt,1,0.436033,0.355047,0.106808,0.123239,0.013162911112
+train,datasets/brain-tumor/images/train/00281_110.jpg,datasets/brain-tumor/labels/train/00281_110.txt,1,0.438967,0.351526,0.119718,0.139671,0.016721132778
+train,datasets/brain-tumor/images/train/00281_116.jpg,datasets/brain-tumor/labels/train/00281_116.txt,1,0.440141,0.350352,0.129108,0.130282,0.016820448456
+train,datasets/brain-tumor/images/train/00281_117.jpg,datasets/brain-tumor/labels/train/00281_117.txt,1,0.440141,0.345657,0.131455,0.130282,0.01712622031
+train,datasets/brain-tumor/images/train/00281_122.jpg,datasets/brain-tumor/labels/train/00281_122.txt,1,0.444249,0.347418,0.11385,0.124413,0.014164420050000001
+train,datasets/brain-tumor/images/train/00281_124.jpg,datasets/brain-tumor/labels/train/00281_124.txt,1,0.446596,0.344484,0.09507,0.111502,0.010600495140000001
+train,datasets/brain-tumor/images/train/00281_128.jpg,datasets/brain-tumor/labels/train/00281_128.txt,1,0.45892,0.347418,0.079812,0.08216,0.006557353919999999
+train,datasets/brain-tumor/images/train/00281_98.jpg,datasets/brain-tumor/labels/train/00281_98.txt,1,0.443662,0.360915,0.049296,0.059859,0.0029508092640000002
+train,datasets/brain-tumor/images/train/00282_83.jpg,datasets/brain-tumor/labels/train/00282_83.txt,1,0.252739,0.545188,0.131455,0.109155,0.014348970525
+train,datasets/brain-tumor/images/train/00282_87.jpg,datasets/brain-tumor/labels/train/00282_87.txt,1,0.248044,0.557512,0.131455,0.119718,0.015737529689999998
+train,datasets/brain-tumor/images/train/00282_93.jpg,datasets/brain-tumor/labels/train/00282_93.txt,1,0.264476,0.55223,0.13615,0.109155,0.01486145325
+train,datasets/brain-tumor/images/train/00282_99.jpg,datasets/brain-tumor/labels/train/00282_99.txt,1,0.245696,0.556338,0.098592,0.079812,0.007868824703999999
+train,datasets/brain-tumor/images/train/00284_149.jpg,datasets/brain-tumor/labels/train/00284_149.txt,1,0.555556,0.441315,0.067293,0.058685,0.0039490897050000005
+train,datasets/brain-tumor/images/train/00285_87.jpg,datasets/brain-tumor/labels/train/00285_87.txt,1,0.282473,0.823944,0.053208,0.046948,0.002498009184
+train,datasets/brain-tumor/images/train/00285_93.jpg,datasets/brain-tumor/labels/train/00285_93.txt,1,0.286385,0.831573,0.070423,0.073944,0.005207358312
+train,datasets/brain-tumor/images/train/00291_22.jpg,datasets/brain-tumor/labels/train/00291_22.txt,1,0.46822,0.742371,0.115565,0.109155,0.012614497575
+train,datasets/brain-tumor/images/train/00291_23.jpg,datasets/brain-tumor/labels/train/00291_23.txt,1,0.466053,0.756455,0.128566,0.134977,0.017353452982000004
+train,datasets/brain-tumor/images/train/00291_24.jpg,datasets/brain-tumor/labels/train/00291_24.txt,1,0.460997,0.756455,0.124233,0.111502,0.013852227966
+train,datasets/brain-tumor/images/train/00294_20.jpg,datasets/brain-tumor/labels/train/00294_20.txt,1,0.411469,0.786972,0.142186,0.153756,0.021861950616000003
+train,datasets/brain-tumor/images/train/00294_21.jpg,datasets/brain-tumor/labels/train/00294_21.txt,1,0.411469,0.788146,0.1556,0.149061,0.0231938916
+train,datasets/brain-tumor/images/train/00294_22.jpg,datasets/brain-tumor/labels/train/00294_22.txt,1,0.413481,0.778756,0.16499,0.125587,0.02072059913
+train,datasets/brain-tumor/images/train/00294_23.jpg,datasets/brain-tumor/labels/train/00294_23.txt,1,0.408786,0.783451,0.1556,0.11385,0.01771506
+train,datasets/brain-tumor/images/train/00296_118.jpg,datasets/brain-tumor/labels/train/00296_118.txt,1,0.50626,0.545188,0.100156,0.10446,0.010462295759999999
+train,datasets/brain-tumor/images/train/00296_124.jpg,datasets/brain-tumor/labels/train/00296_124.txt,1,0.505477,0.518779,0.12989,0.169014,0.02195322846
+train,datasets/brain-tumor/images/train/00296_125.jpg,datasets/brain-tumor/labels/train/00296_125.txt,1,0.505477,0.501761,0.123631,0.196009,0.024232788679
+train,datasets/brain-tumor/images/train/00296_130.jpg,datasets/brain-tumor/labels/train/00296_130.txt,1,0.500782,0.512324,0.104851,0.16784,0.01759819184
+train,datasets/brain-tumor/images/train/00296_132.jpg,datasets/brain-tumor/labels/train/00296_132.txt,1,0.500782,0.506455,0.092332,0.142019,0.013112898308
+train,datasets/brain-tumor/images/train/00299_101.jpg,datasets/brain-tumor/labels/train/00299_101.txt,1,0.29734,0.714202,0.114241,0.088028,0.010056406747999999
+train,datasets/brain-tumor/images/train/00299_91.jpg,datasets/brain-tumor/labels/train/00299_91.txt,1,0.318466,0.723592,0.078247,0.062207,0.004867511129
+train,datasets/brain-tumor/images/train/00303_81.jpg,datasets/brain-tumor/labels/train/00303_81.txt,1,0.741002,0.721831,0.178404,0.112676,0.020101849104
+train,datasets/brain-tumor/images/train/00303_85.jpg,datasets/brain-tumor/labels/train/00303_85.txt,1,0.7277,0.734742,0.101721,0.068075,0.006924657075
+train,datasets/brain-tumor/images/train/00304_101.jpg,datasets/brain-tumor/labels/train/00304_101.txt,1,0.294992,0.499413,0.209703,0.235915,0.049472083245000006
+train,datasets/brain-tumor/images/train/00304_107.jpg,datasets/brain-tumor/labels/train/00304_107.txt,1,0.306729,0.516432,0.201878,0.199531,0.040280919218
+train,datasets/brain-tumor/images/train/00304_113.jpg,datasets/brain-tumor/labels/train/00304_113.txt,1,0.317684,0.513498,0.13928,0.165493,0.02304986504
+train,datasets/brain-tumor/images/train/00304_119.jpg,datasets/brain-tumor/labels/train/00304_119.txt,1,0.317684,0.482981,0.126761,0.120892,0.015324390812000002
+train,datasets/brain-tumor/images/train/00304_98.jpg,datasets/brain-tumor/labels/train/00304_98.txt,1,0.29734,0.505282,0.214397,0.221831,0.047559900907
+train,datasets/brain-tumor/images/train/00305_105.jpg,datasets/brain-tumor/labels/train/00305_105.txt,1,0.629695,0.390845,0.083333,0.079812,0.006650973396
+train,datasets/brain-tumor/images/train/00305_107.jpg,datasets/brain-tumor/labels/train/00305_107.txt,1,0.627347,0.390845,0.085681,0.077465,0.006637278665
+train,datasets/brain-tumor/images/train/00305_113.jpg,datasets/brain-tumor/labels/train/00305_113.txt,1,0.619131,0.385563,0.066901,0.059859,0.004004626959
+train,datasets/brain-tumor/images/train/00305_116.jpg,datasets/brain-tumor/labels/train/00305_116.txt,1,0.619131,0.382042,0.04108,0.03169,0.0013018252
+train,datasets/brain-tumor/images/train/00305_97.jpg,datasets/brain-tumor/labels/train/00305_97.txt,1,0.641432,0.38439,0.048122,0.050469,0.002428669218
+train,datasets/brain-tumor/images/train/00305_98.jpg,datasets/brain-tumor/labels/train/00305_98.txt,1,0.642606,0.382629,0.059859,0.056338,0.003372336342
+train,datasets/brain-tumor/images/train/00306_102.jpg,datasets/brain-tumor/labels/train/00306_102.txt,1,0.710485,0.55223,0.211268,0.205399,0.043394235932
+train,datasets/brain-tumor/images/train/00306_109.jpg,datasets/brain-tumor/labels/train/00306_109.txt,1,0.713615,0.556338,0.214397,0.176056,0.037745878232
+train,datasets/brain-tumor/images/train/00306_115.jpg,datasets/brain-tumor/labels/train/00306_115.txt,1,0.683099,0.566901,0.118936,0.105634,0.012563685424
+train,datasets/brain-tumor/images/train/00306_92.jpg,datasets/brain-tumor/labels/train/00306_92.txt,1,0.71205,0.527582,0.195618,0.193662,0.037883773116
+train,datasets/brain-tumor/images/train/00306_96.jpg,datasets/brain-tumor/labels/train/00306_96.txt,1,0.699531,0.538146,0.179969,0.212441,0.038232794328999994
+train,datasets/brain-tumor/images/train/00311_105.jpg,datasets/brain-tumor/labels/train/00311_105.txt,1,0.737089,0.549296,0.123631,0.089202,0.011028132462
+train,datasets/brain-tumor/images/train/00311_111.jpg,datasets/brain-tumor/labels/train/00311_111.txt,1,0.748826,0.550469,0.175274,0.089202,0.015634791348000002
+train,datasets/brain-tumor/images/train/00311_117.jpg,datasets/brain-tumor/labels/train/00311_117.txt,1,0.755086,0.555164,0.172144,0.089202,0.015355589087999999
+train,datasets/brain-tumor/images/train/00311_118.jpg,datasets/brain-tumor/labels/train/00311_118.txt,1,0.756651,0.550469,0.169014,0.08216,0.013886190239999999
+train,datasets/brain-tumor/images/train/00311_123.jpg,datasets/brain-tumor/labels/train/00311_123.txt,1,0.794992,0.553991,0.082942,0.061033,0.0050621990859999995
+train,datasets/brain-tumor/images/train/00313_118.jpg,datasets/brain-tumor/labels/train/00313_118.txt,1,0.510172,0.786972,0.082942,0.092723,0.0076906310660000005
+train,datasets/brain-tumor/images/train/00313_119.jpg,datasets/brain-tumor/labels/train/00313_119.txt,1,0.513302,0.789319,0.073552,0.097418,0.007165288736000001
+train,datasets/brain-tumor/images/train/00313_124.jpg,datasets/brain-tumor/labels/train/00313_124.txt,1,0.510955,0.796362,0.100156,0.088028,0.008816532367999999
+train,datasets/brain-tumor/images/train/00313_126.jpg,datasets/brain-tumor/labels/train/00313_126.txt,1,0.515649,0.791667,0.106416,0.083333,0.008867964528
+train,datasets/brain-tumor/images/train/00313_130.jpg,datasets/brain-tumor/labels/train/00313_130.txt,1,0.520344,0.792254,0.112676,0.086854,0.009786361304
+train,datasets/brain-tumor/images/train/00313_133.jpg,datasets/brain-tumor/labels/train/00313_133.txt,1,0.516432,0.788732,0.111111,0.079812,0.008867991132
+train,datasets/brain-tumor/images/train/00317_20.jpg,datasets/brain-tumor/labels/train/00317_20.txt,1,0.440141,0.436033,0.098592,0.073944,0.007290286847999999
+train,datasets/brain-tumor/images/train/00317_21.jpg,datasets/brain-tumor/labels/train/00317_21.txt,1,0.430751,0.43662,0.124413,0.084507,0.010513769390999999
+train,datasets/brain-tumor/images/train/00317_22.jpg,datasets/brain-tumor/labels/train/00317_22.txt,1,0.424883,0.437207,0.112676,0.090376,0.010183206176
+train,datasets/brain-tumor/images/train/00317_23.jpg,datasets/brain-tumor/labels/train/00317_23.txt,1,0.426056,0.434272,0.119718,0.084507,0.010117009026
+train,datasets/brain-tumor/images/train/00317_24.jpg,datasets/brain-tumor/labels/train/00317_24.txt,1,0.420775,0.431338,0.120892,0.080986,0.009790559512
+train,datasets/brain-tumor/images/train/00317_25.jpg,datasets/brain-tumor/labels/train/00317_25.txt,1,0.414319,0.423122,0.086854,0.076291,0.006626178514
+train,datasets/brain-tumor/images/train/00317_26.jpg,datasets/brain-tumor/labels/train/00317_26.txt,1,0.414906,0.422535,0.071596,0.07277,0.005210040920000001
+train,datasets/brain-tumor/images/train/00317_27.jpg,datasets/brain-tumor/labels/train/00317_27.txt,1,0.41784,0.420775,0.068075,0.069249,0.004714125675
+train,datasets/brain-tumor/images/train/00317_28.jpg,datasets/brain-tumor/labels/train/00317_28.txt,1,0.429577,0.420188,0.044601,0.053991,0.002408052591
+train,datasets/brain-tumor/images/train/00322_108.jpg,datasets/brain-tumor/labels/train/00322_108.txt,1,0.323161,0.49061,0.150235,0.117371,0.017633232185
+train,datasets/brain-tumor/images/train/00322_114.jpg,datasets/brain-tumor/labels/train/00322_114.txt,1,0.328638,0.494131,0.192488,0.187793,0.036147898984
+train,datasets/brain-tumor/images/train/00322_115.jpg,datasets/brain-tumor/labels/train/00322_115.txt,1,0.332551,0.49061,0.206573,0.206573,0.042672404329000005
+train,datasets/brain-tumor/images/train/00322_121.jpg,datasets/brain-tumor/labels/train/00322_121.txt,1,0.341158,0.494131,0.226917,0.215962,0.049005449154
+train,datasets/brain-tumor/images/train/00322_121.jpg,datasets/brain-tumor/labels/train/00322_121.txt,1,0.616588,0.515845,0.117371,0.116197,0.013638158087
+train,datasets/brain-tumor/images/train/00322_122.jpg,datasets/brain-tumor/labels/train/00322_122.txt,1,0.339593,0.494718,0.226917,0.212441,0.048206474397
+train,datasets/brain-tumor/images/train/00322_122.jpg,datasets/brain-tumor/labels/train/00322_122.txt,1,0.625978,0.519366,0.13302,0.11385,0.015144327
+train,datasets/brain-tumor/images/train/00322_127.jpg,datasets/brain-tumor/labels/train/00322_127.txt,1,0.35133,0.490023,0.203443,0.212441,0.043219634363
+train,datasets/brain-tumor/images/train/00322_127.jpg,datasets/brain-tumor/labels/train/00322_127.txt,1,0.628326,0.525822,0.143975,0.152582,0.021967993449999997
+train,datasets/brain-tumor/images/train/00322_130.jpg,datasets/brain-tumor/labels/train/00322_130.txt,1,0.364632,0.492958,0.167449,0.192488,0.032231923111999995
+train,datasets/brain-tumor/images/train/00322_130.jpg,datasets/brain-tumor/labels/train/00322_130.txt,1,0.630673,0.524061,0.13928,0.165493,0.02304986504
+train,datasets/brain-tumor/images/train/00322_134.jpg,datasets/brain-tumor/labels/train/00322_134.txt,1,0.359155,0.494131,0.178404,0.169014,0.030152773656
+train,datasets/brain-tumor/images/train/00322_134.jpg,datasets/brain-tumor/labels/train/00322_134.txt,1,0.622066,0.527582,0.162754,0.200704,0.032665378816
+train,datasets/brain-tumor/images/train/00322_140.jpg,datasets/brain-tumor/labels/train/00322_140.txt,1,0.342723,0.5,0.164319,0.112676,0.018514807644
+train,datasets/brain-tumor/images/train/00322_140.jpg,datasets/brain-tumor/labels/train/00322_140.txt,1,0.617371,0.525822,0.156495,0.206573,0.032327641635
+train,datasets/brain-tumor/images/train/00322_147.jpg,datasets/brain-tumor/labels/train/00322_147.txt,1,0.614241,0.536385,0.156495,0.183099,0.028654078005
+train,datasets/brain-tumor/images/train/00322_153.jpg,datasets/brain-tumor/labels/train/00322_153.txt,1,0.604069,0.535211,0.126761,0.133803,0.016961002083000002
+train,datasets/brain-tumor/images/train/00328_100.jpg,datasets/brain-tumor/labels/train/00328_100.txt,1,0.296557,0.692488,0.209703,0.105634,0.022151766702
+train,datasets/brain-tumor/images/train/00328_90.jpg,datasets/brain-tumor/labels/train/00328_90.txt,1,0.286385,0.692488,0.201878,0.117371,0.023694622738
+train,datasets/brain-tumor/images/train/00328_90.jpg,datasets/brain-tumor/labels/train/00328_90.txt,1,0.305164,0.789906,0.14241,0.096244,0.01370610804
+train,datasets/brain-tumor/images/train/00328_94.jpg,datasets/brain-tumor/labels/train/00328_94.txt,1,0.29421,0.691901,0.201878,0.132629,0.026774877262
+train,datasets/brain-tumor/images/train/00328_94.jpg,datasets/brain-tumor/labels/train/00328_94.txt,1,0.301252,0.79284,0.147105,0.090376,0.01329476148
+train,datasets/brain-tumor/images/train/00329_87.jpg,datasets/brain-tumor/labels/train/00329_87.txt,1,0.300469,0.446596,0.104851,0.097418,0.010214374718
+train,datasets/brain-tumor/images/train/00329_90.jpg,datasets/brain-tumor/labels/train/00329_90.txt,1,0.330203,0.447183,0.12989,0.084507,0.01097661423
+train,datasets/brain-tumor/images/train/00332_141.jpg,datasets/brain-tumor/labels/train/00332_141.txt,1,0.376369,0.532864,0.131455,0.100939,0.013268936245
+train,datasets/brain-tumor/images/train/00332_147.jpg,datasets/brain-tumor/labels/train/00332_147.txt,1,0.383412,0.527582,0.114241,0.106808,0.012201852728
+train,datasets/brain-tumor/images/train/00334_101.jpg,datasets/brain-tumor/labels/train/00334_101.txt,1,0.391236,0.680164,0.208138,0.137324,0.028582342711999997
+train,datasets/brain-tumor/images/train/00334_108.jpg,datasets/brain-tumor/labels/train/00334_108.txt,1,0.406103,0.670188,0.209703,0.157277,0.032981458731
+train,datasets/brain-tumor/images/train/00334_114.jpg,datasets/brain-tumor/labels/train/00334_114.txt,1,0.408451,0.660211,0.195618,0.134977,0.026403930786
+train,datasets/brain-tumor/images/train/00334_120.jpg,datasets/brain-tumor/labels/train/00334_120.txt,1,0.437402,0.642019,0.156495,0.098592,0.01542915504
+train,datasets/brain-tumor/images/train/00334_121.jpg,datasets/brain-tumor/labels/train/00334_121.txt,1,0.442879,0.630282,0.13615,0.075117,0.01022717955
+train,datasets/brain-tumor/images/train/00334_91.jpg,datasets/brain-tumor/labels/train/00334_91.txt,1,0.381847,0.626174,0.158059,0.144366,0.022818345594
+train,datasets/brain-tumor/images/train/00334_95.jpg,datasets/brain-tumor/labels/train/00334_95.txt,1,0.381847,0.650235,0.189358,0.133803,0.025336668474000002
+train,datasets/brain-tumor/images/train/00338_15.jpg,datasets/brain-tumor/labels/train/00338_15.txt,1,0.617371,0.703638,0.091549,0.11385,0.010422853650000001
+train,datasets/brain-tumor/images/train/00340_119.jpg,datasets/brain-tumor/labels/train/00340_119.txt,1,0.649452,0.592723,0.073552,0.06338,0.004661725760000001
+train,datasets/brain-tumor/images/train/00340_121.jpg,datasets/brain-tumor/labels/train/00340_121.txt,1,0.649452,0.603286,0.089202,0.068075,0.00607242615
+train,datasets/brain-tumor/images/train/00340_126.jpg,datasets/brain-tumor/labels/train/00340_126.txt,1,0.670579,0.519366,0.087637,0.052817,0.004628723429000001
+train,datasets/brain-tumor/images/train/00340_126.jpg,datasets/brain-tumor/labels/train/00340_126.txt,1,0.629108,0.592723,0.13302,0.103286,0.01373910372
+train,datasets/brain-tumor/images/train/00340_128.jpg,datasets/brain-tumor/labels/train/00340_128.txt,1,0.679969,0.515258,0.093897,0.051643,0.004849122771
+train,datasets/brain-tumor/images/train/00340_128.jpg,datasets/brain-tumor/labels/train/00340_128.txt,1,0.621283,0.588615,0.14867,0.10446,0.015530068199999999
+train,datasets/brain-tumor/images/train/00340_132.jpg,datasets/brain-tumor/labels/train/00340_132.txt,1,0.688576,0.510563,0.120501,0.061033,0.007354537533
+train,datasets/brain-tumor/images/train/00340_138.jpg,datasets/brain-tumor/labels/train/00340_138.txt,1,0.704225,0.507042,0.107981,0.056338,0.0060834335779999995
+train,datasets/brain-tumor/images/train/00350_126.jpg,datasets/brain-tumor/labels/train/00350_126.txt,1,0.423318,0.341549,0.065728,0.077465,0.00509161952
+train,datasets/brain-tumor/images/train/00350_128.jpg,datasets/brain-tumor/labels/train/00350_128.txt,1,0.4241,0.335094,0.095462,0.085681,0.008179279622
+train,datasets/brain-tumor/images/train/00350_132.jpg,datasets/brain-tumor/labels/train/00350_132.txt,1,0.443662,0.340376,0.134585,0.110329,0.014848628465000001
+train,datasets/brain-tumor/images/train/00350_135.jpg,datasets/brain-tumor/labels/train/00350_135.txt,1,0.446792,0.339202,0.143975,0.13615,0.01960219625
+train,datasets/brain-tumor/images/train/00350_139.jpg,datasets/brain-tumor/labels/train/00350_139.txt,1,0.449922,0.338615,0.156495,0.153756,0.02406204522
+train,datasets/brain-tumor/images/train/00350_145.jpg,datasets/brain-tumor/labels/train/00350_145.txt,1,0.459311,0.338615,0.143975,0.158451,0.022812982725
+train,datasets/brain-tumor/images/train/00350_151.jpg,datasets/brain-tumor/labels/train/00350_151.txt,1,0.466354,0.353286,0.092332,0.143192,0.013221203744000001
+train,datasets/brain-tumor/images/train/00350_157.jpg,datasets/brain-tumor/labels/train/00350_157.txt,1,0.474961,0.358568,0.078247,0.11385,0.00890842095
+train,datasets/brain-tumor/images/train/00352_103.jpg,datasets/brain-tumor/labels/train/00352_103.txt,1,0.35759,0.65669,0.159624,0.09507,0.01517545368
+train,datasets/brain-tumor/images/train/00352_93.jpg,datasets/brain-tumor/labels/train/00352_93.txt,1,0.312989,0.683099,0.1518,0.143192,0.0217365456
+train,datasets/brain-tumor/images/train/00352_97.jpg,datasets/brain-tumor/labels/train/00352_97.txt,1,0.335681,0.676643,0.143975,0.153756,0.022137020099999998
+train,datasets/brain-tumor/images/train/00359_103.jpg,datasets/brain-tumor/labels/train/00359_103.txt,1,0.336854,0.659038,0.122066,0.11385,0.0138972141
+train,datasets/brain-tumor/images/train/00359_109.jpg,datasets/brain-tumor/labels/train/00359_109.txt,1,0.336268,0.656103,0.123239,0.105634,0.013018228526
+train,datasets/brain-tumor/images/train/00359_115.jpg,datasets/brain-tumor/labels/train/00359_115.txt,1,0.334507,0.662559,0.103286,0.09507,0.00981940002
+train,datasets/brain-tumor/images/train/00359_116.jpg,datasets/brain-tumor/labels/train/00359_116.txt,1,0.331573,0.661972,0.102113,0.084507,0.008629263291
+train,datasets/brain-tumor/images/train/00359_121.jpg,datasets/brain-tumor/labels/train/00359_121.txt,1,0.319836,0.678991,0.062207,0.062207,0.003869710849
+train,datasets/brain-tumor/images/train/00359_123.jpg,datasets/brain-tumor/labels/train/00359_123.txt,1,0.323357,0.674883,0.059859,0.044601,0.0026697712590000003
+train,datasets/brain-tumor/images/train/00359_97.jpg,datasets/brain-tumor/labels/train/00359_97.txt,1,0.357394,0.636737,0.059859,0.059859,0.003583099881
+train,datasets/brain-tumor/images/train/00360_102.jpg,datasets/brain-tumor/labels/train/00360_102.txt,1,0.625196,0.66784,0.228482,0.199531,0.045589241941999994
+train,datasets/brain-tumor/images/train/00360_87.jpg,datasets/brain-tumor/labels/train/00360_87.txt,1,0.625978,0.680164,0.170579,0.109155,0.018619550745
+train,datasets/brain-tumor/images/train/00360_90.jpg,datasets/brain-tumor/labels/train/00360_90.txt,1,0.622066,0.704225,0.187793,0.129108,0.024245578644
+train,datasets/brain-tumor/images/train/00360_96.jpg,datasets/brain-tumor/labels/train/00360_96.txt,1,0.615806,0.684272,0.231612,0.180751,0.041864100612
+train,datasets/brain-tumor/images/train/100 (2).jpg,datasets/brain-tumor/labels/train/100 (2).txt,0,0.357394,0.321009,0.156103,0.174883,0.027299760949
+train,datasets/brain-tumor/images/train/100 (3).jpg,datasets/brain-tumor/labels/train/100 (3).txt,1,0.36385,0.306338,0.103286,0.084507,0.008728390002
+train,datasets/brain-tumor/images/train/100.jpg,datasets/brain-tumor/labels/train/100.txt,0,0.658451,0.327465,0.124413,0.13615,0.016938829949999998
+train,datasets/brain-tumor/images/train/102 (2).jpg,datasets/brain-tumor/labels/train/102 (2).txt,1,0.348005,0.31162,0.170188,0.196009,0.033358379692
+train,datasets/brain-tumor/images/train/102 (3).jpg,datasets/brain-tumor/labels/train/102 (3).txt,1,0.664319,0.374413,0.065728,0.08216,0.0054002124799999995
+train,datasets/brain-tumor/images/train/102 (4).jpg,datasets/brain-tumor/labels/train/102 (4).txt,1,0.367371,0.308685,0.133803,0.107981,0.014448181743
+train,datasets/brain-tumor/images/train/102.jpg,datasets/brain-tumor/labels/train/102.txt,0,0.646714,0.340962,0.105634,0.125587,0.013266257158000002
+train,datasets/brain-tumor/images/train/103 (2).jpg,datasets/brain-tumor/labels/train/103 (2).txt,1,0.663732,0.375,0.043427,0.059859,0.002599496793
+train,datasets/brain-tumor/images/train/103.jpg,datasets/brain-tumor/labels/train/103.txt,0,0.348005,0.312207,0.165493,0.201878,0.033409395854
+train,datasets/brain-tumor/images/train/104 (2).jpg,datasets/brain-tumor/labels/train/104 (2).txt,0,0.533451,0.473005,0.134977,0.133803,0.018060327531000002
+train,datasets/brain-tumor/images/train/104 (3).jpg,datasets/brain-tumor/labels/train/104 (3).txt,1,0.369718,0.312207,0.138498,0.110329,0.015280345842
+train,datasets/brain-tumor/images/train/104.jpg,datasets/brain-tumor/labels/train/104.txt,0,0.348005,0.31162,0.172535,0.198357,0.034223524995
+train,datasets/brain-tumor/images/train/105.jpg,datasets/brain-tumor/labels/train/105.txt,0,0.640258,0.309859,0.080986,0.105634,0.008554875124000001
+train,datasets/brain-tumor/images/train/106 (2).jpg,datasets/brain-tumor/labels/train/106 (2).txt,0,0.534038,0.472418,0.13615,0.137324,0.0186966626
+train,datasets/brain-tumor/images/train/106.jpg,datasets/brain-tumor/labels/train/106.txt,0,0.660211,0.323944,0.111502,0.126761,0.014134105022000002
+train,datasets/brain-tumor/images/train/107.jpg,datasets/brain-tumor/labels/train/107.txt,0,0.353873,0.305164,0.16784,0.194836,0.03270127424
+train,datasets/brain-tumor/images/train/108.jpg,datasets/brain-tumor/labels/train/108.txt,0,0.639085,0.325117,0.109155,0.13615,0.01486145325
+train,datasets/brain-tumor/images/train/109 (2).jpg,datasets/brain-tumor/labels/train/109 (2).txt,1,0.359742,0.298709,0.158451,0.170188,0.026966458788
+train,datasets/brain-tumor/images/train/109.jpg,datasets/brain-tumor/labels/train/109.txt,0,0.537559,0.47946,0.133803,0.139671,0.018688398813
+train,datasets/brain-tumor/images/train/110 (2).jpg,datasets/brain-tumor/labels/train/110 (2).txt,0,0.620892,0.378521,0.051643,0.057512,0.002970092216
+train,datasets/brain-tumor/images/train/110.jpg,datasets/brain-tumor/labels/train/110.txt,0,0.367371,0.30223,0.157277,0.172535,0.027135787195
+train,datasets/brain-tumor/images/train/111.jpg,datasets/brain-tumor/labels/train/111.txt,0,0.630282,0.326878,0.077465,0.090376,0.00700097684
+train,datasets/brain-tumor/images/train/112 (2).jpg,datasets/brain-tumor/labels/train/112 (2).txt,1,0.360915,0.295188,0.130282,0.160798,0.020949085036
+train,datasets/brain-tumor/images/train/112.jpg,datasets/brain-tumor/labels/train/112.txt,0,0.61385,0.381455,0.070423,0.070423,0.004959398929
+train,datasets/brain-tumor/images/train/113 (2).jpg,datasets/brain-tumor/labels/train/113 (2).txt,0,0.533451,0.478286,0.134977,0.144366,0.019486089582000002
+train,datasets/brain-tumor/images/train/113.jpg,datasets/brain-tumor/labels/train/113.txt,0,0.370305,0.297535,0.127934,0.163146,0.020871920364
+train,datasets/brain-tumor/images/train/114.jpg,datasets/brain-tumor/labels/train/114.txt,0,0.600352,0.373239,0.092723,0.077465,0.007182787195000001
+train,datasets/brain-tumor/images/train/115.jpg,datasets/brain-tumor/labels/train/115.txt,0,0.53169,0.4777,0.126761,0.140845,0.017853653045
+train,datasets/brain-tumor/images/train/116.jpg,datasets/brain-tumor/labels/train/116.txt,0,0.602113,0.370305,0.096244,0.092723,0.008924032412
+train,datasets/brain-tumor/images/train/118.jpg,datasets/brain-tumor/labels/train/118.txt,0,0.601526,0.370305,0.097418,0.102113,0.009947644234
+train,datasets/brain-tumor/images/train/119.jpg,datasets/brain-tumor/labels/train/119.txt,0,0.534038,0.475939,0.13615,0.127934,0.0174182141
+train,datasets/brain-tumor/images/train/124.jpg,datasets/brain-tumor/labels/train/124.txt,0,0.521127,0.4777,0.105634,0.119718,0.012646291212000001
+train,datasets/brain-tumor/images/train/125.jpg,datasets/brain-tumor/labels/train/125.txt,0,0.515845,0.47946,0.106808,0.130282,0.013915159856000002
+train,datasets/brain-tumor/images/train/125.jpg,datasets/brain-tumor/labels/train/125.txt,0,0.640845,0.562207,0.042254,0.042254,0.001785400516
+train,datasets/brain-tumor/images/train/128 (2).jpg,datasets/brain-tumor/labels/train/128 (2).txt,0,0.517606,0.483568,0.105634,0.115023,0.012150339582
+train,datasets/brain-tumor/images/train/128 (2).jpg,datasets/brain-tumor/labels/train/128 (2).txt,0,0.641432,0.562207,0.062207,0.065728,0.004088741696
+train,datasets/brain-tumor/images/train/128.jpg,datasets/brain-tumor/labels/train/128.txt,0,0.597418,0.359155,0.103286,0.100939,0.010425585554
+train,datasets/brain-tumor/images/train/138.jpg,datasets/brain-tumor/labels/train/138.txt,0,0.60446,0.356808,0.065728,0.065728,0.004320169983999999
+train,datasets/brain-tumor/images/train/144.jpg,datasets/brain-tumor/labels/train/144.txt,0,0.600352,0.353873,0.064554,0.055164,0.003561056856
+train,datasets/brain-tumor/images/train/61 (3).jpg,datasets/brain-tumor/labels/train/61 (3).txt,0,0.68838,0.25,0.097418,0.091549,0.008918520482000002
+train,datasets/brain-tumor/images/train/61 (4).jpg,datasets/brain-tumor/labels/train/61 (4).txt,1,0.336854,0.221831,0.086854,0.124413,0.010805766702
+train,datasets/brain-tumor/images/train/61 (5).jpg,datasets/brain-tumor/labels/train/61 (5).txt,1,0.379695,0.071596,0.057512,0.089202,0.005130185424000001
+train,datasets/brain-tumor/images/train/61 (5).jpg,datasets/brain-tumor/labels/train/61 (5).txt,1,0.461854,0.213615,0.055164,0.049296,0.0027193645439999997
+train,datasets/brain-tumor/images/train/61 (6).jpg,datasets/brain-tumor/labels/train/61 (6).txt,1,0.717723,0.358568,0.050469,0.048122,0.002428669218
+train,datasets/brain-tumor/images/train/61 (7).jpg,datasets/brain-tumor/labels/train/61 (7).txt,1,0.460681,0.253521,0.059859,0.077465,0.004636977435000001
+train,datasets/brain-tumor/images/train/61 (8).jpg,datasets/brain-tumor/labels/train/61 (8).txt,1,0.369131,0.269366,0.043427,0.048122,0.002089794094
+train,datasets/brain-tumor/images/train/61.jpg,datasets/brain-tumor/labels/train/61.txt,0,0.445423,0.269366,0.146714,0.111502,0.016358904428
+train,datasets/brain-tumor/images/train/62 (10).jpg,datasets/brain-tumor/labels/train/62 (10).txt,1,0.411972,0.174883,0.103286,0.068075,0.00703119445
+train,datasets/brain-tumor/images/train/62 (11).jpg,datasets/brain-tumor/labels/train/62 (11).txt,1,0.3527,0.249413,0.097418,0.10446,0.01017628428
+train,datasets/brain-tumor/images/train/62 (12).jpg,datasets/brain-tumor/labels/train/62 (12).txt,1,0.622066,0.345657,0.133803,0.125587,0.016803917361000002
+train,datasets/brain-tumor/images/train/62 (13).jpg,datasets/brain-tumor/labels/train/62 (13).txt,1,0.398474,0.255282,0.179577,0.160798,0.028875622445999997
+train,datasets/brain-tumor/images/train/62 (14).jpg,datasets/brain-tumor/labels/train/62 (14).txt,1,0.351526,0.379108,0.170188,0.161972,0.027565690736
+train,datasets/brain-tumor/images/train/62 (15).jpg,datasets/brain-tumor/labels/train/62 (15).txt,1,0.560446,0.372653,0.214789,0.163146,0.035041966194000004
+train,datasets/brain-tumor/images/train/62 (2).jpg,datasets/brain-tumor/labels/train/62 (2).txt,0,0.373826,0.437207,0.109155,0.139671,0.015245788004999998
+train,datasets/brain-tumor/images/train/62 (3).jpg,datasets/brain-tumor/labels/train/62 (3).txt,0,0.328052,0.460681,0.078638,0.120892,0.009506705096
+train,datasets/brain-tumor/images/train/62 (4).jpg,datasets/brain-tumor/labels/train/62 (4).txt,0,0.438967,0.15669,0.119718,0.134977,0.016159176486
+train,datasets/brain-tumor/images/train/62 (5).jpg,datasets/brain-tumor/labels/train/62 (5).txt,0,0.631455,0.091549,0.100939,0.079812,0.008056143468
+train,datasets/brain-tumor/images/train/62 (6).jpg,datasets/brain-tumor/labels/train/62 (6).txt,1,0.613263,0.308099,0.116197,0.132629,0.015411091912999999
+train,datasets/brain-tumor/images/train/62 (7).jpg,datasets/brain-tumor/labels/train/62 (7).txt,1,0.364437,0.380282,0.092723,0.084507,0.007835742561
+train,datasets/brain-tumor/images/train/62 (8).jpg,datasets/brain-tumor/labels/train/62 (8).txt,1,0.359155,0.131455,0.096244,0.07277,0.00700367588
+train,datasets/brain-tumor/images/train/62 (8).jpg,datasets/brain-tumor/labels/train/62 (8).txt,1,0.36561,0.213615,0.149061,0.110329,0.016445751068999998
+train,datasets/brain-tumor/images/train/62 (9).jpg,datasets/brain-tumor/labels/train/62 (9).txt,1,0.379695,0.07277,0.050469,0.089202,0.004501935738
+train,datasets/brain-tumor/images/train/62 (9).jpg,datasets/brain-tumor/labels/train/62 (9).txt,1,0.460681,0.210681,0.04108,0.048122,0.00197685176
+train,datasets/brain-tumor/images/train/62.jpg,datasets/brain-tumor/labels/train/62.txt,0,0.6473,0.358568,0.085681,0.102113,0.008749143953
+train,datasets/brain-tumor/images/train/63 (2).jpg,datasets/brain-tumor/labels/train/63 (2).txt,0,0.396714,0.327465,0.093897,0.096244,0.009037022867999999
+train,datasets/brain-tumor/images/train/63 (3).jpg,datasets/brain-tumor/labels/train/63 (3).txt,0,0.696596,0.25,0.109155,0.098592,0.01076180976
+train,datasets/brain-tumor/images/train/63 (4).jpg,datasets/brain-tumor/labels/train/63 (4).txt,0,0.629108,0.39554,0.119718,0.107981,0.012927269358
+train,datasets/brain-tumor/images/train/63 (5).jpg,datasets/brain-tumor/labels/train/63 (5).txt,1,0.313967,0.358568,0.116197,0.17723,0.020593594309999998
+train,datasets/brain-tumor/images/train/63 (6).jpg,datasets/brain-tumor/labels/train/63 (6).txt,1,0.378521,0.318662,0.085681,0.123239,0.010559240759
+train,datasets/brain-tumor/images/train/63 (7).jpg,datasets/brain-tumor/labels/train/63 (7).txt,1,0.360915,0.235915,0.106808,0.105634,0.011282556272
+train,datasets/brain-tumor/images/train/63 (7).jpg,datasets/brain-tumor/labels/train/63 (7).txt,1,0.452465,0.277582,0.062207,0.062207,0.003869710849
+train,datasets/brain-tumor/images/train/63 (7).jpg,datasets/brain-tumor/labels/train/63 (7).txt,1,0.355634,0.312207,0.07277,0.058685,0.004270507450000001
+train,datasets/brain-tumor/images/train/63 (8).jpg,datasets/brain-tumor/labels/train/63 (8).txt,1,0.355047,0.187793,0.092723,0.098592,0.009141746016
+train,datasets/brain-tumor/images/train/63.jpg,datasets/brain-tumor/labels/train/63.txt,0,0.43662,0.269953,0.110329,0.086854,0.009582514965999999
+train,datasets/brain-tumor/images/train/64 (2).jpg,datasets/brain-tumor/labels/train/64 (2).txt,0,0.376761,0.436033,0.105634,0.127934,0.013514180156
+train,datasets/brain-tumor/images/train/64 (3).jpg,datasets/brain-tumor/labels/train/64 (3).txt,0,0.360915,0.231808,0.125587,0.097418,0.012234434366000002
+train,datasets/brain-tumor/images/train/64 (3).jpg,datasets/brain-tumor/labels/train/64 (3).txt,0,0.453052,0.164906,0.042254,0.045775,0.0019341768500000002
+train,datasets/brain-tumor/images/train/64 (4).jpg,datasets/brain-tumor/labels/train/64 (4).txt,0,0.433099,0.158451,0.126761,0.143192,0.018151161112000002
+train,datasets/brain-tumor/images/train/64 (5).jpg,datasets/brain-tumor/labels/train/64 (5).txt,0,0.627934,0.393779,0.110329,0.09507,0.01048897803
+train,datasets/brain-tumor/images/train/64 (6).jpg,datasets/brain-tumor/labels/train/64 (6).txt,1,0.336268,0.221244,0.097418,0.153756,0.014978602008
+train,datasets/brain-tumor/images/train/64 (7).jpg,datasets/brain-tumor/labels/train/64 (7).txt,1,0.361502,0.184272,0.119718,0.173709,0.020796094062
+train,datasets/brain-tumor/images/train/64 (8).jpg,datasets/brain-tumor/labels/train/64 (8).txt,1,0.638498,0.376761,0.131455,0.119718,0.015737529689999998
+train,datasets/brain-tumor/images/train/64.jpg,datasets/brain-tumor/labels/train/64.txt,0,0.428404,0.265258,0.086854,0.077465,0.006728145110000001
+train,datasets/brain-tumor/images/train/65 (10).jpg,datasets/brain-tumor/labels/train/65 (10).txt,1,0.350939,0.372066,0.157277,0.140845,0.022151679065
+train,datasets/brain-tumor/images/train/65 (11).jpg,datasets/brain-tumor/labels/train/65 (11).txt,1,0.361502,0.379108,0.093897,0.08216,0.007714577519999999
+train,datasets/brain-tumor/images/train/65 (12).jpg,datasets/brain-tumor/labels/train/65 (12).txt,1,0.391432,0.388498,0.191315,0.220657,0.042214993955
+train,datasets/brain-tumor/images/train/65 (2).jpg,datasets/brain-tumor/labels/train/65 (2).txt,0,0.341549,0.445423,0.105634,0.158451,0.016737812934
+train,datasets/brain-tumor/images/train/65 (3).jpg,datasets/brain-tumor/labels/train/65 (3).txt,0,0.702465,0.25,0.109155,0.098592,0.01076180976
+train,datasets/brain-tumor/images/train/65 (4).jpg,datasets/brain-tumor/labels/train/65 (4).txt,0,0.626174,0.102113,0.085681,0.051643,0.004424823883
+train,datasets/brain-tumor/images/train/65 (5).jpg,datasets/brain-tumor/labels/train/65 (5).txt,0,0.622653,0.386737,0.09507,0.078638,0.00747611466
+train,datasets/brain-tumor/images/train/65 (6).jpg,datasets/brain-tumor/labels/train/65 (6).txt,1,0.651408,0.348005,0.131455,0.156103,0.020520519864999996
+train,datasets/brain-tumor/images/train/65 (7).jpg,datasets/brain-tumor/labels/train/65 (7).txt,1,0.405516,0.176056,0.102113,0.070423,0.007191103799
+train,datasets/brain-tumor/images/train/65 (8).jpg,datasets/brain-tumor/labels/train/65 (8).txt,1,0.363263,0.256455,0.10446,0.142019,0.014835304740000001
+train,datasets/brain-tumor/images/train/65 (9).jpg,datasets/brain-tumor/labels/train/65 (9).txt,1,0.658451,0.353873,0.100939,0.116197,0.011728808983
+train,datasets/brain-tumor/images/train/65.jpg,datasets/brain-tumor/labels/train/65.txt,0,0.372066,0.266432,0.159624,0.103286,0.016486924463999998
+train,datasets/brain-tumor/images/train/66 (10).jpg,datasets/brain-tumor/labels/train/66 (10).txt,1,0.380282,0.318662,0.129108,0.139671,0.018032643467999997
+train,datasets/brain-tumor/images/train/66 (11).jpg,datasets/brain-tumor/labels/train/66 (11).txt,1,0.443075,0.22946,0.038732,0.045775,0.0017729573000000002
+train,datasets/brain-tumor/images/train/66 (11).jpg,datasets/brain-tumor/labels/train/66 (11).txt,1,0.545775,0.181925,0.049296,0.039906,0.0019672061759999997
+train,datasets/brain-tumor/images/train/66 (12).jpg,datasets/brain-tumor/labels/train/66 (12).txt,1,0.606221,0.295775,0.151408,0.157277,0.023812996016
+train,datasets/brain-tumor/images/train/66 (13).jpg,datasets/brain-tumor/labels/train/66 (13).txt,1,0.704812,0.463028,0.090376,0.090376,0.008167821375999999
+train,datasets/brain-tumor/images/train/66 (2).jpg,datasets/brain-tumor/labels/train/66 (2).txt,0,0.366197,0.227113,0.13615,0.109155,0.01486145325
+train,datasets/brain-tumor/images/train/66 (3).jpg,datasets/brain-tumor/labels/train/66 (3).txt,0,0.497653,0.265258,0.070423,0.079812,0.005620600476
+train,datasets/brain-tumor/images/train/66 (4).jpg,datasets/brain-tumor/labels/train/66 (4).txt,0,0.346244,0.443075,0.122066,0.165493,0.020201068537999998
+train,datasets/brain-tumor/images/train/66 (5).jpg,datasets/brain-tumor/labels/train/66 (5).txt,0,0.330986,0.351526,0.086854,0.071596,0.006218398984
+train,datasets/brain-tumor/images/train/66 (6).jpg,datasets/brain-tumor/labels/train/66 (6).txt,0,0.428991,0.157277,0.130282,0.143192,0.018655340144000002
+train,datasets/brain-tumor/images/train/66 (7).jpg,datasets/brain-tumor/labels/train/66 (7).txt,1,0.338028,0.215962,0.117371,0.159624,0.018735228503999998
+train,datasets/brain-tumor/images/train/66 (8).jpg,datasets/brain-tumor/labels/train/66 (8).txt,1,0.359742,0.439554,0.165493,0.139671,0.023114572803
+train,datasets/brain-tumor/images/train/66 (9).jpg,datasets/brain-tumor/labels/train/66 (9).txt,1,0.358568,0.191315,0.059859,0.061033,0.003653374347
+train,datasets/brain-tumor/images/train/66.jpg,datasets/brain-tumor/labels/train/66.txt,0,0.391432,0.315728,0.073944,0.079812,0.005901618528
+train,datasets/brain-tumor/images/train/67 (10).jpg,datasets/brain-tumor/labels/train/67 (10).txt,1,0.65493,0.373826,0.112676,0.16784,0.018911539839999998
+train,datasets/brain-tumor/images/train/67 (11).jpg,datasets/brain-tumor/labels/train/67 (11).txt,1,0.365023,0.253521,0.131455,0.157277,0.020674848035
+train,datasets/brain-tumor/images/train/67 (2).jpg,datasets/brain-tumor/labels/train/67 (2).txt,0,0.378521,0.428991,0.092723,0.099765,0.009250510095000001
+train,datasets/brain-tumor/images/train/67 (3).jpg,datasets/brain-tumor/labels/train/67 (3).txt,0,0.496479,0.27993,0.070423,0.116197,0.008182941330999999
+train,datasets/brain-tumor/images/train/67 (4).jpg,datasets/brain-tumor/labels/train/67 (4).txt,0,0.704812,0.250587,0.090376,0.092723,0.008379933848
+train,datasets/brain-tumor/images/train/67 (5).jpg,datasets/brain-tumor/labels/train/67 (5).txt,1,0.3527,0.376174,0.153756,0.144366,0.022197138696
+train,datasets/brain-tumor/images/train/67 (6).jpg,datasets/brain-tumor/labels/train/67 (6).txt,1,0.639671,0.372066,0.14554,0.138498,0.020156998920000002
+train,datasets/brain-tumor/images/train/67 (7).jpg,datasets/brain-tumor/labels/train/67 (7).txt,1,0.369718,0.140845,0.103286,0.091549,0.009455730014000002
+train,datasets/brain-tumor/images/train/67 (7).jpg,datasets/brain-tumor/labels/train/67 (7).txt,1,0.379108,0.198357,0.07277,0.051643,0.00375806111
+train,datasets/brain-tumor/images/train/67 (7).jpg,datasets/brain-tumor/labels/train/67 (7).txt,1,0.34331,0.231221,0.052817,0.056338,0.002975604146
+train,datasets/brain-tumor/images/train/67 (8).jpg,datasets/brain-tumor/labels/train/67 (8).txt,1,0.361502,0.440728,0.15493,0.139671,0.02163922803
+train,datasets/brain-tumor/images/train/67 (9).jpg,datasets/brain-tumor/labels/train/67 (9).txt,1,0.380869,0.319249,0.11385,0.138498,0.015767997300000003
+train,datasets/brain-tumor/images/train/67.jpg,datasets/brain-tumor/labels/train/67.txt,0,0.367371,0.271714,0.169014,0.120892,0.020432440488
+train,datasets/brain-tumor/images/train/68 (10).jpg,datasets/brain-tumor/labels/train/68 (10).txt,1,0.648474,0.368545,0.106808,0.143192,0.015294051136
+train,datasets/brain-tumor/images/train/68 (2).jpg,datasets/brain-tumor/labels/train/68 (2).txt,0,0.66608,0.245892,0.076291,0.064554,0.004924889214
+train,datasets/brain-tumor/images/train/68 (3).jpg,datasets/brain-tumor/labels/train/68 (3).txt,0,0.330399,0.35446,0.111502,0.089202,0.009946201404
+train,datasets/brain-tumor/images/train/68 (4).jpg,datasets/brain-tumor/labels/train/68 (4).txt,1,0.356808,0.379695,0.157277,0.144366,0.022705451382
+train,datasets/brain-tumor/images/train/68 (5).jpg,datasets/brain-tumor/labels/train/68 (5).txt,1,0.364437,0.377934,0.083333,0.075117,0.006259724961
+train,datasets/brain-tumor/images/train/68 (6).jpg,datasets/brain-tumor/labels/train/68 (6).txt,1,0.326291,0.367371,0.115023,0.117371,0.013500364533
+train,datasets/brain-tumor/images/train/68 (7).jpg,datasets/brain-tumor/labels/train/68 (7).txt,1,0.636737,0.478286,0.083333,0.102113,0.008509382629
+train,datasets/brain-tumor/images/train/68 (8).jpg,datasets/brain-tumor/labels/train/68 (8).txt,1,0.323944,0.352113,0.164319,0.187793,0.030857957966999996
+train,datasets/brain-tumor/images/train/68 (9).jpg,datasets/brain-tumor/labels/train/68 (9).txt,1,0.367958,0.245305,0.111502,0.13615,0.0151809973
+train,datasets/brain-tumor/images/train/68.jpg,datasets/brain-tumor/labels/train/68.txt,0,0.357981,0.441901,0.15493,0.184272,0.02854926096
+train,datasets/brain-tumor/images/train/69 (2).jpg,datasets/brain-tumor/labels/train/69 (2).txt,0,0.392019,0.210681,0.093897,0.106808,0.010028950775999999
+train,datasets/brain-tumor/images/train/69 (3).jpg,datasets/brain-tumor/labels/train/69 (3).txt,0,0.504108,0.308685,0.106808,0.115023,0.012285376584
+train,datasets/brain-tumor/images/train/69 (4).jpg,datasets/brain-tumor/labels/train/69 (4).txt,0,0.669014,0.248239,0.08216,0.066901,0.00549658616
+train,datasets/brain-tumor/images/train/69 (5).jpg,datasets/brain-tumor/labels/train/69 (5).txt,0,0.428991,0.165493,0.120892,0.122066,0.014756802872
+train,datasets/brain-tumor/images/train/69 (6).jpg,datasets/brain-tumor/labels/train/69 (6).txt,1,0.649648,0.342723,0.149061,0.159624,0.023793713063999997
+train,datasets/brain-tumor/images/train/69 (7).jpg,datasets/brain-tumor/labels/train/69 (7).txt,1,0.440141,0.16784,0.070423,0.093897,0.006612508430999999
+train,datasets/brain-tumor/images/train/69 (8).jpg,datasets/brain-tumor/labels/train/69 (8).txt,1,0.603286,0.293427,0.150235,0.159624,0.02398111164
+train,datasets/brain-tumor/images/train/69.jpg,datasets/brain-tumor/labels/train/69.txt,0,0.365023,0.264671,0.169014,0.106808,0.018052047312
+train,datasets/brain-tumor/images/train/70 (10).jpg,datasets/brain-tumor/labels/train/70 (10).txt,1,0.609155,0.289319,0.159624,0.160798,0.025667219951999998
+train,datasets/brain-tumor/images/train/70 (11).jpg,datasets/brain-tumor/labels/train/70 (11).txt,1,0.622066,0.439554,0.058685,0.050469,0.0029617732650000003
+train,datasets/brain-tumor/images/train/70 (2).jpg,datasets/brain-tumor/labels/train/70 (2).txt,0,0.387911,0.214202,0.09507,0.102113,0.00970788291
+train,datasets/brain-tumor/images/train/70 (3).jpg,datasets/brain-tumor/labels/train/70 (3).txt,0,0.35446,0.431338,0.152582,0.174883,0.026683997906
+train,datasets/brain-tumor/images/train/70 (4).jpg,datasets/brain-tumor/labels/train/70 (4).txt,0,0.338028,0.359155,0.124413,0.103286,0.012850121118
+train,datasets/brain-tumor/images/train/70 (5).jpg,datasets/brain-tumor/labels/train/70 (5).txt,1,0.639671,0.36561,0.150235,0.158451,0.023804885985000003
+train,datasets/brain-tumor/images/train/70 (6).jpg,datasets/brain-tumor/labels/train/70 (6).txt,1,0.367958,0.137911,0.080986,0.064554,0.005227970244
+train,datasets/brain-tumor/images/train/70 (7).jpg,datasets/brain-tumor/labels/train/70 (7).txt,1,0.424883,0.162559,0.058685,0.052817,0.0030995656450000003
+train,datasets/brain-tumor/images/train/70 (8).jpg,datasets/brain-tumor/labels/train/70 (8).txt,1,0.661385,0.375,0.118545,0.181925,0.021566299125
+train,datasets/brain-tumor/images/train/70 (9).jpg,datasets/brain-tumor/labels/train/70 (9).txt,1,0.349178,0.368545,0.139671,0.124413,0.017376888123
+train,datasets/brain-tumor/images/train/70.jpg,datasets/brain-tumor/labels/train/70.txt,0,0.681925,0.411385,0.065728,0.078638,0.005168718464
+train,datasets/brain-tumor/images/train/71 (2).jpg,datasets/brain-tumor/labels/train/71 (2).txt,0,0.383803,0.211854,0.107981,0.102113,0.011026263852999998
+train,datasets/brain-tumor/images/train/71 (3).jpg,datasets/brain-tumor/labels/train/71 (3).txt,0,0.504108,0.307512,0.134977,0.133803,0.018060327531000002
+train,datasets/brain-tumor/images/train/71 (3).jpg,datasets/brain-tumor/labels/train/71 (3).txt,0,0.423709,0.220657,0.068075,0.079812,0.005433201899999999
+train,datasets/brain-tumor/images/train/71 (4).jpg,datasets/brain-tumor/labels/train/71 (4).txt,1,0.648474,0.367958,0.090376,0.11385,0.0102893076
+train,datasets/brain-tumor/images/train/71 (5).jpg,datasets/brain-tumor/labels/train/71 (5).txt,1,0.372066,0.328638,0.117371,0.150235,0.017633232185
+train,datasets/brain-tumor/images/train/71 (6).jpg,datasets/brain-tumor/labels/train/71 (6).txt,1,0.398474,0.372653,0.16784,0.212441,0.03565609744
+train,datasets/brain-tumor/images/train/71.jpg,datasets/brain-tumor/labels/train/71.txt,0,0.353286,0.265845,0.143192,0.099765,0.014285549880000002
+train,datasets/brain-tumor/images/train/72 (10).jpg,datasets/brain-tumor/labels/train/72 (10).txt,1,0.639085,0.356221,0.165493,0.153756,0.025445541708
+train,datasets/brain-tumor/images/train/72 (11).jpg,datasets/brain-tumor/labels/train/72 (11).txt,1,0.328052,0.264671,0.059859,0.071596,0.004285664964
+train,datasets/brain-tumor/images/train/72 (2).jpg,datasets/brain-tumor/labels/train/72 (2).txt,0,0.581573,0.388498,0.10446,0.103286,0.01078925556
+train,datasets/brain-tumor/images/train/72 (3).jpg,datasets/brain-tumor/labels/train/72 (3).txt,0,0.665493,0.251761,0.07277,0.073944,0.00538090488
+train,datasets/brain-tumor/images/train/72 (3).jpg,datasets/brain-tumor/labels/train/72 (3).txt,0,0.715376,0.235329,0.048122,0.066901,0.003219409922
+train,datasets/brain-tumor/images/train/72 (4).jpg,datasets/brain-tumor/labels/train/72 (4).txt,1,0.610915,0.285798,0.160798,0.158451,0.025478603898
+train,datasets/brain-tumor/images/train/72 (5).jpg,datasets/brain-tumor/labels/train/72 (5).txt,0,0.427817,0.170188,0.092723,0.08216,0.007618121679999999
+train,datasets/brain-tumor/images/train/72 (6).jpg,datasets/brain-tumor/labels/train/72 (6).txt,1,0.333333,0.368545,0.152582,0.143192,0.021848521744
+train,datasets/brain-tumor/images/train/72 (7).jpg,datasets/brain-tumor/labels/train/72 (7).txt,1,0.609742,0.464202,0.090376,0.085681,0.007743506056
+train,datasets/brain-tumor/images/train/72 (8).jpg,datasets/brain-tumor/labels/train/72 (8).txt,1,0.355047,0.444836,0.163146,0.15493,0.025276209780000003
+train,datasets/brain-tumor/images/train/72 (9).jpg,datasets/brain-tumor/labels/train/72 (9).txt,1,0.348592,0.324531,0.068075,0.073944,0.005033737799999999
+train,datasets/brain-tumor/images/train/72.jpg,datasets/brain-tumor/labels/train/72.txt,0,0.427817,0.317488,0.083333,0.064554,0.005379478482000001
+train,datasets/brain-tumor/images/train/73 (2).jpg,datasets/brain-tumor/labels/train/73 (2).txt,0,0.507629,0.305751,0.151408,0.137324,0.020791952191999998
+train,datasets/brain-tumor/images/train/73 (2).jpg,datasets/brain-tumor/labels/train/73 (2).txt,0,0.425469,0.221831,0.078638,0.093897,0.007383872285999999
+train,datasets/brain-tumor/images/train/73 (3).jpg,datasets/brain-tumor/labels/train/73 (3).txt,0,0.344484,0.419601,0.137324,0.153756,0.021114388944
+train,datasets/brain-tumor/images/train/73 (4).jpg,datasets/brain-tumor/labels/train/73 (4).txt,1,0.65493,0.361502,0.131455,0.194836,0.02561216638
+train,datasets/brain-tumor/images/train/73 (5).jpg,datasets/brain-tumor/labels/train/73 (5).txt,1,0.424883,0.157277,0.044601,0.044601,0.0019892492010000003
+train,datasets/brain-tumor/images/train/73 (6).jpg,datasets/brain-tumor/labels/train/73 (6).txt,1,0.640845,0.368545,0.068075,0.08216,0.0055930419999999995
+train,datasets/brain-tumor/images/train/73.jpg,datasets/brain-tumor/labels/train/73.txt,0,0.346244,0.268192,0.124413,0.092723,0.011535946598999999
+train,datasets/brain-tumor/images/train/74 (10).jpg,datasets/brain-tumor/labels/train/74 (10).txt,1,0.342723,0.333333,0.084507,0.086854,0.007339770978
+train,datasets/brain-tumor/images/train/74 (11).jpg,datasets/brain-tumor/labels/train/74 (11).txt,1,0.653169,0.335094,0.156103,0.146714,0.022902495542
+train,datasets/brain-tumor/images/train/74 (12).jpg,datasets/brain-tumor/labels/train/74 (12).txt,1,0.390258,0.376174,0.165493,0.224178,0.037099889754
+train,datasets/brain-tumor/images/train/74 (2).jpg,datasets/brain-tumor/labels/train/74 (2).txt,0,0.390258,0.350939,0.125587,0.103286,0.012971378882000001
+train,datasets/brain-tumor/images/train/74 (3).jpg,datasets/brain-tumor/labels/train/74 (3).txt,0,0.515258,0.302817,0.147887,0.13615,0.020134815049999998
+train,datasets/brain-tumor/images/train/74 (3).jpg,datasets/brain-tumor/labels/train/74 (3).txt,0,0.423709,0.222418,0.079812,0.097418,0.007775125416
+train,datasets/brain-tumor/images/train/74 (4).jpg,datasets/brain-tumor/labels/train/74 (4).txt,0,0.587441,0.38615,0.130282,0.133803,0.017432122446000002
+train,datasets/brain-tumor/images/train/74 (5).jpg,datasets/brain-tumor/labels/train/74 (5).txt,0,0.683099,0.245305,0.107981,0.086854,0.009378581774
+train,datasets/brain-tumor/images/train/74 (6).jpg,datasets/brain-tumor/labels/train/74 (6).txt,0,0.336268,0.353286,0.163146,0.122066,0.019914579636
+train,datasets/brain-tumor/images/train/74 (7).jpg,datasets/brain-tumor/labels/train/74 (7).txt,1,0.453052,0.190728,0.075117,0.118545,0.008904744765
+train,datasets/brain-tumor/images/train/74 (8).jpg,datasets/brain-tumor/labels/train/74 (8).txt,1,0.330399,0.33216,0.193662,0.176056,0.034095357071999996
+train,datasets/brain-tumor/images/train/74 (9).jpg,datasets/brain-tumor/labels/train/74 (9).txt,1,0.393192,0.33392,0.084507,0.125587,0.010612980609
+train,datasets/brain-tumor/images/train/74.jpg,datasets/brain-tumor/labels/train/74.txt,0,0.422535,0.300469,0.096244,0.110329,0.010618504276
+train,datasets/brain-tumor/images/train/75 (10).jpg,datasets/brain-tumor/labels/train/75 (10).txt,1,0.629695,0.353873,0.16784,0.149061,0.02501839824
+train,datasets/brain-tumor/images/train/75 (2).jpg,datasets/brain-tumor/labels/train/75 (2).txt,0,0.698357,0.43838,0.06338,0.076291,0.00483532358
+train,datasets/brain-tumor/images/train/75 (3).jpg,datasets/brain-tumor/labels/train/75 (3).txt,0,0.377347,0.208333,0.097418,0.064554,0.006288721572
+train,datasets/brain-tumor/images/train/75 (4).jpg,datasets/brain-tumor/labels/train/75 (4).txt,0,0.346831,0.415493,0.142019,0.138498,0.019669347462
+train,datasets/brain-tumor/images/train/75 (5).jpg,datasets/brain-tumor/labels/train/75 (5).txt,1,0.646714,0.332746,0.147887,0.146714,0.021697093318000002
+train,datasets/brain-tumor/images/train/75 (6).jpg,datasets/brain-tumor/labels/train/75 (6).txt,1,0.396127,0.073944,0.055164,0.051643,0.002848834452
+train,datasets/brain-tumor/images/train/75 (6).jpg,datasets/brain-tumor/labels/train/75 (6).txt,1,0.439554,0.176643,0.118545,0.179577,0.021287955464999998
+train,datasets/brain-tumor/images/train/75 (7).jpg,datasets/brain-tumor/labels/train/75 (7).txt,1,0.340962,0.366784,0.16784,0.149061,0.02501839824
+train,datasets/brain-tumor/images/train/75 (8).jpg,datasets/brain-tumor/labels/train/75 (8).txt,1,0.347418,0.328638,0.07277,0.084507,0.00614957439
+train,datasets/brain-tumor/images/train/75 (9).jpg,datasets/brain-tumor/labels/train/75 (9).txt,1,0.610915,0.28169,0.156103,0.147887,0.023085604360999996
+train,datasets/brain-tumor/images/train/75.jpg,datasets/brain-tumor/labels/train/75.txt,0,0.337441,0.268192,0.092723,0.069249,0.006420975027
+train,datasets/brain-tumor/images/train/76 (10).jpg,datasets/brain-tumor/labels/train/76 (10).txt,1,0.350939,0.377347,0.110329,0.09507,0.01048897803
+train,datasets/brain-tumor/images/train/76 (11).jpg,datasets/brain-tumor/labels/train/76 (11).txt,1,0.3527,0.199531,0.198357,0.201878,0.040043914446
+train,datasets/brain-tumor/images/train/76 (12).jpg,datasets/brain-tumor/labels/train/76 (12).txt,1,0.389671,0.369131,0.15493,0.210094,0.032549863420000005
+train,datasets/brain-tumor/images/train/76 (2).jpg,datasets/brain-tumor/labels/train/76 (2).txt,0,0.307512,0.380869,0.079812,0.080986,0.006463654631999999
+train,datasets/brain-tumor/images/train/76 (3).jpg,datasets/brain-tumor/labels/train/76 (3).txt,0,0.365023,0.21831,0.107981,0.075117,0.008111208776999999
+train,datasets/brain-tumor/images/train/76 (4).jpg,datasets/brain-tumor/labels/train/76 (4).txt,0,0.514671,0.306338,0.142019,0.129108,0.018335789052
+train,datasets/brain-tumor/images/train/76 (4).jpg,datasets/brain-tumor/labels/train/76 (4).txt,0,0.424296,0.220657,0.071596,0.093897,0.006722649612
+train,datasets/brain-tumor/images/train/76 (5).jpg,datasets/brain-tumor/labels/train/76 (5).txt,0,0.592723,0.358568,0.126761,0.106808,0.013539088888000001
+train,datasets/brain-tumor/images/train/76 (6).jpg,datasets/brain-tumor/labels/train/76 (6).txt,0,0.336854,0.357394,0.166667,0.137324,0.022887379108
+train,datasets/brain-tumor/images/train/76 (7).jpg,datasets/brain-tumor/labels/train/76 (7).txt,1,0.451291,0.192488,0.076291,0.129108,0.009849778428
+train,datasets/brain-tumor/images/train/76 (8).jpg,datasets/brain-tumor/labels/train/76 (8).txt,1,0.347418,0.330986,0.079812,0.089202,0.007119390024
+train,datasets/brain-tumor/images/train/76 (9).jpg,datasets/brain-tumor/labels/train/76 (9).txt,1,0.661385,0.353873,0.127934,0.181925,0.02327439295
+train,datasets/brain-tumor/images/train/76.jpg,datasets/brain-tumor/labels/train/76.txt,0,0.423122,0.297535,0.120892,0.142019,0.017168960948000002
+train,datasets/brain-tumor/images/train/77 (2).jpg,datasets/brain-tumor/labels/train/77 (2).txt,0,0.652582,0.426643,0.122066,0.097418,0.011891425588
+train,datasets/brain-tumor/images/train/77 (3).jpg,datasets/brain-tumor/labels/train/77 (3).txt,0,0.382042,0.34507,0.09507,0.084507,0.00803408049
+train,datasets/brain-tumor/images/train/77 (4).jpg,datasets/brain-tumor/labels/train/77 (4).txt,0,0.347418,0.41784,0.13615,0.129108,0.0175780542
+train,datasets/brain-tumor/images/train/77 (5).jpg,datasets/brain-tumor/labels/train/77 (5).txt,1,0.35446,0.376174,0.117371,0.073944,0.008678881224
+train,datasets/brain-tumor/images/train/77 (6).jpg,datasets/brain-tumor/labels/train/77 (6).txt,1,0.658451,0.353286,0.119718,0.185446,0.022201224228
+train,datasets/brain-tumor/images/train/77.jpg,datasets/brain-tumor/labels/train/77.txt,0,0.426056,0.288732,0.124413,0.14554,0.01810706802
+train,datasets/brain-tumor/images/train/78 (2).jpg,datasets/brain-tumor/labels/train/78 (2).txt,0,0.518192,0.308685,0.120892,0.110329,0.013337893468
+train,datasets/brain-tumor/images/train/78 (2).jpg,datasets/brain-tumor/labels/train/78 (2).txt,0,0.424296,0.21831,0.059859,0.08216,0.00491801544
+train,datasets/brain-tumor/images/train/78 (3).jpg,datasets/brain-tumor/labels/train/78 (3).txt,0,0.675469,0.251761,0.062207,0.052817,0.003285587119
+train,datasets/brain-tumor/images/train/78 (4).jpg,datasets/brain-tumor/labels/train/78 (4).txt,1,0.450117,0.193075,0.088028,0.127934,0.011261774151999998
+train,datasets/brain-tumor/images/train/78 (5).jpg,datasets/brain-tumor/labels/train/78 (5).txt,1,0.654343,0.333333,0.144366,0.126761,0.018299978526000002
+train,datasets/brain-tumor/images/train/78 (6).jpg,datasets/brain-tumor/labels/train/78 (6).txt,1,0.501761,0.332746,0.04108,0.04108,0.0016875663999999999
+train,datasets/brain-tumor/images/train/78.jpg,datasets/brain-tumor/labels/train/78.txt,0,0.424296,0.29108,0.130282,0.157277,0.020490362114000002
+train,datasets/brain-tumor/images/train/79 (10).jpg,datasets/brain-tumor/labels/train/79 (10).txt,1,0.44777,0.165493,0.132629,0.183099,0.024284237271
+train,datasets/brain-tumor/images/train/79 (11).jpg,datasets/brain-tumor/labels/train/79 (11).txt,1,0.345657,0.355047,0.160798,0.158451,0.025478603898
+train,datasets/brain-tumor/images/train/79 (12).jpg,datasets/brain-tumor/labels/train/79 (12).txt,1,0.3527,0.453052,0.111502,0.100939,0.011254900378000001
+train,datasets/brain-tumor/images/train/79 (2).jpg,datasets/brain-tumor/labels/train/79 (2).txt,0,0.682512,0.212441,0.090376,0.068075,0.0061523462
+train,datasets/brain-tumor/images/train/79 (3).jpg,datasets/brain-tumor/labels/train/79 (3).txt,0,0.634977,0.443075,0.068075,0.055164,0.0037552893
+train,datasets/brain-tumor/images/train/79 (4).jpg,datasets/brain-tumor/labels/train/79 (4).txt,0,0.310446,0.373826,0.118545,0.109155,0.012939779475
+train,datasets/brain-tumor/images/train/79 (5).jpg,datasets/brain-tumor/labels/train/79 (5).txt,0,0.377347,0.334507,0.069249,0.070423,0.004876722327
+train,datasets/brain-tumor/images/train/79 (6).jpg,datasets/brain-tumor/labels/train/79 (6).txt,0,0.275235,0.353286,0.073944,0.06338,0.00468657072
+train,datasets/brain-tumor/images/train/79 (7).jpg,datasets/brain-tumor/labels/train/79 (7).txt,0,0.587441,0.359155,0.130282,0.133803,0.017432122446000002
+train,datasets/brain-tumor/images/train/79 (8).jpg,datasets/brain-tumor/labels/train/79 (8).txt,1,0.405516,0.33392,0.066901,0.069249,0.004632827349000001
+train,datasets/brain-tumor/images/train/79 (9).jpg,datasets/brain-tumor/labels/train/79 (9).txt,1,0.651408,0.352113,0.14554,0.176056,0.02562319024
+train,datasets/brain-tumor/images/train/79.jpg,datasets/brain-tumor/labels/train/79.txt,0,0.419601,0.287559,0.144366,0.166667,0.024061048122000002
+train,datasets/brain-tumor/images/train/80 (2).jpg,datasets/brain-tumor/labels/train/80 (2).txt,0,0.343897,0.413732,0.115023,0.118545,0.013635401535
+train,datasets/brain-tumor/images/train/80 (3).jpg,datasets/brain-tumor/labels/train/80 (3).txt,0,0.341549,0.352113,0.169014,0.143192,0.024201452688000002
+train,datasets/brain-tumor/images/train/80 (4).jpg,datasets/brain-tumor/labels/train/80 (4).txt,1,0.353286,0.180164,0.204225,0.203052,0.0414682947
+train,datasets/brain-tumor/images/train/80 (5).jpg,datasets/brain-tumor/labels/train/80 (5).txt,1,0.65669,0.328052,0.132629,0.106808,0.014165838231999999
+train,datasets/brain-tumor/images/train/80 (6).jpg,datasets/brain-tumor/labels/train/80 (6).txt,1,0.651995,0.35446,0.134977,0.164319,0.022179285663000002
+train,datasets/brain-tumor/images/train/80 (7).jpg,datasets/brain-tumor/labels/train/80 (7).txt,1,0.612089,0.269366,0.130282,0.099765,0.012997583730000001
+train,datasets/brain-tumor/images/train/80.jpg,datasets/brain-tumor/labels/train/80.txt,0,0.639671,0.43838,0.058685,0.04108,0.0024107798
+train,datasets/brain-tumor/images/train/81 (2).jpg,datasets/brain-tumor/labels/train/81 (2).txt,0,0.32277,0.369131,0.147887,0.123239,0.018225445992999998
+train,datasets/brain-tumor/images/train/81 (3).jpg,datasets/brain-tumor/labels/train/81 (3).txt,0,0.276995,0.348005,0.100939,0.083333,0.008411549687000001
+train,datasets/brain-tumor/images/train/81 (4).jpg,datasets/brain-tumor/labels/train/81 (4).txt,0,0.586854,0.357394,0.115023,0.137324,0.015795418452
+train,datasets/brain-tumor/images/train/81 (5).jpg,datasets/brain-tumor/labels/train/81 (5).txt,1,0.447183,0.161385,0.126761,0.163146,0.020680550106000003
+train,datasets/brain-tumor/images/train/81 (6).jpg,datasets/brain-tumor/labels/train/81 (6).txt,1,0.331573,0.325704,0.184272,0.160798,0.029630569056
+train,datasets/brain-tumor/images/train/81.jpg,datasets/brain-tumor/labels/train/81.txt,0,0.544601,0.258216,0.112676,0.115023,0.012960331548
+train,datasets/brain-tumor/images/train/82 (2).jpg,datasets/brain-tumor/labels/train/82 (2).txt,0,0.686033,0.211268,0.123239,0.098592,0.012150379488
+train,datasets/brain-tumor/images/train/82 (3).jpg,datasets/brain-tumor/labels/train/82 (3).txt,0,0.544014,0.245305,0.09507,0.105634,0.01004262438
+train,datasets/brain-tumor/images/train/82 (4).jpg,datasets/brain-tumor/labels/train/82 (4).txt,0,0.338615,0.416667,0.092723,0.091549,0.008488697927000001
+train,datasets/brain-tumor/images/train/82 (5).jpg,datasets/brain-tumor/labels/train/82 (5).txt,1,0.454812,0.189554,0.078638,0.073944,0.005814808271999999
+train,datasets/brain-tumor/images/train/82.jpg,datasets/brain-tumor/labels/train/82.txt,0,0.411972,0.284624,0.147887,0.188967,0.027945762728999998
+train,datasets/brain-tumor/images/train/83 (2).jpg,datasets/brain-tumor/labels/train/83 (2).txt,0,0.339202,0.349178,0.13615,0.123239,0.01677898985
+train,datasets/brain-tumor/images/train/83 (3).jpg,datasets/brain-tumor/labels/train/83 (3).txt,1,0.440728,0.156103,0.109155,0.157277,0.017167570935
+train,datasets/brain-tumor/images/train/83 (4).jpg,datasets/brain-tumor/labels/train/83 (4).txt,1,0.6473,0.330399,0.080986,0.080986,0.006558732196
+train,datasets/brain-tumor/images/train/83 (5).jpg,datasets/brain-tumor/labels/train/83 (5).txt,1,0.650235,0.355047,0.119718,0.099765,0.011943666270000002
+train,datasets/brain-tumor/images/train/83.jpg,datasets/brain-tumor/labels/train/83.txt,0,0.58216,0.356221,0.122066,0.134977,0.016476102482000002
+train,datasets/brain-tumor/images/train/84 (2).jpg,datasets/brain-tumor/labels/train/84 (2).txt,1,0.337441,0.287559,0.137324,0.07277,0.009993067480000001
+train,datasets/brain-tumor/images/train/84 (3).jpg,datasets/brain-tumor/labels/train/84 (3).txt,1,0.352113,0.178404,0.185446,0.201878,0.037437467588
+train,datasets/brain-tumor/images/train/84 (4).jpg,datasets/brain-tumor/labels/train/84 (4).txt,1,0.384977,0.38439,0.133803,0.144366,0.019316603898
+train,datasets/brain-tumor/images/train/84.jpg,datasets/brain-tumor/labels/train/84.txt,0,0.29108,0.346244,0.133803,0.110329,0.014762351187
+train,datasets/brain-tumor/images/train/84.jpg,datasets/brain-tumor/labels/train/84.txt,0,0.39554,0.289319,0.044601,0.045775,0.002041610775
+train,datasets/brain-tumor/images/train/85 (2).jpg,datasets/brain-tumor/labels/train/85 (2).txt,0,0.347418,0.372066,0.190141,0.140845,0.026780409145
+train,datasets/brain-tumor/images/train/85 (3).jpg,datasets/brain-tumor/labels/train/85 (3).txt,0,0.578052,0.344484,0.123239,0.134977,0.016634430503
+train,datasets/brain-tumor/images/train/85 (4).jpg,datasets/brain-tumor/labels/train/85 (4).txt,0,0.710681,0.276408,0.080986,0.097418,0.007889494148
+train,datasets/brain-tumor/images/train/85 (5).jpg,datasets/brain-tumor/labels/train/85 (5).txt,1,0.33216,0.295188,0.110329,0.080986,0.008935104394
+train,datasets/brain-tumor/images/train/85 (6).jpg,datasets/brain-tumor/labels/train/85 (6).txt,1,0.364437,0.315141,0.109155,0.130282,0.01422093171
+train,datasets/brain-tumor/images/train/85.jpg,datasets/brain-tumor/labels/train/85.txt,0,0.540493,0.244131,0.080986,0.098592,0.007984571712
+train,datasets/brain-tumor/images/train/86 (2).jpg,datasets/brain-tumor/labels/train/86 (2).txt,0,0.344484,0.34507,0.106808,0.107981,0.011533234647999999
+train,datasets/brain-tumor/images/train/86.jpg,datasets/brain-tumor/labels/train/86.txt,0,0.677817,0.221831,0.132629,0.140845,0.018680131505
+train,datasets/brain-tumor/images/train/87 (2).jpg,datasets/brain-tumor/labels/train/87 (2).txt,0,0.565728,0.362089,0.098592,0.085681,0.008447461152
+train,datasets/brain-tumor/images/train/87 (3).jpg,datasets/brain-tumor/labels/train/87 (3).txt,0,0.701878,0.285211,0.096244,0.093897,0.009037022867999999
+train,datasets/brain-tumor/images/train/87 (4).jpg,datasets/brain-tumor/labels/train/87 (4).txt,1,0.33392,0.269953,0.099765,0.105634,0.010538576010000002
+train,datasets/brain-tumor/images/train/87 (5).jpg,datasets/brain-tumor/labels/train/87 (5).txt,1,0.649648,0.331573,0.102113,0.076291,0.007790302882999999
+train,datasets/brain-tumor/images/train/87.jpg,datasets/brain-tumor/labels/train/87.txt,0,0.345657,0.369718,0.188967,0.13615,0.025727857049999997
+train,datasets/brain-tumor/images/train/88 (2).jpg,datasets/brain-tumor/labels/train/88 (2).txt,0,0.305164,0.339789,0.178404,0.144366,0.025755471864
+train,datasets/brain-tumor/images/train/88 (3).jpg,datasets/brain-tumor/labels/train/88 (3).txt,1,0.343897,0.342723,0.105634,0.096244,0.010166638696
+train,datasets/brain-tumor/images/train/88 (4).jpg,datasets/brain-tumor/labels/train/88 (4).txt,1,0.450704,0.159624,0.056338,0.068075,0.00383520935
+train,datasets/brain-tumor/images/train/88 (5).jpg,datasets/brain-tumor/labels/train/88 (5).txt,1,0.322183,0.266432,0.139671,0.110329,0.015409761758999998
+train,datasets/brain-tumor/images/train/88.jpg,datasets/brain-tumor/labels/train/88.txt,0,0.344484,0.364437,0.191315,0.134977,0.025823124755000003
+train,datasets/brain-tumor/images/train/89 (2).jpg,datasets/brain-tumor/labels/train/89 (2).txt,0,0.678991,0.228286,0.123239,0.130282,0.016055823398
+train,datasets/brain-tumor/images/train/89 (3).jpg,datasets/brain-tumor/labels/train/89 (3).txt,0,0.69777,0.27993,0.097418,0.106808,0.010405021744000001
+train,datasets/brain-tumor/images/train/89 (4).jpg,datasets/brain-tumor/labels/train/89 (4).txt,0,0.521714,0.478286,0.134977,0.146714,0.019803015578000002
+train,datasets/brain-tumor/images/train/89 (5).jpg,datasets/brain-tumor/labels/train/89 (5).txt,1,0.389671,0.385563,0.119718,0.160798,0.019250414964000002
+train,datasets/brain-tumor/images/train/89.jpg,datasets/brain-tumor/labels/train/89.txt,0,0.425469,0.286385,0.156103,0.180751,0.028215773352999997
+train,datasets/brain-tumor/images/train/90 (2).jpg,datasets/brain-tumor/labels/train/90 (2).txt,1,0.636737,0.384977,0.076291,0.086854,0.006626178514
+train,datasets/brain-tumor/images/train/90 (3).jpg,datasets/brain-tumor/labels/train/90 (3).txt,1,0.671948,0.186033,0.080986,0.076291,0.006178502926
+train,datasets/brain-tumor/images/train/90.jpg,datasets/brain-tumor/labels/train/90.txt,0,0.382042,0.240023,0.088028,0.116197,0.010228589516
+train,datasets/brain-tumor/images/train/91 (2).jpg,datasets/brain-tumor/labels/train/91 (2).txt,0,0.343897,0.348592,0.178404,0.161972,0.028896452688
+train,datasets/brain-tumor/images/train/91 (3).jpg,datasets/brain-tumor/labels/train/91 (3).txt,0,0.688967,0.28169,0.08216,0.100939,0.00829314824
+train,datasets/brain-tumor/images/train/91 (4).jpg,datasets/brain-tumor/labels/train/91 (4).txt,1,0.311033,0.328052,0.06338,0.059859,0.0037938634200000007
+train,datasets/brain-tumor/images/train/91 (5).jpg,datasets/brain-tumor/labels/train/91 (5).txt,1,0.314554,0.261737,0.133803,0.107981,0.014448181743
+train,datasets/brain-tumor/images/train/91 (6).jpg,datasets/brain-tumor/labels/train/91 (6).txt,1,0.295188,0.317488,0.062207,0.055164,0.0034315869479999996
+train,datasets/brain-tumor/images/train/91.jpg,datasets/brain-tumor/labels/train/91.txt,0,0.433685,0.289906,0.160798,0.164319,0.026422166562
+train,datasets/brain-tumor/images/train/92 (2).jpg,datasets/brain-tumor/labels/train/92 (2).txt,0,0.678991,0.223592,0.088028,0.137324,0.012088357071999999
+train,datasets/brain-tumor/images/train/92 (3).jpg,datasets/brain-tumor/labels/train/92 (3).txt,0,0.328638,0.326878,0.107981,0.080986,0.008744949266
+train,datasets/brain-tumor/images/train/92 (4).jpg,datasets/brain-tumor/labels/train/92 (4).txt,0,0.308099,0.34331,0.142019,0.11385,0.01616886315
+train,datasets/brain-tumor/images/train/92 (5).jpg,datasets/brain-tumor/labels/train/92 (5).txt,1,0.366784,0.174296,0.132629,0.142019,0.018835837951000002
+train,datasets/brain-tumor/images/train/92 (6).jpg,datasets/brain-tumor/labels/train/92 (6).txt,1,0.664319,0.189554,0.115023,0.085681,0.009855285662999999
+train,datasets/brain-tumor/images/train/92.jpg,datasets/brain-tumor/labels/train/92.txt,0,0.427817,0.292254,0.151408,0.152582,0.023102135455999998
+train,datasets/brain-tumor/images/train/93 (2).jpg,datasets/brain-tumor/labels/train/93 (2).txt,0,0.381455,0.231221,0.107981,0.129108,0.013941210947999999
+train,datasets/brain-tumor/images/train/93 (3).jpg,datasets/brain-tumor/labels/train/93 (3).txt,0,0.346831,0.348005,0.163146,0.153756,0.025084676376000002
+train,datasets/brain-tumor/images/train/93 (4).jpg,datasets/brain-tumor/labels/train/93 (4).txt,1,0.627934,0.393192,0.103286,0.107981,0.011152925566
+train,datasets/brain-tumor/images/train/93 (5).jpg,datasets/brain-tumor/labels/train/93 (5).txt,1,0.30223,0.323357,0.062207,0.050469,0.003139525083
+train,datasets/brain-tumor/images/train/93 (6).jpg,datasets/brain-tumor/labels/train/93 (6).txt,1,0.368545,0.304577,0.124413,0.142019,0.017669009847
+train,datasets/brain-tumor/images/train/93.jpg,datasets/brain-tumor/labels/train/93.txt,0,0.428404,0.29108,0.14554,0.143192,0.020840163680000003
+train,datasets/brain-tumor/images/train/94 (2).jpg,datasets/brain-tumor/labels/train/94 (2).txt,0,0.343897,0.352113,0.152582,0.143192,0.021848521744
+train,datasets/brain-tumor/images/train/94 (3).jpg,datasets/brain-tumor/labels/train/94 (3).txt,0,0.33392,0.33392,0.120892,0.10446,0.01262837832
+train,datasets/brain-tumor/images/train/94 (4).jpg,datasets/brain-tumor/labels/train/94 (4).txt,1,0.297535,0.254108,0.092723,0.111502,0.010338799946
+train,datasets/brain-tumor/images/train/94 (5).jpg,datasets/brain-tumor/labels/train/94 (5).txt,1,0.663146,0.381455,0.122066,0.14554,0.01776548564
+train,datasets/brain-tumor/images/train/94 (6).jpg,datasets/brain-tumor/labels/train/94 (6).txt,1,0.659624,0.187793,0.115023,0.096244,0.011070273612
+train,datasets/brain-tumor/images/train/94.jpg,datasets/brain-tumor/labels/train/94.txt,0,0.681925,0.224178,0.065728,0.096244,0.006325925632
+train,datasets/brain-tumor/images/train/95 (2).jpg,datasets/brain-tumor/labels/train/95 (2).txt,0,0.308099,0.338615,0.069249,0.055164,0.0038200518360000002
+train,datasets/brain-tumor/images/train/95 (3).jpg,datasets/brain-tumor/labels/train/95 (3).txt,1,0.33392,0.328052,0.130282,0.130282,0.016973399524000003
+train,datasets/brain-tumor/images/train/95 (4).jpg,datasets/brain-tumor/labels/train/95 (4).txt,1,0.370892,0.306338,0.129108,0.140845,0.01818421626
+train,datasets/brain-tumor/images/train/95.jpg,datasets/brain-tumor/labels/train/95.txt,0,0.431925,0.29108,0.133803,0.133803,0.017903242809000002
+train,datasets/brain-tumor/images/train/96 (2).jpg,datasets/brain-tumor/labels/train/96 (2).txt,0,0.390845,0.230047,0.119718,0.124413,0.014894475534
+train,datasets/brain-tumor/images/train/96 (3).jpg,datasets/brain-tumor/labels/train/96 (3).txt,0,0.3527,0.332746,0.118545,0.137324,0.01627907358
+train,datasets/brain-tumor/images/train/96 (4).jpg,datasets/brain-tumor/labels/train/96 (4).txt,1,0.661972,0.183685,0.119718,0.109155,0.013067818290000002
+train,datasets/brain-tumor/images/train/96 (5).jpg,datasets/brain-tumor/labels/train/96 (5).txt,1,0.375587,0.318662,0.117371,0.137324,0.016117855204
+train,datasets/brain-tumor/images/train/96.jpg,datasets/brain-tumor/labels/train/96.txt,0,0.678404,0.219484,0.046948,0.070423,0.0033062190039999995
+train,datasets/brain-tumor/images/train/97 (2).jpg,datasets/brain-tumor/labels/train/97 (2).txt,1,0.294014,0.25939,0.057512,0.105634,0.006075222608
+train,datasets/brain-tumor/images/train/97 (3).jpg,datasets/brain-tumor/labels/train/97 (3).txt,1,0.622066,0.389671,0.122066,0.110329,0.013467419714
+train,datasets/brain-tumor/images/train/97.jpg,datasets/brain-tumor/labels/train/97.txt,0,0.348005,0.33392,0.153756,0.134977,0.020753523612000002
+train,datasets/brain-tumor/images/train/98 (2).jpg,datasets/brain-tumor/labels/train/98 (2).txt,0,0.673122,0.33216,0.111502,0.140845,0.01570449919
+train,datasets/brain-tumor/images/train/98 (3).jpg,datasets/brain-tumor/labels/train/98 (3).txt,0,0.348592,0.33216,0.152582,0.143192,0.021848521744
+train,datasets/brain-tumor/images/train/98 (4).jpg,datasets/brain-tumor/labels/train/98 (4).txt,1,0.352113,0.304577,0.089202,0.064554,0.0057583459080000005
+train,datasets/brain-tumor/images/train/98.jpg,datasets/brain-tumor/labels/train/98.txt,0,0.393779,0.230634,0.111502,0.120892,0.013479699784
+train,datasets/brain-tumor/images/train/99 (2).jpg,datasets/brain-tumor/labels/train/99 (2).txt,1,0.349178,0.321009,0.156103,0.174883,0.027299760949
+train,datasets/brain-tumor/images/train/99 (3).jpg,datasets/brain-tumor/labels/train/99 (3).txt,1,0.664319,0.377347,0.107981,0.130282,0.014067980642
+train,datasets/brain-tumor/images/train/99 (4).jpg,datasets/brain-tumor/labels/train/99 (4).txt,1,0.658451,0.187207,0.115023,0.125587,0.014445393501000001
+train,datasets/brain-tumor/images/train/99.jpg,datasets/brain-tumor/labels/train/99.txt,0,0.523474,0.475939,0.13615,0.139671,0.01901620665
+val,datasets/brain-tumor/images/val/val_1 (1).jpg,datasets/brain-tumor/labels/val/val_1 (1).txt,1,0.378521,0.490023,0.09507,0.099765,0.00948465855
+val,datasets/brain-tumor/images/val/val_1 (10).jpg,datasets/brain-tumor/labels/val/val_1 (10).txt,0,0.463028,0.347418,0.200704,0.169014,0.033921785855999996
+val,datasets/brain-tumor/images/val/val_1 (100).jpg,datasets/brain-tumor/labels/val/val_1 (100).txt,1,0.386737,0.321596,0.17723,0.126761,0.02246585203
+val,datasets/brain-tumor/images/val/val_1 (101).jpg,datasets/brain-tumor/labels/val/val_1 (101).txt,0,0.649648,0.403756,0.080986,0.091549,0.0074141873140000005
+val,datasets/brain-tumor/images/val/val_1 (102).jpg,datasets/brain-tumor/labels/val/val_1 (102).txt,1,0.481221,0.282277,0.046948,0.116197,0.005455216755999999
+val,datasets/brain-tumor/images/val/val_1 (103).jpg,datasets/brain-tumor/labels/val/val_1 (103).txt,0,0.454225,0.266432,0.061033,0.07277,0.00444137141
+val,datasets/brain-tumor/images/val/val_1 (104).jpg,datasets/brain-tumor/labels/val/val_1 (104).txt,1,0.380869,0.328638,0.17723,0.126761,0.02246585203
+val,datasets/brain-tumor/images/val/val_1 (105).jpg,datasets/brain-tumor/labels/val/val_1 (105).txt,1,0.710681,0.24061,0.080986,0.070423,0.005703277078
+val,datasets/brain-tumor/images/val/val_1 (106).jpg,datasets/brain-tumor/labels/val/val_1 (106).txt,1,0.723005,0.244131,0.126761,0.117371,0.014878065331000001
+val,datasets/brain-tumor/images/val/val_1 (107).jpg,datasets/brain-tumor/labels/val/val_1 (107).txt,1,0.731808,0.234742,0.11385,0.107981,0.01229363685
+val,datasets/brain-tumor/images/val/val_1 (108).jpg,datasets/brain-tumor/labels/val/val_1 (108).txt,0,0.45892,0.276408,0.058685,0.078638,0.00461487103
+val,datasets/brain-tumor/images/val/val_1 (109).jpg,datasets/brain-tumor/labels/val/val_1 (109).txt,0,0.642019,0.397887,0.115023,0.098592,0.011340347616
+val,datasets/brain-tumor/images/val/val_1 (11).jpg,datasets/brain-tumor/labels/val/val_1 (11).txt,0,0.469484,0.339202,0.178404,0.183099,0.032665593996000004
+val,datasets/brain-tumor/images/val/val_1 (110).jpg,datasets/brain-tumor/labels/val/val_1 (110).txt,1,0.502934,0.129108,0.064554,0.08216,0.00530375664
+val,datasets/brain-tumor/images/val/val_1 (110).jpg,datasets/brain-tumor/labels/val/val_1 (110).txt,1,0.538146,0.254108,0.052817,0.059859,0.0031615728030000003
+val,datasets/brain-tumor/images/val/val_1 (111).jpg,datasets/brain-tumor/labels/val/val_1 (111).txt,1,0.468897,0.329812,0.066901,0.046948,0.003140868148
+val,datasets/brain-tumor/images/val/val_1 (112).jpg,datasets/brain-tumor/labels/val/val_1 (112).txt,0,0.451878,0.046362,0.068075,0.076291,0.0051935098249999995
+val,datasets/brain-tumor/images/val/val_1 (113).jpg,datasets/brain-tumor/labels/val/val_1 (113).txt,0,0.312793,0.364437,0.09507,0.090376,0.00859204632
+val,datasets/brain-tumor/images/val/val_1 (114).jpg,datasets/brain-tumor/labels/val/val_1 (114).txt,0,0.299296,0.364437,0.129108,0.116197,0.015001962276
+val,datasets/brain-tumor/images/val/val_1 (115).jpg,datasets/brain-tumor/labels/val/val_1 (115).txt,0,0.306925,0.366784,0.127934,0.137324,0.017568408615999998
+val,datasets/brain-tumor/images/val/val_1 (116).jpg,datasets/brain-tumor/labels/val/val_1 (116).txt,0,0.641432,0.401408,0.137324,0.126761,0.017407327564000003
+val,datasets/brain-tumor/images/val/val_1 (117).jpg,datasets/brain-tumor/labels/val/val_1 (117).txt,1,0.44777,0.236502,0.120892,0.102113,0.012344644795999999
+val,datasets/brain-tumor/images/val/val_1 (117).jpg,datasets/brain-tumor/labels/val/val_1 (117).txt,1,0.507042,0.13615,0.053991,0.075117,0.004055641947
+val,datasets/brain-tumor/images/val/val_1 (117).jpg,datasets/brain-tumor/labels/val/val_1 (117).txt,1,0.538146,0.256455,0.052817,0.050469,0.002665621173
+val,datasets/brain-tumor/images/val/val_1 (118).jpg,datasets/brain-tumor/labels/val/val_1 (118).txt,1,0.382629,0.337441,0.190141,0.123239,0.023432786699
+val,datasets/brain-tumor/images/val/val_1 (119).jpg,datasets/brain-tumor/labels/val/val_1 (119).txt,0,0.446596,0.056925,0.088028,0.11385,0.0100219878
+val,datasets/brain-tumor/images/val/val_1 (12).jpg,datasets/brain-tumor/labels/val/val_1 (12).txt,0,0.433099,0.302817,0.180751,0.131455,0.023760622704999998
+val,datasets/brain-tumor/images/val/val_1 (120).jpg,datasets/brain-tumor/labels/val/val_1 (120).txt,0,0.425469,0.298709,0.064554,0.055164,0.003561056856
+val,datasets/brain-tumor/images/val/val_1 (121).jpg,datasets/brain-tumor/labels/val/val_1 (121).txt,1,0.396714,0.437793,0.093897,0.129108,0.012122853876
+val,datasets/brain-tumor/images/val/val_1 (122).jpg,datasets/brain-tumor/labels/val/val_1 (122).txt,0,0.228286,0.445423,0.062207,0.050469,0.003139525083
+val,datasets/brain-tumor/images/val/val_1 (123).jpg,datasets/brain-tumor/labels/val/val_1 (123).txt,0,0.243545,0.264671,0.09507,0.125587,0.011939556090000001
+val,datasets/brain-tumor/images/val/val_1 (123).jpg,datasets/brain-tumor/labels/val/val_1 (123).txt,0,0.195423,0.339202,0.090376,0.061033,0.005515918408
+val,datasets/brain-tumor/images/val/val_1 (124).jpg,datasets/brain-tumor/labels/val/val_1 (124).txt,0,0.248826,0.250587,0.124413,0.16784,0.02088147792
+val,datasets/brain-tumor/images/val/val_1 (125).jpg,datasets/brain-tumor/labels/val/val_1 (125).txt,0,0.243545,0.319836,0.106808,0.09507,0.01015423656
+val,datasets/brain-tumor/images/val/val_1 (126).jpg,datasets/brain-tumor/labels/val/val_1 (126).txt,0,0.223005,0.323944,0.084507,0.07277,0.00614957439
+val,datasets/brain-tumor/images/val/val_1 (127).jpg,datasets/brain-tumor/labels/val/val_1 (127).txt,0,0.590962,0.369131,0.083333,0.120892,0.010074293036
+val,datasets/brain-tumor/images/val/val_1 (128).jpg,datasets/brain-tumor/labels/val/val_1 (128).txt,0,0.602113,0.408451,0.07277,0.131455,0.00956598035
+val,datasets/brain-tumor/images/val/val_1 (129).jpg,datasets/brain-tumor/labels/val/val_1 (129).txt,0,0.595657,0.442488,0.132629,0.105634,0.014010131786
+val,datasets/brain-tumor/images/val/val_1 (13).jpg,datasets/brain-tumor/labels/val/val_1 (13).txt,1,0.649061,0.369131,0.138498,0.078638,0.010891205724
+val,datasets/brain-tumor/images/val/val_1 (13).jpg,datasets/brain-tumor/labels/val/val_1 (13).txt,1,0.661385,0.446596,0.118545,0.071596,0.008487347820000001
+val,datasets/brain-tumor/images/val/val_1 (130).jpg,datasets/brain-tumor/labels/val/val_1 (130).txt,0,0.600352,0.445423,0.132629,0.111502,0.014788398758
+val,datasets/brain-tumor/images/val/val_1 (131).jpg,datasets/brain-tumor/labels/val/val_1 (131).txt,0,0.605047,0.444249,0.109155,0.11385,0.01242729675
+val,datasets/brain-tumor/images/val/val_1 (132).jpg,datasets/brain-tumor/labels/val/val_1 (132).txt,0,0.605047,0.444249,0.102113,0.106808,0.010906485304
+val,datasets/brain-tumor/images/val/val_1 (133).jpg,datasets/brain-tumor/labels/val/val_1 (133).txt,0,0.598592,0.430164,0.105634,0.09507,0.01004262438
+val,datasets/brain-tumor/images/val/val_1 (134).jpg,datasets/brain-tumor/labels/val/val_1 (134).txt,0,0.589789,0.424296,0.085681,0.085681,0.007341233760999999
+val,datasets/brain-tumor/images/val/val_1 (135).jpg,datasets/brain-tumor/labels/val/val_1 (135).txt,0,0.58392,0.418427,0.062207,0.071596,0.004453772372
+val,datasets/brain-tumor/images/val/val_1 (136).jpg,datasets/brain-tumor/labels/val/val_1 (136).txt,1,0.409038,0.336854,0.158451,0.100939,0.015993885489
+val,datasets/brain-tumor/images/val/val_1 (137).jpg,datasets/brain-tumor/labels/val/val_1 (137).txt,1,0.450117,0.237676,0.109155,0.092723,0.010121179065
+val,datasets/brain-tumor/images/val/val_1 (138).jpg,datasets/brain-tumor/labels/val/val_1 (138).txt,1,0.666667,0.423709,0.112676,0.171362,0.019308384712
+val,datasets/brain-tumor/images/val/val_1 (139).jpg,datasets/brain-tumor/labels/val/val_1 (139).txt,0,0.633216,0.414906,0.132629,0.179577,0.023817117933
+val,datasets/brain-tumor/images/val/val_1 (14).jpg,datasets/brain-tumor/labels/val/val_1 (14).txt,1,0.656103,0.40669,0.178404,0.193662,0.034550075448000005
+val,datasets/brain-tumor/images/val/val_1 (140).jpg,datasets/brain-tumor/labels/val/val_1 (140).txt,1,0.321596,0.390258,0.061033,0.09507,0.0058024073099999995
+val,datasets/brain-tumor/images/val/val_1 (141).jpg,datasets/brain-tumor/labels/val/val_1 (141).txt,1,0.353286,0.356808,0.185446,0.192488,0.035696129648
+val,datasets/brain-tumor/images/val/val_1 (142).jpg,datasets/brain-tumor/labels/val/val_1 (142).txt,1,0.341549,0.345657,0.246479,0.205399,0.050626540121
+val,datasets/brain-tumor/images/val/val_1 (143).jpg,datasets/brain-tumor/labels/val/val_1 (143).txt,0,0.448944,0.051643,0.090376,0.103286,0.009334575536
+val,datasets/brain-tumor/images/val/val_1 (144).jpg,datasets/brain-tumor/labels/val/val_1 (144).txt,1,0.361502,0.217723,0.079812,0.083333,0.006650973396
+val,datasets/brain-tumor/images/val/val_1 (145).jpg,datasets/brain-tumor/labels/val/val_1 (145).txt,1,0.377347,0.399061,0.134977,0.14554,0.019644552580000002
+val,datasets/brain-tumor/images/val/val_1 (146).jpg,datasets/brain-tumor/labels/val/val_1 (146).txt,1,0.61385,0.35446,0.084507,0.06338,0.00535605366
+val,datasets/brain-tumor/images/val/val_1 (147).jpg,datasets/brain-tumor/labels/val/val_1 (147).txt,0,0.431925,0.267019,0.260563,0.163146,0.042509811198
+val,datasets/brain-tumor/images/val/val_1 (148).jpg,datasets/brain-tumor/labels/val/val_1 (148).txt,0,0.330986,0.235915,0.086854,0.051643,0.004485401122
+val,datasets/brain-tumor/images/val/val_1 (149).jpg,datasets/brain-tumor/labels/val/val_1 (149).txt,0,0.630869,0.109155,0.052817,0.051643,0.002727628331
+val,datasets/brain-tumor/images/val/val_1 (15).jpg,datasets/brain-tumor/labels/val/val_1 (15).txt,1,0.643779,0.401995,0.172535,0.198357,0.034223524995
+val,datasets/brain-tumor/images/val/val_1 (150).jpg,datasets/brain-tumor/labels/val/val_1 (150).txt,0,0.632042,0.399061,0.144366,0.161972,0.023383249752
+val,datasets/brain-tumor/images/val/val_1 (151).jpg,datasets/brain-tumor/labels/val/val_1 (151).txt,1,0.313967,0.336268,0.066901,0.062207,0.004161710507
+val,datasets/brain-tumor/images/val/val_1 (152).jpg,datasets/brain-tumor/labels/val/val_1 (152).txt,1,0.610329,0.357394,0.086854,0.071596,0.006218398984
+val,datasets/brain-tumor/images/val/val_1 (153).jpg,datasets/brain-tumor/labels/val/val_1 (153).txt,1,0.575704,0.297535,0.16784,0.160798,0.026988336319999997
+val,datasets/brain-tumor/images/val/val_1 (154).jpg,datasets/brain-tumor/labels/val/val_1 (154).txt,0,0.332746,0.235329,0.085681,0.059859,0.005128778979
+val,datasets/brain-tumor/images/val/val_1 (155).jpg,datasets/brain-tumor/labels/val/val_1 (155).txt,0,0.617371,0.101526,0.053991,0.059859,0.003231847269
+val,datasets/brain-tumor/images/val/val_1 (156).jpg,datasets/brain-tumor/labels/val/val_1 (156).txt,1,0.363263,0.217136,0.132629,0.107981,0.014321412048999999
+val,datasets/brain-tumor/images/val/val_1 (157).jpg,datasets/brain-tumor/labels/val/val_1 (157).txt,1,0.38615,0.248239,0.124413,0.11385,0.014164420050000001
+val,datasets/brain-tumor/images/val/val_1 (158).jpg,datasets/brain-tumor/labels/val/val_1 (158).txt,1,0.607981,0.350939,0.096244,0.100939,0.009714773115999999
+val,datasets/brain-tumor/images/val/val_1 (159).jpg,datasets/brain-tumor/labels/val/val_1 (159).txt,0,0.451878,0.050469,0.079812,0.096244,0.007681426127999999
+val,datasets/brain-tumor/images/val/val_1 (16).jpg,datasets/brain-tumor/labels/val/val_1 (16).txt,1,0.311033,0.419014,0.100939,0.068075,0.006871422425
+val,datasets/brain-tumor/images/val/val_1 (160).jpg,datasets/brain-tumor/labels/val/val_1 (160).txt,0,0.352113,0.23885,0.117371,0.102113,0.011985104923
+val,datasets/brain-tumor/images/val/val_1 (161).jpg,datasets/brain-tumor/labels/val/val_1 (161).txt,0,0.453052,0.159038,0.093897,0.085681,0.008045188856999999
+val,datasets/brain-tumor/images/val/val_1 (162).jpg,datasets/brain-tumor/labels/val/val_1 (162).txt,1,0.349765,0.188967,0.077465,0.075117,0.005818938405000001
+val,datasets/brain-tumor/images/val/val_1 (163).jpg,datasets/brain-tumor/labels/val/val_1 (163).txt,1,0.6473,0.339789,0.045775,0.062207,0.002847525425
+val,datasets/brain-tumor/images/val/val_1 (164).jpg,datasets/brain-tumor/labels/val/val_1 (164).txt,1,0.568075,0.328638,0.255869,0.213615,0.054657456435
+val,datasets/brain-tumor/images/val/val_1 (165).jpg,datasets/brain-tumor/labels/val/val_1 (165).txt,0,0.390845,0.323357,0.077465,0.080986,0.006273580490000001
+val,datasets/brain-tumor/images/val/val_1 (166).jpg,datasets/brain-tumor/labels/val/val_1 (166).txt,1,0.3527,0.187793,0.092723,0.086854,0.008053363442
+val,datasets/brain-tumor/images/val/val_1 (167).jpg,datasets/brain-tumor/labels/val/val_1 (167).txt,1,0.470657,0.20716,0.093897,0.109155,0.010249327035
+val,datasets/brain-tumor/images/val/val_1 (168).jpg,datasets/brain-tumor/labels/val/val_1 (168).txt,1,0.384977,0.251174,0.147887,0.147887,0.021870564768999998
+val,datasets/brain-tumor/images/val/val_1 (169).jpg,datasets/brain-tumor/labels/val/val_1 (169).txt,1,0.617958,0.321596,0.069249,0.091549,0.006339676701000001
+val,datasets/brain-tumor/images/val/val_1 (17).jpg,datasets/brain-tumor/labels/val/val_1 (17).txt,1,0.309272,0.420775,0.172535,0.132629,0.022883144515
+val,datasets/brain-tumor/images/val/val_1 (170).jpg,datasets/brain-tumor/labels/val/val_1 (170).txt,1,0.366197,0.38615,0.068075,0.06338,0.0043145935
+val,datasets/brain-tumor/images/val/val_1 (171).jpg,datasets/brain-tumor/labels/val/val_1 (171).txt,1,0.363263,0.214202,0.142019,0.10446,0.014835304740000001
+val,datasets/brain-tumor/images/val/val_1 (172).jpg,datasets/brain-tumor/labels/val/val_1 (172).txt,1,0.428404,0.174883,0.051643,0.046948,0.0024245355639999997
+val,datasets/brain-tumor/images/val/val_1 (173).jpg,datasets/brain-tumor/labels/val/val_1 (173).txt,1,0.658451,0.356221,0.065728,0.062207,0.004088741696
+val,datasets/brain-tumor/images/val/val_1 (174).jpg,datasets/brain-tumor/labels/val/val_1 (174).txt,0,0.357394,0.237676,0.134977,0.11385,0.015367131450000002
+val,datasets/brain-tumor/images/val/val_1 (174).jpg,datasets/brain-tumor/labels/val/val_1 (174).txt,0,0.524061,0.20716,0.057512,0.045775,0.0026326118000000003
+val,datasets/brain-tumor/images/val/val_1 (175).jpg,datasets/brain-tumor/labels/val/val_1 (175).txt,0,0.329225,0.459507,0.069249,0.111502,0.0077214019980000005
+val,datasets/brain-tumor/images/val/val_1 (176).jpg,datasets/brain-tumor/labels/val/val_1 (176).txt,0,0.442488,0.153756,0.098592,0.117371,0.011571841632
+val,datasets/brain-tumor/images/val/val_1 (177).jpg,datasets/brain-tumor/labels/val/val_1 (177).txt,0,0.635563,0.090962,0.102113,0.083333,0.008509382629
+val,datasets/brain-tumor/images/val/val_1 (178).jpg,datasets/brain-tumor/labels/val/val_1 (178).txt,0,0.629108,0.397887,0.133803,0.140845,0.018845483535
+val,datasets/brain-tumor/images/val/val_1 (179).jpg,datasets/brain-tumor/labels/val/val_1 (179).txt,1,0.315728,0.346831,0.089202,0.125587,0.011202611574000002
+val,datasets/brain-tumor/images/val/val_1 (18).jpg,datasets/brain-tumor/labels/val/val_1 (18).txt,1,0.305751,0.420775,0.205399,0.163146,0.033510025254
+val,datasets/brain-tumor/images/val/val_1 (180).jpg,datasets/brain-tumor/labels/val/val_1 (180).txt,1,0.360915,0.379695,0.144366,0.165493,0.023891562438
+val,datasets/brain-tumor/images/val/val_1 (181).jpg,datasets/brain-tumor/labels/val/val_1 (181).txt,1,0.657277,0.338615,0.08216,0.076291,0.006268068559999999
+val,datasets/brain-tumor/images/val/val_1 (182).jpg,datasets/brain-tumor/labels/val/val_1 (182).txt,1,0.423122,0.175469,0.071596,0.059859,0.004285664964
+val,datasets/brain-tumor/images/val/val_1 (183).jpg,datasets/brain-tumor/labels/val/val_1 (183).txt,1,0.353286,0.190728,0.096244,0.09507,0.00914991708
+val,datasets/brain-tumor/images/val/val_1 (184).jpg,datasets/brain-tumor/labels/val/val_1 (184).txt,0,0.394366,0.320423,0.084507,0.08216,0.006943095119999999
+val,datasets/brain-tumor/images/val/val_1 (185).jpg,datasets/brain-tumor/labels/val/val_1 (185).txt,0,0.548709,0.501761,0.048122,0.04108,0.00197685176
+val,datasets/brain-tumor/images/val/val_1 (186).jpg,datasets/brain-tumor/labels/val/val_1 (186).txt,0,0.612676,0.603286,0.100939,0.089202,0.009003960678
+val,datasets/brain-tumor/images/val/val_1 (187).jpg,datasets/brain-tumor/labels/val/val_1 (187).txt,0,0.608568,0.607981,0.10446,0.089202,0.00931804092
+val,datasets/brain-tumor/images/val/val_1 (188).jpg,datasets/brain-tumor/labels/val/val_1 (188).txt,0,0.35446,0.235915,0.13615,0.117371,0.01598006165
+val,datasets/brain-tumor/images/val/val_1 (188).jpg,datasets/brain-tumor/labels/val/val_1 (188).txt,0,0.448944,0.166667,0.038732,0.044601,0.0017274859320000001
+val,datasets/brain-tumor/images/val/val_1 (189).jpg,datasets/brain-tumor/labels/val/val_1 (189).txt,0,0.603286,0.372653,0.068075,0.062207,0.004234741524999999
+val,datasets/brain-tumor/images/val/val_1 (19).jpg,datasets/brain-tumor/labels/val/val_1 (19).txt,1,0.284038,0.424296,0.185446,0.153756,0.028513435176
+val,datasets/brain-tumor/images/val/val_1 (190).jpg,datasets/brain-tumor/labels/val/val_1 (190).txt,0,0.600939,0.384977,0.140845,0.140845,0.019837314025
+val,datasets/brain-tumor/images/val/val_1 (191).jpg,datasets/brain-tumor/labels/val/val_1 (191).txt,0,0.59507,0.382629,0.107981,0.122066,0.013180808745999998
+val,datasets/brain-tumor/images/val/val_1 (192).jpg,datasets/brain-tumor/labels/val/val_1 (192).txt,0,0.589789,0.403756,0.066901,0.089202,0.005967703002
+val,datasets/brain-tumor/images/val/val_1 (193).jpg,datasets/brain-tumor/labels/val/val_1 (193).txt,0,0.661385,0.540493,0.174883,0.193662,0.033868191546
+val,datasets/brain-tumor/images/val/val_1 (194).jpg,datasets/brain-tumor/labels/val/val_1 (194).txt,0,0.650822,0.540493,0.191315,0.198357,0.037948669455
+val,datasets/brain-tumor/images/val/val_1 (195).jpg,datasets/brain-tumor/labels/val/val_1 (195).txt,0,0.644953,0.543427,0.179577,0.176056,0.031615608312
+val,datasets/brain-tumor/images/val/val_1 (196).jpg,datasets/brain-tumor/labels/val/val_1 (196).txt,0,0.648474,0.545188,0.179577,0.172535,0.030983317695
+val,datasets/brain-tumor/images/val/val_1 (197).jpg,datasets/brain-tumor/labels/val/val_1 (197).txt,0,0.622653,0.571009,0.097418,0.10446,0.01017628428
+val,datasets/brain-tumor/images/val/val_1 (198).jpg,datasets/brain-tumor/labels/val/val_1 (198).txt,0,0.623239,0.571596,0.089202,0.086854,0.007747550508
+val,datasets/brain-tumor/images/val/val_1 (199).jpg,datasets/brain-tumor/labels/val/val_1 (199).txt,0,0.610915,0.575117,0.116197,0.138498,0.016093052106
+val,datasets/brain-tumor/images/val/val_1 (2).jpg,datasets/brain-tumor/labels/val/val_1 (2).txt,1,0.374413,0.474765,0.183099,0.153756,0.028152569844000004
+val,datasets/brain-tumor/images/val/val_1 (20).jpg,datasets/brain-tumor/labels/val/val_1 (20).txt,1,0.268192,0.432512,0.125587,0.11385,0.01429807995
+val,datasets/brain-tumor/images/val/val_1 (200).jpg,datasets/brain-tumor/labels/val/val_1 (200).txt,0,0.605047,0.56338,0.127934,0.140845,0.018018864229999997
+val,datasets/brain-tumor/images/val/val_1 (201).jpg,datasets/brain-tumor/labels/val/val_1 (201).txt,0,0.605634,0.56338,0.126761,0.126761,0.016068351121000003
+val,datasets/brain-tumor/images/val/val_1 (202).jpg,datasets/brain-tumor/labels/val/val_1 (202).txt,0,0.619718,0.552817,0.091549,0.068075,0.006232198175
+val,datasets/brain-tumor/images/val/val_1 (203).jpg,datasets/brain-tumor/labels/val/val_1 (203).txt,0,0.343897,0.441315,0.065728,0.06338,0.00416584064
+val,datasets/brain-tumor/images/val/val_1 (204).jpg,datasets/brain-tumor/labels/val/val_1 (204).txt,0,0.346831,0.445423,0.071596,0.064554,0.004621808184000001
+val,datasets/brain-tumor/images/val/val_1 (204).jpg,datasets/brain-tumor/labels/val/val_1 (204).txt,0,0.316315,0.499413,0.062207,0.043427,0.002701463389
+val,datasets/brain-tumor/images/val/val_1 (205).jpg,datasets/brain-tumor/labels/val/val_1 (205).txt,0,0.376174,0.426643,0.092723,0.083333,0.007726885759
+val,datasets/brain-tumor/images/val/val_1 (206).jpg,datasets/brain-tumor/labels/val/val_1 (206).txt,0,0.367371,0.588615,0.089202,0.120892,0.010783808184
+val,datasets/brain-tumor/images/val/val_1 (207).jpg,datasets/brain-tumor/labels/val/val_1 (207).txt,0,0.359742,0.579225,0.116197,0.134977,0.015683922469
+val,datasets/brain-tumor/images/val/val_1 (208).jpg,datasets/brain-tumor/labels/val/val_1 (208).txt,0,0.365023,0.606221,0.110329,0.137324,0.015150819596
+val,datasets/brain-tumor/images/val/val_1 (209).jpg,datasets/brain-tumor/labels/val/val_1 (209).txt,0,0.36385,0.606808,0.107981,0.129108,0.013941210947999999
+val,datasets/brain-tumor/images/val/val_1 (21).jpg,datasets/brain-tumor/labels/val/val_1 (21).txt,1,0.566315,0.093897,0.10446,0.093897,0.009808480619999999
+val,datasets/brain-tumor/images/val/val_1 (210).jpg,datasets/brain-tumor/labels/val/val_1 (210).txt,0,0.368545,0.620892,0.061033,0.103286,0.006303854438
+val,datasets/brain-tumor/images/val/val_1 (211).jpg,datasets/brain-tumor/labels/val/val_1 (211).txt,0,0.391432,0.665493,0.083333,0.140845,0.011737036385
+val,datasets/brain-tumor/images/val/val_1 (212).jpg,datasets/brain-tumor/labels/val/val_1 (212).txt,0,0.414319,0.670188,0.133803,0.180751,0.024185026053
+val,datasets/brain-tumor/images/val/val_1 (213).jpg,datasets/brain-tumor/labels/val/val_1 (213).txt,0,0.420188,0.670188,0.15493,0.213615,0.03309537195
+val,datasets/brain-tumor/images/val/val_1 (214).jpg,datasets/brain-tumor/labels/val/val_1 (214).txt,0,0.420188,0.671948,0.169014,0.231221,0.039079586094
+val,datasets/brain-tumor/images/val/val_1 (215).jpg,datasets/brain-tumor/labels/val/val_1 (215).txt,0,0.419014,0.682512,0.15493,0.198357,0.030731450010000005
+val,datasets/brain-tumor/images/val/val_1 (216).jpg,datasets/brain-tumor/labels/val/val_1 (216).txt,0,0.421362,0.680164,0.157277,0.188967,0.029720162859
+val,datasets/brain-tumor/images/val/val_1 (217).jpg,datasets/brain-tumor/labels/val/val_1 (217).txt,0,0.418427,0.676643,0.137324,0.158451,0.021759125124000002
+val,datasets/brain-tumor/images/val/val_1 (218).jpg,datasets/brain-tumor/labels/val/val_1 (218).txt,0,0.415493,0.673709,0.131455,0.140845,0.018514779475
+val,datasets/brain-tumor/images/val/val_1 (219).jpg,datasets/brain-tumor/labels/val/val_1 (219).txt,0,0.41784,0.680164,0.103286,0.097418,0.010061915548
+val,datasets/brain-tumor/images/val/val_1 (22).jpg,datasets/brain-tumor/labels/val/val_1 (22).txt,0,0.299883,0.22007,0.057512,0.055164,0.003172591968
+val,datasets/brain-tumor/images/val/val_1 (220).jpg,datasets/brain-tumor/labels/val/val_1 (220).txt,0,0.423709,0.686033,0.07277,0.064554,0.0046975945800000005
+val,datasets/brain-tumor/images/val/val_1 (221).jpg,datasets/brain-tumor/labels/val/val_1 (221).txt,0,0.646127,0.588615,0.080986,0.088028,0.007129035608
+val,datasets/brain-tumor/images/val/val_1 (222).jpg,datasets/brain-tumor/labels/val/val_1 (222).txt,0,0.649648,0.596244,0.083333,0.091549,0.0076290528170000005
+val,datasets/brain-tumor/images/val/val_1 (223).jpg,datasets/brain-tumor/labels/val/val_1 (223).txt,0,0.647887,0.605047,0.061033,0.071596,0.004369718668
+val,datasets/brain-tumor/images/val/val_1 (23).jpg,datasets/brain-tumor/labels/val/val_1 (23).txt,0,0.245892,0.24061,0.078638,0.07277,0.00572248726
+val,datasets/brain-tumor/images/val/val_1 (24).jpg,datasets/brain-tumor/labels/val/val_1 (24).txt,1,0.607394,0.557512,0.073944,0.089202,0.006595952688
+val,datasets/brain-tumor/images/val/val_1 (25).jpg,datasets/brain-tumor/labels/val/val_1 (25).txt,1,0.503521,0.258216,0.098592,0.103286,0.010183173312
+val,datasets/brain-tumor/images/val/val_1 (26).jpg,datasets/brain-tumor/labels/val/val_1 (26).txt,1,0.305751,0.3973,0.118545,0.170188,0.02017493646
+val,datasets/brain-tumor/images/val/val_1 (27).jpg,datasets/brain-tumor/labels/val/val_1 (27).txt,1,0.302817,0.389671,0.159624,0.201878,0.032224573872
+val,datasets/brain-tumor/images/val/val_1 (28).jpg,datasets/brain-tumor/labels/val/val_1 (28).txt,0,0.382629,0.191315,0.103286,0.086854,0.008970802244
+val,datasets/brain-tumor/images/val/val_1 (29).jpg,datasets/brain-tumor/labels/val/val_1 (29).txt,1,0.311033,0.381455,0.194836,0.201878,0.039333102008000005
+val,datasets/brain-tumor/images/val/val_1 (3).jpg,datasets/brain-tumor/labels/val/val_1 (3).txt,1,0.357394,0.474178,0.212441,0.157277,0.033412083157
+val,datasets/brain-tumor/images/val/val_1 (30).jpg,datasets/brain-tumor/labels/val/val_1 (30).txt,0,0.610915,0.661385,0.16784,0.134977,0.022654539680000002
+val,datasets/brain-tumor/images/val/val_1 (30).jpg,datasets/brain-tumor/labels/val/val_1 (30).txt,0,0.599765,0.538732,0.091549,0.06338,0.005802375620000001
+val,datasets/brain-tumor/images/val/val_1 (31).jpg,datasets/brain-tumor/labels/val/val_1 (31).txt,0,0.611502,0.534624,0.15493,0.078638,0.01218338534
+val,datasets/brain-tumor/images/val/val_1 (31).jpg,datasets/brain-tumor/labels/val/val_1 (31).txt,0,0.602113,0.671362,0.178404,0.161972,0.028896452688
+val,datasets/brain-tumor/images/val/val_1 (32).jpg,datasets/brain-tumor/labels/val/val_1 (32).txt,0,0.61385,0.528756,0.140845,0.073944,0.010414642679999999
+val,datasets/brain-tumor/images/val/val_1 (32).jpg,datasets/brain-tumor/labels/val/val_1 (32).txt,0,0.605634,0.66608,0.185446,0.156103,0.028948676938
+val,datasets/brain-tumor/images/val/val_1 (33).jpg,datasets/brain-tumor/labels/val/val_1 (33).txt,0,0.6027,0.619131,0.184272,0.24061,0.044337685919999995
+val,datasets/brain-tumor/images/val/val_1 (34).jpg,datasets/brain-tumor/labels/val/val_1 (34).txt,0,0.598592,0.622066,0.171362,0.241784,0.041432589808
+val,datasets/brain-tumor/images/val/val_1 (35).jpg,datasets/brain-tumor/labels/val/val_1 (35).txt,0,0.601526,0.616784,0.170188,0.221831,0.037752974228
+val,datasets/brain-tumor/images/val/val_1 (36).jpg,datasets/brain-tumor/labels/val/val_1 (36).txt,0,0.591549,0.650822,0.091549,0.102113,0.009348343037
+val,datasets/brain-tumor/images/val/val_1 (37).jpg,datasets/brain-tumor/labels/val/val_1 (37).txt,0,0.634977,0.513498,0.089202,0.090376,0.008061719952
+val,datasets/brain-tumor/images/val/val_1 (38).jpg,datasets/brain-tumor/labels/val/val_1 (38).txt,0,0.521127,0.472418,0.103286,0.073944,0.007637379984
+val,datasets/brain-tumor/images/val/val_1 (38).jpg,datasets/brain-tumor/labels/val/val_1 (38).txt,0,0.630282,0.503521,0.075117,0.093897,0.007053260949
+val,datasets/brain-tumor/images/val/val_1 (39).jpg,datasets/brain-tumor/labels/val/val_1 (39).txt,0,0.625587,0.510563,0.051643,0.044601,0.002303329443
+val,datasets/brain-tumor/images/val/val_1 (4).jpg,datasets/brain-tumor/labels/val/val_1 (4).txt,1,0.374413,0.46831,0.180751,0.143192,0.025882097192000002
+val,datasets/brain-tumor/images/val/val_1 (40).jpg,datasets/brain-tumor/labels/val/val_1 (40).txt,0,0.623826,0.514085,0.057512,0.042254,0.002430112048
+val,datasets/brain-tumor/images/val/val_1 (41).jpg,datasets/brain-tumor/labels/val/val_1 (41).txt,1,0.308099,0.362089,0.193662,0.172535,0.03341347317
+val,datasets/brain-tumor/images/val/val_1 (42).jpg,datasets/brain-tumor/labels/val/val_1 (42).txt,1,0.300469,0.361502,0.190141,0.178404,0.033921914964
+val,datasets/brain-tumor/images/val/val_1 (43).jpg,datasets/brain-tumor/labels/val/val_1 (43).txt,0,0.39554,0.471244,0.117371,0.18662,0.02190377602
+val,datasets/brain-tumor/images/val/val_1 (44).jpg,datasets/brain-tumor/labels/val/val_1 (44).txt,0,0.4777,0.25939,0.110329,0.093897,0.010359562113
+val,datasets/brain-tumor/images/val/val_1 (45).jpg,datasets/brain-tumor/labels/val/val_1 (45).txt,0,0.364437,0.589789,0.16784,0.137324,0.02304846016
+val,datasets/brain-tumor/images/val/val_1 (46).jpg,datasets/brain-tumor/labels/val/val_1 (46).txt,0,0.360915,0.590376,0.165493,0.143192,0.023697273656000002
+val,datasets/brain-tumor/images/val/val_1 (47).jpg,datasets/brain-tumor/labels/val/val_1 (47).txt,0,0.396714,0.607394,0.171362,0.172535,0.029565942669999998
+val,datasets/brain-tumor/images/val/val_1 (48).jpg,datasets/brain-tumor/labels/val/val_1 (48).txt,0,0.397887,0.611502,0.173709,0.173709,0.030174816681
+val,datasets/brain-tumor/images/val/val_1 (49).jpg,datasets/brain-tumor/labels/val/val_1 (49).txt,0,0.438967,0.639085,0.105634,0.125587,0.013266257158000002
+val,datasets/brain-tumor/images/val/val_1 (49).jpg,datasets/brain-tumor/labels/val/val_1 (49).txt,0,0.358568,0.701878,0.059859,0.051643,0.003091298337
+val,datasets/brain-tumor/images/val/val_1 (5).jpg,datasets/brain-tumor/labels/val/val_1 (5).txt,1,0.425469,0.464202,0.142019,0.092723,0.013168427737000001
+val,datasets/brain-tumor/images/val/val_1 (50).jpg,datasets/brain-tumor/labels/val/val_1 (50).txt,0,0.430164,0.638498,0.11385,0.138498,0.015767997300000003
+val,datasets/brain-tumor/images/val/val_1 (51).jpg,datasets/brain-tumor/labels/val/val_1 (51).txt,0,0.434859,0.644953,0.09507,0.123239,0.01171633173
+val,datasets/brain-tumor/images/val/val_1 (52).jpg,datasets/brain-tumor/labels/val/val_1 (52).txt,0,0.433099,0.641432,0.091549,0.111502,0.010207896598000001
+val,datasets/brain-tumor/images/val/val_1 (53).jpg,datasets/brain-tumor/labels/val/val_1 (53).txt,0,0.429577,0.644953,0.091549,0.102113,0.009348343037
+val,datasets/brain-tumor/images/val/val_1 (54).jpg,datasets/brain-tumor/labels/val/val_1 (54).txt,0,0.430751,0.646127,0.086854,0.090376,0.007849517104
+val,datasets/brain-tumor/images/val/val_1 (55).jpg,datasets/brain-tumor/labels/val/val_1 (55).txt,0,0.669014,0.260563,0.13615,0.093897,0.012784076549999999
+val,datasets/brain-tumor/images/val/val_1 (56).jpg,datasets/brain-tumor/labels/val/val_1 (56).txt,0,0.647887,0.277582,0.164319,0.158451,0.026036509869
+val,datasets/brain-tumor/images/val/val_1 (56).jpg,datasets/brain-tumor/labels/val/val_1 (56).txt,0,0.638498,0.382042,0.091549,0.059859,0.0054800315910000005
+val,datasets/brain-tumor/images/val/val_1 (57).jpg,datasets/brain-tumor/labels/val/val_1 (57).txt,0,0.600352,0.312207,0.125587,0.138498,0.017393548326000003
+val,datasets/brain-tumor/images/val/val_1 (57).jpg,datasets/brain-tumor/labels/val/val_1 (57).txt,0,0.706573,0.373826,0.131455,0.118545,0.015583332974999997
+val,datasets/brain-tumor/images/val/val_1 (58).jpg,datasets/brain-tumor/labels/val/val_1 (58).txt,0,0.607981,0.321596,0.119718,0.117371,0.014051421378
+val,datasets/brain-tumor/images/val/val_1 (58).jpg,datasets/brain-tumor/labels/val/val_1 (58).txt,0,0.708333,0.357981,0.10446,0.105634,0.01103452764
+val,datasets/brain-tumor/images/val/val_1 (59).jpg,datasets/brain-tumor/labels/val/val_1 (59).txt,0,0.629108,0.321596,0.089202,0.100939,0.009003960678
+val,datasets/brain-tumor/images/val/val_1 (6).jpg,datasets/brain-tumor/labels/val/val_1 (6).txt,1,0.410798,0.459507,0.152582,0.123239,0.018804053097999998
+val,datasets/brain-tumor/images/val/val_1 (60).jpg,datasets/brain-tumor/labels/val/val_1 (60).txt,1,0.302817,0.359155,0.15493,0.159624,0.02473054632
+val,datasets/brain-tumor/images/val/val_1 (61).jpg,datasets/brain-tumor/labels/val/val_1 (61).txt,1,0.485915,0.471831,0.215962,0.122066,0.026361617491999997
+val,datasets/brain-tumor/images/val/val_1 (62).jpg,datasets/brain-tumor/labels/val/val_1 (62).txt,1,0.328052,0.372653,0.052817,0.059859,0.0031615728030000003
+val,datasets/brain-tumor/images/val/val_1 (62).jpg,datasets/brain-tumor/labels/val/val_1 (62).txt,1,0.404343,0.426643,0.109155,0.118545,0.012939779475
+val,datasets/brain-tumor/images/val/val_1 (62).jpg,datasets/brain-tumor/labels/val/val_1 (62).txt,1,0.526408,0.366784,0.078638,0.090376,0.007106987887999999
+val,datasets/brain-tumor/images/val/val_1 (63).jpg,datasets/brain-tumor/labels/val/val_1 (63).txt,0,0.713615,0.306338,0.105634,0.096244,0.010166638696
+val,datasets/brain-tumor/images/val/val_1 (64).jpg,datasets/brain-tumor/labels/val/val_1 (64).txt,0,0.716549,0.315728,0.139671,0.15493,0.02163922803
+val,datasets/brain-tumor/images/val/val_1 (65).jpg,datasets/brain-tumor/labels/val/val_1 (65).txt,0,0.690728,0.313967,0.163146,0.160798,0.026233550508
+val,datasets/brain-tumor/images/val/val_1 (66).jpg,datasets/brain-tumor/labels/val/val_1 (66).txt,0,0.698944,0.295188,0.118545,0.10446,0.0123832107
+val,datasets/brain-tumor/images/val/val_1 (67).jpg,datasets/brain-tumor/labels/val/val_1 (67).txt,1,0.456573,0.21831,0.075117,0.107981,0.008111208776999999
+val,datasets/brain-tumor/images/val/val_1 (68).jpg,datasets/brain-tumor/labels/val/val_1 (68).txt,1,0.473592,0.286972,0.066901,0.097418,0.006517361618
+val,datasets/brain-tumor/images/val/val_1 (69).jpg,datasets/brain-tumor/labels/val/val_1 (69).txt,1,0.471831,0.298709,0.107981,0.142019,0.015335353639
+val,datasets/brain-tumor/images/val/val_1 (7).jpg,datasets/brain-tumor/labels/val/val_1 (7).txt,1,0.405516,0.444836,0.139671,0.138498,0.019344154158
+val,datasets/brain-tumor/images/val/val_1 (70).jpg,datasets/brain-tumor/labels/val/val_1 (70).txt,1,0.480634,0.318662,0.09507,0.116197,0.01104684879
+val,datasets/brain-tumor/images/val/val_1 (71).jpg,datasets/brain-tumor/labels/val/val_1 (71).txt,0,0.600352,0.409038,0.11385,0.092723,0.01055651355
+val,datasets/brain-tumor/images/val/val_1 (72).jpg,datasets/brain-tumor/labels/val/val_1 (72).txt,0,0.592723,0.40669,0.070423,0.050469,0.003554178387
+val,datasets/brain-tumor/images/val/val_1 (73).jpg,datasets/brain-tumor/labels/val/val_1 (73).txt,0,0.432512,0.28169,0.076291,0.065728,0.005014454848
+val,datasets/brain-tumor/images/val/val_1 (74).jpg,datasets/brain-tumor/labels/val/val_1 (74).txt,1,0.38439,0.303404,0.085681,0.080986,0.0069389614659999994
+val,datasets/brain-tumor/images/val/val_1 (75).jpg,datasets/brain-tumor/labels/val/val_1 (75).txt,1,0.620305,0.414906,0.080986,0.09507,0.00769933902
+val,datasets/brain-tumor/images/val/val_1 (76).jpg,datasets/brain-tumor/labels/val/val_1 (76).txt,1,0.619131,0.409038,0.109155,0.111502,0.01217100081
+val,datasets/brain-tumor/images/val/val_1 (77).jpg,datasets/brain-tumor/labels/val/val_1 (77).txt,1,0.61385,0.407277,0.08216,0.08216,0.006750265599999999
+val,datasets/brain-tumor/images/val/val_1 (78).jpg,datasets/brain-tumor/labels/val/val_1 (78).txt,1,0.383803,0.305164,0.077465,0.077465,0.006000826225000001
+val,datasets/brain-tumor/images/val/val_1 (79).jpg,datasets/brain-tumor/labels/val/val_1 (79).txt,0,0.243545,0.419601,0.203052,0.125587,0.025500691524000002
+val,datasets/brain-tumor/images/val/val_1 (8).jpg,datasets/brain-tumor/labels/val/val_1 (8).txt,1,0.407277,0.453052,0.115023,0.098592,0.011340347616
+val,datasets/brain-tumor/images/val/val_1 (80).jpg,datasets/brain-tumor/labels/val/val_1 (80).txt,0,0.25,0.40669,0.239437,0.127934,0.030632133158
+val,datasets/brain-tumor/images/val/val_1 (81).jpg,datasets/brain-tumor/labels/val/val_1 (81).txt,0,0.242958,0.419014,0.269953,0.150235,0.040556388955
+val,datasets/brain-tumor/images/val/val_1 (82).jpg,datasets/brain-tumor/labels/val/val_1 (82).txt,0,0.260563,0.421948,0.180751,0.139671,0.025245672921
+val,datasets/brain-tumor/images/val/val_1 (83).jpg,datasets/brain-tumor/labels/val/val_1 (83).txt,0,0.41784,0.274061,0.161972,0.116197,0.018820660484
+val,datasets/brain-tumor/images/val/val_1 (84).jpg,datasets/brain-tumor/labels/val/val_1 (84).txt,0,0.413146,0.27054,0.183099,0.132629,0.024284237271
+val,datasets/brain-tumor/images/val/val_1 (85).jpg,datasets/brain-tumor/labels/val/val_1 (85).txt,1,0.407864,0.328052,0.137324,0.125587,0.017246109188
+val,datasets/brain-tumor/images/val/val_1 (86).jpg,datasets/brain-tumor/labels/val/val_1 (86).txt,0,0.420775,0.269953,0.207746,0.147887,0.030722932701999998
+val,datasets/brain-tumor/images/val/val_1 (87).jpg,datasets/brain-tumor/labels/val/val_1 (87).txt,1,0.490023,0.285798,0.080986,0.139671,0.011311395606
+val,datasets/brain-tumor/images/val/val_1 (88).jpg,datasets/brain-tumor/labels/val/val_1 (88).txt,1,0.441315,0.527582,0.112676,0.153756,0.017324611056
+val,datasets/brain-tumor/images/val/val_1 (89).jpg,datasets/brain-tumor/labels/val/val_1 (89).txt,0,0.682512,0.556925,0.066901,0.059859,0.004004626959
+val,datasets/brain-tumor/images/val/val_1 (9).jpg,datasets/brain-tumor/labels/val/val_1 (9).txt,0,0.463028,0.339789,0.156103,0.120892,0.018871603876
+val,datasets/brain-tumor/images/val/val_1 (90).jpg,datasets/brain-tumor/labels/val/val_1 (90).txt,0,0.681925,0.552817,0.08216,0.079812,0.006557353919999999
+val,datasets/brain-tumor/images/val/val_1 (91).jpg,datasets/brain-tumor/labels/val/val_1 (91).txt,0,0.684272,0.55223,0.08216,0.078638,0.006460898079999999
+val,datasets/brain-tumor/images/val/val_1 (92).jpg,datasets/brain-tumor/labels/val/val_1 (92).txt,0,0.680751,0.555751,0.058685,0.048122,0.00282403957
+val,datasets/brain-tumor/images/val/val_1 (93).jpg,datasets/brain-tumor/labels/val/val_1 (93).txt,0,0.424296,0.271714,0.221831,0.170188,0.037752974228
+val,datasets/brain-tumor/images/val/val_1 (94).jpg,datasets/brain-tumor/labels/val/val_1 (94).txt,0,0.399061,0.401408,0.07277,0.070423,0.0051246817100000005
+val,datasets/brain-tumor/images/val/val_1 (95).jpg,datasets/brain-tumor/labels/val/val_1 (95).txt,0,0.408451,0.41608,0.112676,0.099765,0.011241121140000001
+val,datasets/brain-tumor/images/val/val_1 (96).jpg,datasets/brain-tumor/labels/val/val_1 (96).txt,0,0.405516,0.410211,0.071596,0.097418,0.006974739128000001
+val,datasets/brain-tumor/images/val/val_1 (97).jpg,datasets/brain-tumor/labels/val/val_1 (97).txt,0,0.669014,0.455986,0.089202,0.097418,0.008689880436
+val,datasets/brain-tumor/images/val/val_1 (98).jpg,datasets/brain-tumor/labels/val/val_1 (98).txt,0,0.676056,0.461854,0.091549,0.120892,0.011067541708
+val,datasets/brain-tumor/images/val/val_1 (99).jpg,datasets/brain-tumor/labels/val/val_1 (99).txt,0,0.673709,0.458333,0.089202,0.090376,0.008061719952

@@ -1,0 +1,13 @@
+case,image,visual,actual_positive,max_positive_conf,top_class,top_conf
+fp,datasets/brain-tumor/images/val/val_1 (91).jpg,runs/screening_report_medical_focus/case_visuals/fp_val_1 (91).jpg,False,0.8018841743469238,1,0.8018841743469238
+fp,datasets/brain-tumor/images/val/val_1 (90).jpg,runs/screening_report_medical_focus/case_visuals/fp_val_1 (90).jpg,False,0.7934633493423462,1,0.7934633493423462
+fp,datasets/brain-tumor/images/val/val_1 (113).jpg,runs/screening_report_medical_focus/case_visuals/fp_val_1 (113).jpg,False,0.7478792667388916,1,0.7478792667388916
+fn,datasets/brain-tumor/images/val/val_1 (142).jpg,runs/screening_report_medical_focus/case_visuals/fn_val_1 (142).jpg,True,0.2191324383020401,0,0.22218182682991028
+fn,datasets/brain-tumor/images/val/val_1 (61).jpg,runs/screening_report_medical_focus/case_visuals/fn_val_1 (61).jpg,True,0.21077904105186462,1,0.21077904105186462
+fn,datasets/brain-tumor/images/val/val_1 (88).jpg,runs/screening_report_medical_focus/case_visuals/fn_val_1 (88).jpg,True,0.19467484951019287,1,0.19467484951019287
+tp,datasets/brain-tumor/images/val/val_1 (78).jpg,runs/screening_report_medical_focus/case_visuals/tp_val_1 (78).jpg,True,0.8036380410194397,1,0.8036380410194397
+tp,datasets/brain-tumor/images/val/val_1 (74).jpg,runs/screening_report_medical_focus/case_visuals/tp_val_1 (74).jpg,True,0.787997841835022,1,0.787997841835022
+tp,datasets/brain-tumor/images/val/val_1 (24).jpg,runs/screening_report_medical_focus/case_visuals/tp_val_1 (24).jpg,True,0.7511118054389954,1,0.7511118054389954
+tn,datasets/brain-tumor/images/val/val_1 (128).jpg,runs/screening_report_medical_focus/case_visuals/tn_val_1 (128).jpg,False,0.09189458936452866,0,0.24002991616725922
+tn,datasets/brain-tumor/images/val/val_1 (36).jpg,runs/screening_report_medical_focus/case_visuals/tn_val_1 (36).jpg,False,0.11178424209356308,0,0.13949160277843475
+tn,datasets/brain-tumor/images/val/val_1 (81).jpg,runs/screening_report_medical_focus/case_visuals/tn_val_1 (81).jpg,False,0.12253421545028687,0,0.27937689423561096
