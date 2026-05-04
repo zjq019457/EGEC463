@@ -11,7 +11,7 @@ env/
 # Local datasets, model weights, and experiment outputs
 # datasets/
 # runs/
-*.pt
+# *.pt
 brain-tumor.yaml
 yolo*.pt
 
