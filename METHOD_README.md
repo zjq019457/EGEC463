@@ -10,148 +10,114 @@ The final workflow has three parts:
 
 This project is for model development and research workflow only. It is not a clinical diagnosis tool.
 
-## Method
+## Presentation Report: Brain Tumor Detection and Screening
 
-### 1. YOLO Detection Baseline
+### Slide 1: Research Goal
 
-The original detector uses YOLO11 object detection. It predicts bounding boxes and class labels for MRI images.
+- Objective: turn a YOLO11 detection model into a screening workflow that minimizes missed positive MRI images.
+- Key outcome: reduce false negatives while preserving reasonable precision.
+- Why this matters: in brain tumor screening, a missed positive image can delay diagnosis and treatment.
 
-At a detector confidence threshold of `0.25`, the baseline detector had:
+### Slide 2: Dataset and challenge
 
-| Strategy | Precision | Recall | Specificity | F1 | False negatives |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Detector only | 0.384 | 0.407 | 0.627 | 0.395 | 48 |
+- Dataset contains MRI images labeled with tumor bounding boxes and image-level positive / negative status.
+- Challenge: many tumor regions are small, low-contrast, or partially visible.
+- Data statistics:
+  - Train: 893 images, 459 positive, 434 negative, 925 boxes
+  - Val: 223 images, 81 positive, 142 negative, 241 boxes
+  - Small boxes (<2% image area): 612 train, 179 val
+- Consequence: baseline detection struggles on tiny tumor regions.
 
-This means the detector was conservative at the normal threshold and missed many positive cases.
+### Slide 3: Baseline detection performance
 
-### 2. False Negative Analysis
+- Model: YOLO11n trained at 320px with original augmentation.
+- Performance at detector threshold 0.25:
+  - Precision: 0.384
+  - Recall: 0.407
+  - Specificity: 0.627
+  - F1: 0.395
+  - False negatives: 48
+- Interpretation: the model is too conservative for screening, missing nearly half of positive images.
 
-For medical screening, false negatives are especially important because they are missed positive images. The FN analysis script identifies positive validation cases where the detector does not produce a positive detection above the selected threshold.
+### Slide 4: False negative failure mode
 
-At threshold `0.25`, the baseline detector missed:
+- In analysis, the baseline detector missed 48 positive images and 53 positive boxes.
+- Most missed boxes are tiny:
+  - 48 / 53 missed boxes are smaller than 2% of image area
+  - median missed box area is 0.0081
+- Visual evidence shows small, low-contrast lesions where the model fails to output any detection.
 
-- 48 positive images
-- 53 positive boxes
-- 48 of the missed boxes were smaller than 2% of the image area
-- Median missed box area was `0.0081`
+### Slide 5: Improved detection experiments
 
-This shows a clear failure pattern: the detector often misses small tumor regions.
+| Experiment | Model | Input size | Focus |
+| --- | --- | --- | --- |
+| `runs/detect/train` | YOLO11n | 320px | baseline |
+| `runs/detect/train2` | YOLO11n | 320px | repeat baseline |
+| `runs/experiments/medical_focus_small_640` | YOLO11s | 640px | pilot small-object focus |
+| `runs/experiments/medical_nano_640` | YOLO11n | 640px | light medical augmentation |
+| `runs/experiments/medical_small_640` | YOLO11s | 640px | recall-focused |
+| `runs/experiments/medical_medium_640` | YOLO11m | 640px | balanced recall |
 
-### 3. Classification Assist
+- Best detector: `medical_nano_640`.
+- Improvement over baseline:
+  - mAP50: from 0.508 to 0.540
+  - mAP50-95: from 0.284 to 0.373
+  - False negatives at 0.25: from 48 to 19
 
-Detection is good for localization, but image-level classification is often better for the simpler screening question: does this MRI look positive or negative?
+### Slide 6: Detector comparison summary
 
-The classification assist workflow:
+- `baseline 320px`: stable but misses small tumors.
+- `medical_nano_640`: best overall, more accurate localization and fewer misses.
+- `medical_small_640` / `medical_medium_640`: trade precision for recall, better at hard small-tumor cases.
+- The main technical insight: higher input resolution + lighter medical augmentation improves small-object recall.
 
-1. Converts YOLO detection labels into image-level labels.
-2. Trains a YOLO11 classification model on `positive` and `negative` folders.
-3. Evaluates three strategies:
+### Slide 7: Screening strategy design
 
-- detector only
-- classifier only
-- classifier OR detector
+- Strategy 1: detector only
+- Strategy 2: classifier only
+- Strategy 3: detector OR classifier
 
-The combined rule is:
-
+Combined rule:
 ```text
 predict positive if:
   detector positive confidence >= detector threshold
   OR classifier positive probability >= classifier threshold
 ```
 
-## Improvement
+- Classifier acts as a second opinion for image-level positivity.
+- This is useful when detection may miss a lesion but image evidence still suggests disease.
 
-### Detection Results
+### Slide 8: Screening results comparison
 
-The current completed detection experiments are:
+| Strategy | Precision | Recall | Specificity | F1 | False negatives |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Baseline detector only | 0.384 | 0.407 | 0.627 | 0.395 | 48 |
+| Best detector only | 0.373 | 0.765 | 0.268 | 0.502 | 19 |
+| Classifier only | 0.528 | 0.704 | 0.641 | 0.603 | 24 |
+| Classifier OR baseline detector | 0.443 | 0.864 | 0.380 | 0.586 | 11 |
+| Classifier OR best detector | 0.393 | 0.975 | 0.141 | 0.560 | 2 |
 
-| Experiment | Model / setup | Best mAP50 epoch | Precision | Recall | Best mAP50 | Best mAP50-95 |
-| --- | --- | ---: | ---: | ---: | ---: | ---: |
-| `runs/detect/train` | YOLO11n, 320px, original augmentation | 9 | 0.469 | 0.810 | 0.508 | 0.284 |
-| `runs/detect/train2` | repeated YOLO11n baseline run | 9 | 0.469 | 0.810 | 0.508 | 0.284 |
-| `runs/experiments/medical_focus_small_640` | YOLO11s, 640px, light medical augmentation, pilot run | 1 | 0.359 | 0.705 | 0.418 | 0.245 |
-| `runs/experiments/medical_nano_640` | YOLO11n, 640px, light medical augmentation | 41 | 0.492 | 0.740 | 0.540 | 0.373 |
-| `runs/experiments/medical_small_640` | YOLO11s, 640px, light medical augmentation | 24 | 0.468 | 0.826 | 0.526 | 0.363 |
-| `runs/experiments/medical_medium_640` | YOLO11m, 640px, light medical augmentation | 25 | 0.452 | 0.819 | 0.515 | 0.358 |
+- Best screening result: classifier OR best detector, recall = 0.975.
+- Tradeoff: specificity drops from 0.627 to 0.141 in the highest-recall setting.
+- Conclusion: for screening, recall is prioritized, and the combined model recovers nearly all positives.
 
-Ultralytics also generated standard detection evaluation artifacts:
+### Slide 9: Visual examples for slides
 
-- `PR_curve.png`
-- `confusion_matrix.png`
-- `confusion_matrix_normalized.png`
-- `results.csv`
-
-#### Slide-ready detection comparison
-
-- Baseline YOLO11n 320px is the reference model. It has acceptable localization metrics, but misses a large number of small, low-contrast tumor regions in MRI.
-- `medical_nano_640` is the best detection model in this project: it increases mAP50 and mAP50-95, and cuts detector-only false negatives nearly in half.
-- `medical_small_640` and `medical_medium_640` prioritize higher recall; they are stronger at finding hard cases when the tumor footprint is very small.
-
-#### Visual case comparison
-
-- Representative cases are available in the false negative analysis outputs: `runs/fn_analysis_baseline_t025/fn_visuals` versus `runs/fn_analysis_medical_nano_640_t025/fn_visuals`.
-- In the same MRI image, the baseline detector often fails to draw a bounding box on a small tumor, while `medical_nano_640` recovers the lesion with a tighter box.
-- This contrast is ideal for PPT slides: show the baseline miss, the recovered detection, and the final screening decision.
-
-The best detector is `medical_nano_640`. Compared with the original YOLO11n 320px baseline, it improves:
-
-- mAP50 from `0.508` to `0.540`
-- mAP50-95 from `0.284` to `0.373`
-- detector-only false negatives at threshold `0.25` from `48` to `19`
-
-This confirms the main hypothesis from the FN analysis: increasing resolution and using lighter medical-image augmentation helps small-object recall.
-
-### Screening Improvement
-
-The classifier was trained for a short 5-epoch CPU experiment using `YOLO11n-cls`, `imgsz=224`, and `batch=16`.
-
-| Strategy | Thresholds | Precision | Recall | Specificity | F1 | False negatives |
-| --- | --- | ---: | ---: | ---: | ---: | ---: |
-| Baseline detector only | detector=0.25 | 0.384 | 0.407 | 0.627 | 0.395 | 48 |
-| Best detector only | medical_nano_640, detector=0.25 | 0.373 | 0.765 | 0.268 | 0.502 | 19 |
-| Classifier only | classifier=0.30 | 0.528 | 0.704 | 0.641 | 0.603 | 24 |
-| Classifier OR baseline detector | classifier=0.30, detector=0.25 | 0.443 | 0.864 | 0.380 | 0.586 | 11 |
-| Classifier OR best detector | classifier=0.30, medical_nano_640 detector=0.25 | 0.393 | 0.975 | 0.141 | 0.560 | 2 |
-
-#### Screening strategy comparison
-
-- `Baseline detector only` is the conservative reference: moderate precision, low recall, and a large number of missed positive images.
-- `Best detector only` improves recall significantly, showing that detector retraining with higher resolution is the key detection-level improvement.
-- `Classifier only` demonstrates that image-level classification can catch positive images that localization misses, with fewer false positives than the detector-only option.
-- `Classifier OR detector` is the recommended screening strategy when recall is the priority: it combines the strengths of both models and recovers nearly all positive cases.
-
-Main improvement:
-
-- Detector-only false negatives dropped from `48` to `19` after retraining YOLO11n at 640px with lighter augmentation.
-- Combined false negatives dropped from `48` to `2` when using the classifier OR best detector screening strategy.
-- Combined recall improved from `0.407` to `0.975`.
-
-Tradeoff:
-
-- The best combined strategy is very sensitive but creates many false positives.
-- Specificity drops from `0.627` to `0.141` in the highest-recall combined setting.
-
-This is a common screening tradeoff: the system becomes more sensitive, but less selective.
-
-### PPT takeaways
-
-- Slide 1: problem statement — small tumor detection is hard and creates many false negatives.
-- Slide 2: detector comparison — baseline vs `medical_nano_640` vs `medical_small_640`.
-- Slide 3: screening strategy comparison — detector, classifier, combined.
-- Slide 4: visual examples from the false negative analysis reports.
-
-### Visual outputs for presentation
-
-Key visualization assets already present in this repository:
+Use these ready-made assets in presentation slides:
 
 - Baseline false negative examples: `runs/fn_analysis_baseline_t025/fn_visuals`
 - Improved detection cases: `runs/fn_analysis_medical_nano_640_t025/fn_visuals`
-- Screening report charts: `runs/screening_report_baseline/confusion_matrix.png`, `runs/screening_report_baseline/threshold_curves.png`
-- Best detector charts: `runs/screening_report_medical_nano_640/confusion_matrix.png`, `runs/screening_report_medical_nano_640/threshold_curves.png`
+- Baseline screening case visuals: `runs/screening_report_baseline/case_visuals`
+- Best detector screening case visuals: `runs/screening_report_medical_nano_640/case_visuals`
+- Confusion matrix and threshold curves:
+  - `runs/screening_report_baseline/confusion_matrix.png`
+  - `runs/screening_report_baseline/threshold_curves.png`
+  - `runs/screening_report_medical_nano_640/confusion_matrix.png`
+  - `runs/screening_report_medical_nano_640/threshold_curves.png`
 
-Example comparison images for PPT:
+#### Slide example 1: baseline miss vs improved detect
 
-Baseline miss (small/low-contrast tumor):
+Baseline missed small lesion:
 
 ![Baseline missed small lesion](runs/fn_analysis_baseline_t025/fn_visuals/fn_val_1%20(100).jpg)
 
@@ -159,7 +125,23 @@ Improved detection by `medical_nano_640`:
 
 ![Improved detection by medical_nano_640](runs/fn_analysis_medical_nano_640_t025/fn_visuals/fn_val_1%20(100).jpg)
 
-These visual examples are ready to use in slides to show how the baseline detector misses small tumors and how the improved model recovers them.
+#### Slide example 2: screening case comparison
+
+Baseline screening false negative:
+
+![Baseline screening false negative](runs/screening_report_baseline/case_visuals/fn_val_1%20(170).jpg)
+
+Best detector screening true positive:
+
+![Best detector screening true positive](runs/screening_report_medical_nano_640/case_visuals/tp_val_1%20(26).jpg)
+
+### Slide 10: Key takeaways
+
+- Small tumor regions are the main failure mode for baseline detection.
+- Higher-resolution detection models reduce false negatives significantly.
+- A classifier-assisted screening pipeline is effective for recovering missed positives.
+- The combined strategy is the best choice for a screening setting, with recall prioritized over specificity.
+- Recommended next steps: more epochs, more seeds, crop-based training for small boxes, and stronger medical augmentation.
 
 ## Data and Error Analysis
 

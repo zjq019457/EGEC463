@@ -59,99 +59,108 @@
   或 分类器 positive 概率 >= 分类阈值
 ```
 
-## 改进效果
+## 演示报告：脑肿瘤检测与筛查
 
-### 检测模型实验结果
+### 幻灯片 1：研究目标
 
-当前已经完成的检测实验如下：
+- 目标：把 YOLO11 检测模型扩展成一个筛查工作流，尽量减少漏检的阳性 MRI 图像。
+- 关键要求：在保留合理精度的前提下，优先降低 false negative。
+- 重要性：漏检脑肿瘤图像会延误诊断和治疗。
 
-| 实验 | 模型 / 设置 | 最佳 mAP50 epoch | Precision | Recall | 最佳 mAP50 | 最佳 mAP50-95 |
-| --- | --- | ---: | ---: | ---: | ---: | ---: |
-| `runs/detect/train` | YOLO11n，320px，原始增强 | 9 | 0.469 | 0.810 | 0.508 | 0.284 |
-| `runs/detect/train2` | 重复 YOLO11n baseline | 9 | 0.469 | 0.810 | 0.508 | 0.284 |
-| `runs/experiments/medical_focus_small_640` | YOLO11s，640px，医学轻增强，pilot 实验 | 1 | 0.359 | 0.705 | 0.418 | 0.245 |
-| `runs/experiments/medical_nano_640` | YOLO11n，640px，医学轻增强 | 41 | 0.492 | 0.740 | 0.540 | 0.373 |
-| `runs/experiments/medical_small_640` | YOLO11s，640px，医学轻增强 | 24 | 0.468 | 0.826 | 0.526 | 0.363 |
-| `runs/experiments/medical_medium_640` | YOLO11m，640px，医学轻增强 | 25 | 0.452 | 0.819 | 0.515 | 0.358 |
+### 幻灯片 2：数据集与挑战
 
-Ultralytics 已经生成了标准检测评估文件：
+- 数据集包含 MRI 图像，带肿瘤边界框的阳性样本和图像级正负标签。
+- 挑战：大量肿瘤区域体积小、对比度低、边界模糊。
+- 数据统计：
+  - 训练集：893 张图，459 阳性，434 阴性，925 个框
+  - 验证集：223 张图，81 阳性，142 阴性，241 个框
+  - 小框 (<2% 图像面积)：训练集 612，验证集 179
+- 结论：小目标是 baseline 检测失败的主要根因。
 
-- `PR_curve.png`
-- `confusion_matrix.png`
-- `confusion_matrix_normalized.png`
-- `results.csv`
+### 幻灯片 3：baseline 检测性能
 
-#### PPT 级别检测对比
+- 模型：YOLO11n，320px，原始增强。
+- 阈值 0.25 下表现：
+  - Precision: 0.384
+  - Recall: 0.407
+  - Specificity: 0.627
+  - F1: 0.395
+  - 漏检数量：48
+- 解读：baseline 检测器对筛查来说太保守，漏掉了大量阳性图像。
 
-- 基线 YOLO11n 320px 是参考模型，定位能力可用，但在小目标、低对比度肿瘤上漏检严重。
-- `medical_nano_640` 是本项目目前最优检测器：在 mAP50 和 mAP50-95 上均有提升，并把单纯检测器的漏检数量几乎减半。
-- `medical_small_640` 和 `medical_medium_640` 更偏向召回优化，尤其适合小肿瘤、稀疏标记的病例。
+### 幻灯片 4：False negative 分析
 
-#### 可视化案例对比
+- baseline 漏检 48 张阳性图像、53 个阳性框。
+- 其中 48 个漏检框面积 < 2% 图像面积。
+- 中位漏检框面积仅 0.0081。
+- 结论：small-object 性能不足是模型失败的核心原因。
 
-- `runs/fn_analysis_baseline_t025/fn_visuals` 与 `runs/fn_analysis_medical_nano_640_t025/fn_visuals` 提供同一张 MRI 的对比图。
-- 典型案例里，baseline 模型会漏掉肉眼可见但面积小、对比度弱的病灶；而 `medical_nano_640` 能恢复出准确的检测框。
-- 这些对比图非常适合放进 PPT：一张图对比“baseline miss / improved detect / screening decision”。
+### 幻灯片 5：检测器改进实验
 
-目前最好的检测器是 `medical_nano_640`。相比原始 YOLO11n 320px baseline，它带来了这些提升：
+| 实验 | 模型 | 输入尺寸 | 目标 |
+| --- | --- | --- | --- |
+| `runs/detect/train` | YOLO11n | 320px | baseline |
+| `runs/detect/train2` | YOLO11n | 320px | baseline 重复 |
+| `runs/experiments/medical_focus_small_640` | YOLO11s | 640px | 小目标 pilot |
+| `runs/experiments/medical_nano_640` | YOLO11n | 640px | 轻医学增强 |
+| `runs/experiments/medical_small_640` | YOLO11s | 640px | 召回优化 |
+| `runs/experiments/medical_medium_640` | YOLO11m | 640px | 均衡召回 |
 
-- mAP50 从 `0.508` 提升到 `0.540`
-- mAP50-95 从 `0.284` 提升到 `0.373`
-- 在检测阈值 `0.25` 下，detector-only 漏检从 `48` 降到 `19`
+- 最佳模型：`medical_nano_640`。
+- 主要提升：
+  - mAP50 从 0.508 提升到 0.540
+  - mAP50-95 从 0.284 提升到 0.373
+  - detector-only 漏检从 48 降到 19
 
-这验证了前面 FN 分析得到的判断：提高输入分辨率并使用更轻的医学图像增强，有助于提升小目标召回。
+### 幻灯片 6：检测器对比结论
 
-### 筛查策略改进结果
+- `baseline 320px`：稳定但漏小肿瘤。
+- `medical_nano_640`：整体最佳，定位更准确，漏检更少。
+- `medical_small_640` / `medical_medium_640`：精度下降、召回提高，适合更难小目标场景。
+- 技术结论：更高分辨率 + 更轻的医学增强，有助于小目标召回。
 
-分类器使用 `YOLO11n-cls`，在 CPU 上短训练了 5 个 epoch，设置为 `imgsz=224`、`batch=16`。
+### 幻灯片 7：筛查策略设计
 
-| 策略 | 阈值 | Precision | Recall | Specificity | F1 | 漏检数量 |
-| --- | --- | ---: | ---: | ---: | ---: | ---: |
-| Baseline 只用检测器 | detector=0.25 | 0.384 | 0.407 | 0.627 | 0.395 | 48 |
-| 最佳检测器单独使用 | medical_nano_640, detector=0.25 | 0.373 | 0.765 | 0.268 | 0.502 | 19 |
-| 只用分类器 | classifier=0.30 | 0.528 | 0.704 | 0.641 | 0.603 | 24 |
-| 分类器 OR baseline 检测器 | classifier=0.30, detector=0.25 | 0.443 | 0.864 | 0.380 | 0.586 | 11 |
-| 分类器 OR 最佳检测器 | classifier=0.30, medical_nano_640 detector=0.25 | 0.393 | 0.975 | 0.141 | 0.560 | 2 |
+- 策略 1：检测器单独使用
+- 策略 2：分类器单独使用
+- 策略 3：检测器 OR 分类器
 
-#### 筛查策略对比
+组合规则：
+```text
+如果满足任一条件，则预测为 positive：
+  检测器 positive 置信度 >= 检测阈值
+  或 分类器 positive 概率 >= 分类阈值
+```
 
-- `Baseline 只用检测器` 是保守参考：精度适中，但漏检较多，无法满足严格筛查需求。
-- `最佳检测器单独使用` 说明提升输入分辨率和轻增强后，检测本身召回能力显著增强。
-- `只用分类器` 显示了图像级分类在定位失败时的补充能力，能够捕获难以标注的小病灶图像。
-- `分类器 OR 检测器` 是推荐的筛查策略：它结合了检测与分类的优势，几乎恢复了所有阳性病例。
+- 分类器作为图像级补充。 
+- 当检测器漏掉小病灶时，分类器可以提供额外的阳性证据。
 
-主要提升：
+### 幻灯片 8：筛查结果对比
 
-- YOLO 检测器本体改进后，detector-only 漏检从 `48` 降到 `19`。
-- 使用“分类器 OR 最佳检测器”后，漏检进一步从 `48` 降到 `2`。
-- 最高召回组合策略的 recall 从 `0.407` 提升到 `0.975`。
+| 策略 | Precision | Recall | Specificity | F1 | 漏检数量 |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Baseline 检测器 | 0.384 | 0.407 | 0.627 | 0.395 | 48 |
+| 最佳检测器 | 0.373 | 0.765 | 0.268 | 0.502 | 19 |
+| 分类器 | 0.528 | 0.704 | 0.641 | 0.603 | 24 |
+| 分类器 OR baseline 检测器 | 0.443 | 0.864 | 0.380 | 0.586 | 11 |
+| 分类器 OR 最佳检测器 | 0.393 | 0.975 | 0.141 | 0.560 | 2 |
 
-代价：
+- 最佳筛查组合：分类器 OR 最佳检测器，recall = 0.975。
+- 代价是 specificity 降到 0.141。
+- 筛查场景优先 recall，因此这个组合是最佳选择。
 
-- 最高召回组合策略非常敏感，但误报较多。
-- Specificity 从 `0.627` 降到 `0.141`。
+### 幻灯片 9：可视化幻灯片素材
 
-这是筛查任务里常见的取舍：模型更敏感，但选择性会下降。
-
-### PPT 重点归纳
-
-- 幻灯片 1：问题陈述——小肿瘤检测难，漏检率高。
-- 幻灯片 2：检测器对比——baseline vs `medical_nano_640` vs `medical_small_640`。
-- 幻灯片 3：筛查策略对比——检测器、分类器、组合策略。
-- 幻灯片 4：典型 MRI 对比图——baseline miss / improved detect / screening positive。
-
-### 可视化输出参考
-
-仓库中已存在可直接用于 PPT 的可视化输出：
+仓库中可直接用于 PPT 的素材：
 
 - Baseline 漏检示例：`runs/fn_analysis_baseline_t025/fn_visuals`
-- 改进后检测示例：`runs/fn_analysis_medical_nano_640_t025/fn_visuals`
-- 基线筛查报告图表：`runs/screening_report_baseline/confusion_matrix.png`，`runs/screening_report_baseline/threshold_curves.png`
-- 最佳检测器图表：`runs/screening_report_medical_nano_640/confusion_matrix.png`，`runs/screening_report_medical_nano_640/threshold_curves.png`
+- 改进检测示例：`runs/fn_analysis_medical_nano_640_t025/fn_visuals`
+- 基线筛查报告图表：`runs/screening_report_baseline/confusion_matrix.png`、`runs/screening_report_baseline/threshold_curves.png`
+- 最佳检测器图表：`runs/screening_report_medical_nano_640/confusion_matrix.png`、`runs/screening_report_medical_nano_640/threshold_curves.png`
 
-示例对比图：
+#### 幻灯片示例 1：baseline miss vs improved detect
 
-Baseline 漏检小靶区：
+Baseline 漏检小病灶：
 
 ![Baseline 漏检小病灶](runs/fn_analysis_baseline_t025/fn_visuals/fn_val_1%20(100).jpg)
 
@@ -159,7 +168,23 @@ Baseline 漏检小靶区：
 
 ![medical_nano_640 恢复检测](runs/fn_analysis_medical_nano_640_t025/fn_visuals/fn_val_1%20(100).jpg)
 
-这些图像示例可以直接用于幻灯片，展示 baseline 漏检与改进模型恢复检测的对比。
+#### 幻灯片示例 2：筛查结果对比
+
+Baseline 筛查漏检样本：
+
+![Baseline 筛查漏检](runs/screening_report_baseline/case_visuals/fn_val_1%20(170).jpg)
+
+最佳检测器筛查真阳性：
+
+![最佳检测器真阳性](runs/screening_report_medical_nano_640/case_visuals/tp_val_1%20(26).jpg)
+
+### 幻灯片 10：关键结论
+
+- 小肿瘤区域是 baseline 检测失败的主因。
+- 更高分辨率模型显著减少了漏检。
+- 分类器辅助筛查可以进一步恢复绝大多数阳性图像。
+- 在筛查场景中，召回优先于 specificity。
+- 推荐后续工作：增加训练 epoch、增加随机种子、对小框做 crop-based 训练、加强医学增强。
 
 ## 数据与错误分析
 
